@@ -110,6 +110,4 @@ Docker結合は独立環境で実行します。
 
 実測の結果と未実行項目は、[テスト記録](docs/testing)を参照してください。
 
-## 🌐 公開・共有
-
-GitHubは**Public**、[Notionダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99)は**リンクを知っている人がログインなしで閲覧できるWeb公開設定**です。Notionの検索エンジンへの掲載はオフです。
+> ※ 関連資料：[Notionダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99)
