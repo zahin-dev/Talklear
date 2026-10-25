@@ -1,0 +1,302 @@
+﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+KPT-20260903-001,Week 1 KPT,2026-09-03,member1,完了（模擬）,Simulated,反復開発,TASK-20260909-003,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260903-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-03 / Owner: member1
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+仕様の論点を3人で出せた
+
+## Problem
+
+タスクが「チャットを作る」だけで大きい
+
+## Try
+
+画面/API/DBに受入条件を分けてJSON例を用意する
+
+## Owner
+
+member1
+
+## Due Date
+
+2026-09-09
+
+## Related Task
+
+TASK-20260909-003
+
+## 前週Tryの実施結果
+
+初回のため前週Tryなし。
+
+## 改善の効果
+
+API境界を確認できるようにする。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"
+KPT-20260910-001,Week 2 KPT,2026-09-10,zahin-dev,完了（模擬）,Simulated,反復開発,TASK-20260916-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260910-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-10 / Owner: zahin-dev
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+JSON例を見ながら確認するようになった
+
+## Problem
+
+レビューを依頼する時点が遅く、相談が翌週へ持ち越し
+
+## Try
+
+履歴タスクを小分けにして作業開始時にテスト例を共有する
+
+## Owner
+
+zahin-dev
+
+## Due Date
+
+2026-09-16
+
+## Related Task
+
+TASK-20260916-002
+
+## 前週Tryの実施結果
+
+前週Try：入室タスクでdisplayNameの不一致を具体例で発見した（模擬）。
+
+## 改善の効果
+
+文書だけの共有より手戻りを小さくしたが、レビュー待ちは残った。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"
+KPT-20260917-001,Week 3 KPT,2026-09-17,member2,完了（模擬）,Simulated,反復開発,TASK-20260922-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260917-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-17 / Owner: member2
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+履歴の境界ケースを先に相談できた
+
+## Problem
+
+翻訳を入れればスマホでも動くと思い込んでいた
+
+## Try
+
+対応環境と準備失敗ケースを翻訳試作で確認する
+
+## Owner
+
+member2
+
+## Due Date
+
+2026-09-22
+
+## Related Task
+
+TASK-20260922-002
+
+## 前週Tryの実施結果
+
+前週Try：110件の履歴ケースを先に置き、beforeの扱いを相談した（模擬）。
+
+## 改善の効果
+
+テスト設計開始は早まった。実Chromeの条件はまだ未確認。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"
+KPT-20260924-001,Week 4 KPT,2026-09-24,zahin-dev,完了（模擬）,Simulated,反復開発,TASK-20260929-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260924-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-24 / Owner: zahin-dev
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+翻訳できなくても原文を残す方針が共有できた
+
+## Problem
+
+AIが提案したPromise連鎖を理解せず採用しかけた
+
+## Try
+
+再試行と競合の説明を担当者以外が再現し、レビューで確認する
+
+## Owner
+
+zahin-dev
+
+## Due Date
+
+2026-09-29
+
+## Related Task
+
+TASK-20260929-002
+
+## 前週Tryの実施結果
+
+前週Try：モデル準備失敗と遅延progressのモック例を作った（模擬）。
+
+## 改善の効果
+
+環境を広げる前に失敗時の挙動を優先できた。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"
+KPT-20261001-001,Week 5 KPT,2026-10-01,member2,完了（模擬）,Simulated,反復開発,TASK-20261006-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261001-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-01 / Owner: member2
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+保存順序と新着カーソルを別に考えられた
+
+## Problem
+
+member1へ技術説明が集中し、画面レビューが遅れた
+
+## Try
+
+member2が操作確認を進行し、全員がUI受入条件を確認する
+
+## Owner
+
+member2
+
+## Due Date
+
+2026-10-06
+
+## Related Task
+
+TASK-20261006-001
+
+## 前週Tryの実施結果
+
+前週Try：zahin-devが未確定の低IDを質問し、member1も前提を見直した（模擬）。
+
+## 改善の効果
+
+一人の知識へ依存せず、保存と表示の両側を確認するようになった。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"
+KPT-20261008-001,Week 6 KPT,2026-10-08,zahin-dev,完了（模擬）,Simulated,反復開発,TASK-20261013-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261008-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-08 / Owner: zahin-dev
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+操作確認をmember2が主導できた
+
+## Problem
+
+テスト一覧を作っただけで完了した気になり、実行条件が曖昧
+
+## Try
+
+Dockerとクラウドで前提・実行ログ・未実行を分けて整理する
+
+## Owner
+
+zahin-dev
+
+## Due Date
+
+2026-10-13
+
+## Related Task
+
+TASK-20261013-001
+
+## 前週Tryの実施結果
+
+前週Try：幅操作と入力保持を全員で確認する手順を用意した（模擬）。
+
+## 改善の効果
+
+UIの判断基準は揃ったが、実行証拠の管理は改善が必要。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"
+KPT-20261015-001,Week 7 KPT,2026-10-15,全員,保留,Simulated,反復開発,TASK-20261014-003,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261015-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-15 / Owner: 全員
+
+## 時間・参加者
+
+13:00–13:30 Asia/Tokyo。3名参加。開発210人時とは別枠。
+
+## Keep
+
+MVPの範囲と保留事項を明記できた
+
+## Problem
+
+無料枠・削除・訳文品質は短い検証だけで評価できない
+
+## Try
+
+次期バックログで保存期限と品質評価の計画を検討する
+
+## Owner
+
+全員
+
+## Due Date
+
+2026-10-20（仮・次期検討）
+
+## Related Task
+
+TASK-20261014-003
+
+## 前週Tryの実施結果
+
+前週Try：Docker/クラウドの期待値と実行欄を分けた（模擬）。実際の本実行はTestsを参照。
+
+## 改善の効果
+
+未検証を残したまま成功と表現する混同を防ぐ。MVP以後も継続。
+
+## 次への連続性
+
+関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。"

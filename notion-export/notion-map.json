@@ -1,0 +1,2173 @@
+{
+  "parent": "404bfd03-2199-810e-ac93-f56f7cf89f99",
+  "databases": {
+    "Tasks": {
+      "database": "77b550fa7d514c679beadb767ab4f61b",
+      "data_source": "a307eab5-4b2c-4590-a447-7fa67f3cd75c"
+    },
+    "Development Sessions": {
+      "database": "eb7e6a108aa54d01add0d5f855165c4e",
+      "data_source": "8bc37445-771c-4561-98bc-52021de597f6"
+    },
+    "Meetings": {
+      "database": "3a10a4aaff5b4919956db22c63d901b7",
+      "data_source": "64c1649f-f8d7-4012-869b-954fd290083f"
+    },
+    "ADR": {
+      "database": "0e305b0ce1344ba68309e424cc5d22c9",
+      "data_source": "83b73d3f-602a-4315-ba7e-13b09846f298"
+    },
+    "Bugs": {
+      "database": "2192efc364ef4d179d4fbc83cc577027",
+      "data_source": "1541f45b-b389-45ac-8e85-752c4ac4eaae"
+    },
+    "Code Reviews": {
+      "database": "b72e32df6a1b42f8a9480da424116512",
+      "data_source": "b105aa31-2496-405e-8d56-f57a14a754a3"
+    },
+    "Tests": {
+      "database": "1387d51aff5542559d38ed9bdb9189ad",
+      "data_source": "3456e722-0e51-4fcd-8304-a40bc60417e3"
+    },
+    "KPT": {
+      "database": "e8f9fb575690435a959f65fe7a689c6f",
+      "data_source": "09eb3b13-9603-4394-a2c8-b0c2f2cac114"
+    },
+    "Milestones": {
+      "database": "88de900f39954701af8f644edcd31a70",
+      "data_source": "cc3d9e8c-f4f4-42ea-a39e-e934329ff639"
+    }
+  },
+  "pages": {
+    "TASK-20260901-001": {
+      "id": "404bfd03-2199-8192-afaf-fd60a6c3e186",
+      "url": "https://app.notion.com/p/404bfd0321998192afaffd60a6c3e186?pvs=204",
+      "properties": {
+        "Title": "TASK-20260901-001 課題・対象利用者・チーム規約",
+        "Record ID": "TASK-20260901-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "DEV-20260901-001, MTG-20260901-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "課題・対象利用者・チーム規約",
+        "date:Simulation Date:start": "2026-09-01",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260901-002": {
+      "id": "404bfd03-2199-81d1-a648-d23504c4f916",
+      "url": "https://app.notion.com/p/404bfd03219981d1a648d23504c4f916?pvs=204",
+      "properties": {
+        "Title": "TASK-20260901-002 MVP範囲と受入条件",
+        "Record ID": "TASK-20260901-002",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "TASK-20260901-001, DEV-20260901-001, MTG-20260901-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "MVP範囲と受入条件",
+        "date:Simulation Date:start": "2026-09-01",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260902-001": {
+      "id": "404bfd03-2199-817b-883d-ca9e10e86e12",
+      "url": "https://app.notion.com/p/404bfd032199817b883dca9e10e86e12?pvs=204",
+      "properties": {
+        "Title": "TASK-20260902-001 技術比較と採用判断",
+        "Record ID": "TASK-20260902-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "TASK-20260901-002, DEV-20260902-001, ADR-20260902-001, MTG-20260902-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "技術比較と採用判断",
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260902-002": {
+      "id": "404bfd03-2199-81b9-85c7-eb923b70a52f",
+      "url": "https://app.notion.com/p/404bfd03219981b985c7eb923b70a52f?pvs=204",
+      "properties": {
+        "Title": "TASK-20260902-002 API契約・エラー形式",
+        "Record ID": "TASK-20260902-002",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "TASK-20260902-001, DEV-20260902-001, MTG-20260902-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "API契約・エラー形式",
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260902-003": {
+      "id": "404bfd03-2199-8149-bd76-eea6a971620b",
+      "url": "https://app.notion.com/p/404bfd0321998149bd76eea6a971620b?pvs=204",
+      "properties": {
+        "Title": "TASK-20260902-003 DB基本設計",
+        "Record ID": "TASK-20260902-003",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "TASK-20260902-002, DEV-20260902-001, ADR-20260902-002, MTG-20260902-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-003.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "DB基本設計",
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260908-001": {
+      "id": "404bfd03-2199-8189-8380-fe32927f332e",
+      "url": "https://app.notion.com/p/404bfd03219981898380fe32927f332e?pvs=204",
+      "properties": {
+        "Title": "TASK-20260908-001 環境準備と秘密情報の除外",
+        "Record ID": "TASK-20260908-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-001, DEV-20260908-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "環境準備と秘密情報の除外",
+        "date:Simulation Date:start": "2026-09-08",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260908-002": {
+      "id": "404bfd03-2199-81ab-bd6e-daef818ca88f",
+      "url": "https://app.notion.com/p/404bfd03219981abbd6edaef818ca88f?pvs=204",
+      "properties": {
+        "Title": "TASK-20260908-002 Spring Bootプロトタイプ",
+        "Record ID": "TASK-20260908-002",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-002, TASK-20260908-001, DEV-20260908-001, ADR-20260902-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "Spring Bootプロトタイプ",
+        "date:Simulation Date:start": "2026-09-08",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260909-001": {
+      "id": "404bfd03-2199-814b-b341-cb150bd755ca",
+      "url": "https://app.notion.com/p/404bfd032199814bb341cb150bd755ca?pvs=204",
+      "properties": {
+        "Title": "TASK-20260909-001 部屋の作成とID発行",
+        "Record ID": "TASK-20260909-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-003, TASK-20260908-002, DEV-20260909-001, ADR-20260909-001, REV-20260909-001, TEST-20260909-001, MTG-20260909-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "部屋の作成とID発行",
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260909-002": {
+      "id": "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+      "url": "https://app.notion.com/p/404bfd03219981a09794ff35b8a7b6bb?pvs=204",
+      "properties": {
+        "Title": "TASK-20260909-002 参加者と退出の扱い",
+        "Record ID": "TASK-20260909-002",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-001, DEV-20260909-001, ADR-20260909-001, TEST-20260909-001, MTG-20260909-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "参加者と退出の扱い",
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260909-003": {
+      "id": "404bfd03-2199-8143-bfd6-eefb61b8a05b",
+      "url": "https://app.notion.com/p/404bfd0321998143bfd6eefb61b8a05b?pvs=204",
+      "properties": {
+        "Title": "TASK-20260909-003 入室フォームとAPI接続",
+        "Record ID": "TASK-20260909-003",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-002, TASK-20260909-001, DEV-20260909-001, BUG-20260909-001, TEST-20260909-001, MTG-20260909-001, KPT-20260903-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-003.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "入室フォームとAPI接続",
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260915-001": {
+      "id": "404bfd03-2199-8114-83e3-c14b22ebbb8f",
+      "url": "https://app.notion.com/p/404bfd032199811483e3c14b22ebbb8f?pvs=204",
+      "properties": {
+        "Title": "TASK-20260915-001 原文メッセージ送信",
+        "Record ID": "TASK-20260915-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-002, DEV-20260915-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "原文メッセージ送信",
+        "date:Simulation Date:start": "2026-09-15",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260915-002": {
+      "id": "404bfd03-2199-8177-8e19-dad897282dec",
+      "url": "https://app.notion.com/p/404bfd03219981778e19dad897282dec?pvs=204",
+      "properties": {
+        "Title": "TASK-20260915-002 新着取得とチャット表示",
+        "Record ID": "TASK-20260915-002",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-003, TASK-20260915-001, DEV-20260915-001, ADR-20260915-001, REV-20260915-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "新着取得とチャット表示",
+        "date:Simulation Date:start": "2026-09-15",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260916-001": {
+      "id": "404bfd03-2199-8117-8c05-cc12d6bdf6ca",
+      "url": "https://app.notion.com/p/404bfd03219981178c05cc12d6bdf6ca?pvs=204",
+      "properties": {
+        "Title": "TASK-20260916-001 PostgreSQL保存の統合",
+        "Record ID": "TASK-20260916-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-003, TASK-20260915-001, DEV-20260916-001, ADR-20260902-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "PostgreSQL保存の統合",
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260916-002": {
+      "id": "404bfd03-2199-810a-836c-dad8e953582f",
+      "url": "https://app.notion.com/p/404bfd032199810a836cdad8e953582f?pvs=204",
+      "properties": {
+        "Title": "TASK-20260916-002 最近100件と過去履歴",
+        "Record ID": "TASK-20260916-002",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-001, DEV-20260916-001, ADR-20260915-001, BUG-20260916-001, REV-20260916-001, TEST-20260916-001, KPT-20260910-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "最近100件と過去履歴",
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260916-003": {
+      "id": "404bfd03-2199-81a2-8938-f9df0e6edc6a",
+      "url": "https://app.notion.com/p/404bfd03219981a28938f9df0e6edc6a?pvs=204",
+      "properties": {
+        "Title": "TASK-20260916-003 再入室・タブ再読込",
+        "Record ID": "TASK-20260916-003",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260915-002, TASK-20260916-002, DEV-20260916-001, TEST-20260916-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-003.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "再入室・タブ再読込",
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260922-001": {
+      "id": "404bfd03-2199-8168-9cd0-ecda11e87094",
+      "url": "https://app.notion.com/p/404bfd03219981689cd0ecda11e87094?pvs=204",
+      "properties": {
+        "Title": "TASK-20260922-001 端末内翻訳・言語判定の試作",
+        "Record ID": "TASK-20260922-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260915-002, DEV-20260922-001, ADR-20260922-001, MTG-20260922-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "端末内翻訳・言語判定の試作",
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260922-002": {
+      "id": "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+      "url": "https://app.notion.com/p/404bfd03219981fc82d3ddafafc44fe3?pvs=204",
+      "properties": {
+        "Title": "TASK-20260922-002 翻訳準備失敗と再試行",
+        "Record ID": "TASK-20260922-002",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-001, DEV-20260922-001, ADR-20260922-001, BUG-20260922-001, REV-20260922-001, TEST-20260922-001, MTG-20260922-001, KPT-20260917-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "翻訳準備失敗と再試行",
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260923-001": {
+      "id": "404bfd03-2199-818b-ba5a-f435f37acef6",
+      "url": "https://app.notion.com/p/404bfd032199818bba5af435f37acef6?pvs=204",
+      "properties": {
+        "Title": "TASK-20260923-001 翻訳とチャットの統合",
+        "Record ID": "TASK-20260923-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-003, TASK-20260922-002, DEV-20260923-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "翻訳とチャットの統合",
+        "date:Simulation Date:start": "2026-09-23",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260923-002": {
+      "id": "404bfd03-2199-810b-93f7-dc18d56f9665",
+      "url": "https://app.notion.com/p/404bfd032199810b93f7dc18d56f9665?pvs=204",
+      "properties": {
+        "Title": "TASK-20260923-002 原文表示と翻訳失敗時の継続",
+        "Record ID": "TASK-20260923-002",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260923-001, DEV-20260923-001, ADR-20260922-001, BUG-20260923-001, REV-20260923-001, TEST-20260922-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "原文表示と翻訳失敗時の継続",
+        "date:Simulation Date:start": "2026-09-23",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260929-001": {
+      "id": "404bfd03-2199-8135-b706-fc1068dc1a75",
+      "url": "https://app.notion.com/p/404bfd0321998135b706fc1068dc1a75?pvs=204",
+      "properties": {
+        "Title": "TASK-20260929-001 送信再試行の重複抑止",
+        "Record ID": "TASK-20260929-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-001, DEV-20260929-001, ADR-20260929-001, BUG-20260929-001, REV-20260929-001, TEST-20260929-001, MTG-20260929-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "送信再試行の重複抑止",
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260929-002": {
+      "id": "404bfd03-2199-81ee-afe0-dba2f8b20971",
+      "url": "https://app.notion.com/p/404bfd03219981eeafe0dba2f8b20971?pvs=204",
+      "properties": {
+        "Title": "TASK-20260929-002 同時送信の保存順序",
+        "Record ID": "TASK-20260929-002",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, DEV-20260929-001, ADR-20260929-001, BUG-20260929-002, REV-20260929-002, TEST-20260929-001, MTG-20260929-001, KPT-20260924-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "同時送信の保存順序",
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260930-001": {
+      "id": "404bfd03-2199-81eb-a671-e58db971d2c2",
+      "url": "https://app.notion.com/p/404bfd03219981eba671e58db971d2c2?pvs=204",
+      "properties": {
+        "Title": "TASK-20260930-001 新着カーソルの分離と表示順",
+        "Record ID": "TASK-20260930-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260923-002, TASK-20260929-002, DEV-20260930-001, BUG-20260930-001, REV-20260930-001, TEST-20260930-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "新着カーソルの分離と表示順",
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20260930-002": {
+      "id": "404bfd03-2199-8101-9889-e16a806c132e",
+      "url": "https://app.notion.com/p/404bfd03219981019889e16a806c132e?pvs=204",
+      "properties": {
+        "Title": "TASK-20260930-002 入力・Origin・リクエスト制限",
+        "Record ID": "TASK-20260930-002",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-002, TASK-20260929-001, DEV-20260930-001, TEST-20260930-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "入力・Origin・リクエスト制限",
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261006-001": {
+      "id": "404bfd03-2199-81f7-a243-db59d95c8884",
+      "url": "https://app.notion.com/p/404bfd03219981f7a243db59d95c8884?pvs=204",
+      "properties": {
+        "Title": "TASK-20261006-001 入力保持・サイドバー操作",
+        "Record ID": "TASK-20261006-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260930-001, TASK-20260930-002, DEV-20261006-001, REV-20261006-001, TEST-20261006-001, KPT-20261001-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "入力保持・サイドバー操作",
+        "date:Simulation Date:start": "2026-10-06",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261006-002": {
+      "id": "404bfd03-2199-8116-91f4-d17151d47df2",
+      "url": "https://app.notion.com/p/404bfd032199811691f4d17151d47df2?pvs=204",
+      "properties": {
+        "Title": "TASK-20261006-002 日英表示文言と狭い画面",
+        "Record ID": "TASK-20261006-002",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261006-001, DEV-20261006-001, TEST-20261006-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "日英表示文言と狭い画面",
+        "date:Simulation Date:start": "2026-10-06",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261007-001": {
+      "id": "404bfd03-2199-81cd-a458-f943f51afaf6",
+      "url": "https://app.notion.com/p/404bfd03219981cda458f943f51afaf6?pvs=204",
+      "properties": {
+        "Title": "TASK-20261007-001 回帰テストと検証表",
+        "Record ID": "TASK-20261007-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-002, TASK-20260929-002, TASK-20260930-001, TASK-20260930-002, DEV-20261007-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "回帰テストと検証表",
+        "date:Simulation Date:start": "2026-10-07",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261007-002": {
+      "id": "404bfd03-2199-81c0-b807-df0f4a6605f1",
+      "url": "https://app.notion.com/p/404bfd03219981c0b807df0f4a6605f1?pvs=204",
+      "properties": {
+        "Title": "TASK-20261007-002 CIへの検証組込み",
+        "Record ID": "TASK-20261007-002",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261007-001, DEV-20261007-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "CIへの検証組込み",
+        "date:Simulation Date:start": "2026-10-07",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261013-001": {
+      "id": "404bfd03-2199-810e-9f87-c49b32d9097c",
+      "url": "https://app.notion.com/p/404bfd032199810e9f87c49b32d9097c?pvs=204",
+      "properties": {
+        "Title": "TASK-20261013-001 Docker起動と保存領域",
+        "Record ID": "TASK-20261013-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261006-002, TASK-20261007-002, DEV-20261013-001, ADR-20261013-001, TEST-20261013-002, KPT-20261008-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "Docker起動と保存領域",
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261013-002": {
+      "id": "404bfd03-2199-816a-8317-e47d3977e6ab",
+      "url": "https://app.notion.com/p/404bfd032199816a8317e47d3977e6ab?pvs=204",
+      "properties": {
+        "Title": "TASK-20261013-002 Vercel・Neon設定",
+        "Record ID": "TASK-20261013-002",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-001, DEV-20261013-001, ADR-20261013-001, BUG-20261013-001, REV-20261013-001, TEST-20261013-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "Vercel・Neon設定",
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261014-001": {
+      "id": "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+      "url": "https://app.notion.com/p/404bfd03219981b797d7d4e01ae65ad7?pvs=204",
+      "properties": {
+        "Title": "TASK-20261014-001 総合検証と残リスク整理",
+        "Record ID": "TASK-20261014-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261007-001, TASK-20261013-001, TASK-20261013-002, DEV-20261014-001, TEST-20261014-001, MTG-20261014-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-001.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "総合検証と残リスク整理",
+        "date:Simulation Date:start": "2026-10-14",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261014-002": {
+      "id": "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+      "url": "https://app.notion.com/p/404bfd032199811da7d6e532f8e29cf8?pvs=204",
+      "properties": {
+        "Title": "TASK-20261014-002 MVPスナップショット照合",
+        "Record ID": "TASK-20261014-002",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-001, DEV-20261014-001, MTG-20261014-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-002.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "MVPスナップショット照合",
+        "date:Simulation Date:start": "2026-10-14",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TASK-20261014-003": {
+      "id": "404bfd03-2199-8175-8ff9-e77b9f415add",
+      "url": "https://app.notion.com/p/404bfd03219981758ff9e77b9f415add?pvs=204",
+      "properties": {
+        "Title": "TASK-20261014-003 MVP以後の改善バックログ",
+        "Record ID": "TASK-20261014-003",
+        "Owner": "全員",
+        "Status": "保留",
+        "Evidence Type": "Simulated",
+        "Priority": "Low",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-001, DEV-20261014-001, MTG-20261014-001, KPT-20261015-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-003.md",
+        "Participants": [
+          "member1",
+          "member2",
+          "zahin-dev"
+        ],
+        "Summary": "MVP以後の改善バックログ",
+        "date:Simulation Date:start": "2026-10-14",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260901-001": {
+      "id": "404bfd03-2199-81f3-9fd4-fb26b676808b",
+      "url": "https://app.notion.com/p/404bfd03219981f39fd4fb26b676808b?pvs=204",
+      "properties": {
+        "Title": "DEV-20260901-001 第1回：課題・対象利用者・チーム規約",
+        "Record ID": "DEV-20260901-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "TASK-20260901-001, TASK-20260901-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260901-001.md",
+        "Tasks": [
+          "404bfd03-2199-8192-afaf-fd60a6c3e186",
+          "404bfd03-2199-81d1-a648-d23504c4f916"
+        ],
+        "date:Simulation Date:start": "2026-09-01",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260902-001": {
+      "id": "404bfd03-2199-81a5-8394-d2a5c27d7fe6",
+      "url": "https://app.notion.com/p/404bfd03219981a58394d2a5c27d7fe6?pvs=204",
+      "properties": {
+        "Title": "DEV-20260902-001 第2回：技術比較と採用判断",
+        "Record ID": "DEV-20260902-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "企画・基本設計",
+        "Related IDs": "TASK-20260902-001, TASK-20260902-002, TASK-20260902-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260902-001.md",
+        "Tasks": [
+          "404bfd03-2199-817b-883d-ca9e10e86e12",
+          "404bfd03-2199-81b9-85c7-eb923b70a52f",
+          "404bfd03-2199-8149-bd76-eea6a971620b"
+        ],
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260908-001": {
+      "id": "404bfd03-2199-8176-8b0c-d5271dc4bc8d",
+      "url": "https://app.notion.com/p/404bfd03219981768b0cd5271dc4bc8d?pvs=204",
+      "properties": {
+        "Title": "DEV-20260908-001 第3回：環境準備と秘密情報の除外",
+        "Record ID": "DEV-20260908-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260908-001, TASK-20260908-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260908-001.md",
+        "Tasks": [
+          "404bfd03-2199-8189-8380-fe32927f332e",
+          "404bfd03-2199-81ab-bd6e-daef818ca88f"
+        ],
+        "date:Simulation Date:start": "2026-09-08",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260909-001": {
+      "id": "404bfd03-2199-816f-8762-f3c088af8b74",
+      "url": "https://app.notion.com/p/404bfd032199816f8762f3c088af8b74?pvs=204",
+      "properties": {
+        "Title": "DEV-20260909-001 第4回：部屋の作成とID発行",
+        "Record ID": "DEV-20260909-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260909-001.md",
+        "Tasks": [
+          "404bfd03-2199-814b-b341-cb150bd755ca",
+          "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+          "404bfd03-2199-8143-bfd6-eefb61b8a05b"
+        ],
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260915-001": {
+      "id": "404bfd03-2199-817f-82c4-de4d76954732",
+      "url": "https://app.notion.com/p/404bfd032199817f82c4de4d76954732?pvs=204",
+      "properties": {
+        "Title": "DEV-20260915-001 第5回：原文メッセージ送信",
+        "Record ID": "DEV-20260915-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260915-001, TASK-20260915-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260915-001.md",
+        "Tasks": [
+          "404bfd03-2199-8114-83e3-c14b22ebbb8f",
+          "404bfd03-2199-8177-8e19-dad897282dec"
+        ],
+        "date:Simulation Date:start": "2026-09-15",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260916-001": {
+      "id": "404bfd03-2199-813a-8ce6-d69bc099d054",
+      "url": "https://app.notion.com/p/404bfd032199813a8ce6d69bc099d054?pvs=204",
+      "properties": {
+        "Title": "DEV-20260916-001 第6回：PostgreSQL保存の統合",
+        "Record ID": "DEV-20260916-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-001, TASK-20260916-002, TASK-20260916-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260916-001.md",
+        "Tasks": [
+          "404bfd03-2199-8117-8c05-cc12d6bdf6ca",
+          "404bfd03-2199-810a-836c-dad8e953582f",
+          "404bfd03-2199-81a2-8938-f9df0e6edc6a"
+        ],
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260922-001": {
+      "id": "404bfd03-2199-813a-a621-fdc8503c73de",
+      "url": "https://app.notion.com/p/404bfd032199813aa621fdc8503c73de?pvs=204",
+      "properties": {
+        "Title": "DEV-20260922-001 第7回：端末内翻訳・言語判定の試作",
+        "Record ID": "DEV-20260922-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-001, TASK-20260922-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260922-001.md",
+        "Tasks": [
+          "404bfd03-2199-8168-9cd0-ecda11e87094",
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3"
+        ],
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260923-001": {
+      "id": "404bfd03-2199-815d-86c5-ce2b4c4ec804",
+      "url": "https://app.notion.com/p/404bfd032199815d86c5ce2b4c4ec804?pvs=204",
+      "properties": {
+        "Title": "DEV-20260923-001 第8回：翻訳とチャットの統合",
+        "Record ID": "DEV-20260923-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260923-001, TASK-20260923-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260923-001.md",
+        "Tasks": [
+          "404bfd03-2199-818b-ba5a-f435f37acef6",
+          "404bfd03-2199-810b-93f7-dc18d56f9665"
+        ],
+        "date:Simulation Date:start": "2026-09-23",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260929-001": {
+      "id": "404bfd03-2199-817c-893a-cae650dd64bd",
+      "url": "https://app.notion.com/p/404bfd032199817c893acae650dd64bd?pvs=204",
+      "properties": {
+        "Title": "DEV-20260929-001 第9回：送信再試行の重複抑止",
+        "Record ID": "DEV-20260929-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, TASK-20260929-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260929-001.md",
+        "Tasks": [
+          "404bfd03-2199-8135-b706-fc1068dc1a75",
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20260930-001": {
+      "id": "404bfd03-2199-81ab-b401-fc9bb42d71b1",
+      "url": "https://app.notion.com/p/404bfd03219981abb401fc9bb42d71b1?pvs=204",
+      "properties": {
+        "Title": "DEV-20260930-001 第10回：新着カーソルの分離と表示順",
+        "Record ID": "DEV-20260930-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260930-001, TASK-20260930-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260930-001.md",
+        "Tasks": [
+          "404bfd03-2199-81eb-a671-e58db971d2c2",
+          "404bfd03-2199-8101-9889-e16a806c132e"
+        ],
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20261006-001": {
+      "id": "404bfd03-2199-8106-bc59-d66491515279",
+      "url": "https://app.notion.com/p/404bfd0321998106bc59d66491515279?pvs=204",
+      "properties": {
+        "Title": "DEV-20261006-001 第11回：入力保持・サイドバー操作",
+        "Record ID": "DEV-20261006-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261006-001, TASK-20261006-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261006-001.md",
+        "Tasks": [
+          "404bfd03-2199-81f7-a243-db59d95c8884",
+          "404bfd03-2199-8116-91f4-d17151d47df2"
+        ],
+        "date:Simulation Date:start": "2026-10-06",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20261007-001": {
+      "id": "404bfd03-2199-81e1-a903-e48f16dc2b54",
+      "url": "https://app.notion.com/p/404bfd03219981e1a903e48f16dc2b54?pvs=204",
+      "properties": {
+        "Title": "DEV-20261007-001 第12回：回帰テストと検証表",
+        "Record ID": "DEV-20261007-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261007-001, TASK-20261007-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261007-001.md",
+        "Tasks": [
+          "404bfd03-2199-81cd-a458-f943f51afaf6",
+          "404bfd03-2199-81c0-b807-df0f4a6605f1"
+        ],
+        "date:Simulation Date:start": "2026-10-07",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20261013-001": {
+      "id": "404bfd03-2199-817a-b647-f8b039792a6f",
+      "url": "https://app.notion.com/p/404bfd032199817ab647f8b039792a6f?pvs=204",
+      "properties": {
+        "Title": "DEV-20261013-001 第13回：Docker起動と保存領域",
+        "Record ID": "DEV-20261013-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-001, TASK-20261013-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261013-001.md",
+        "Tasks": [
+          "404bfd03-2199-810e-9f87-c49b32d9097c",
+          "404bfd03-2199-816a-8317-e47d3977e6ab"
+        ],
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "DEV-20261014-001": {
+      "id": "404bfd03-2199-81ea-89ee-e0ef6aebd511",
+      "url": "https://app.notion.com/p/404bfd03219981ea89eee0ef6aebd511?pvs=204",
+      "properties": {
+        "Title": "DEV-20261014-001 第14回：総合検証と残リスク整理",
+        "Record ID": "DEV-20261014-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-001, TASK-20261014-002, TASK-20261014-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261014-001.md",
+        "Tasks": [
+          "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+          "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+          "404bfd03-2199-8175-8ff9-e77b9f415add"
+        ],
+        "date:Simulation Date:start": "2026-10-14",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MTG-20260901-001": {
+      "id": "404bfd03-2199-814e-94ee-d55c7f742621",
+      "url": "https://app.notion.com/p/404bfd032199814e94eed55c7f742621?pvs=204",
+      "properties": {
+        "Title": "MTG-20260901-001 企画・対象利用者の整理",
+        "Record ID": "MTG-20260901-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260901-001, TASK-20260901-002, DEV-20260901-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260901-001.md",
+        "Tasks": [
+          "404bfd03-2199-8192-afaf-fd60a6c3e186",
+          "404bfd03-2199-81d1-a648-d23504c4f916"
+        ],
+        "date:Simulation Date:start": "2026-09-01",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MTG-20260902-001": {
+      "id": "404bfd03-2199-819d-a88d-e222a416f88f",
+      "url": "https://app.notion.com/p/404bfd032199819da88de222a416f88f?pvs=204",
+      "properties": {
+        "Title": "MTG-20260902-001 技術選定と基本設計",
+        "Record ID": "MTG-20260902-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-001, TASK-20260902-002, TASK-20260902-003, DEV-20260902-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260902-001.md",
+        "Tasks": [
+          "404bfd03-2199-817b-883d-ca9e10e86e12",
+          "404bfd03-2199-81b9-85c7-eb923b70a52f",
+          "404bfd03-2199-8149-bd76-eea6a971620b"
+        ],
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MTG-20260909-001": {
+      "id": "404bfd03-2199-81ba-b3ff-cec3c7b6c879",
+      "url": "https://app.notion.com/p/404bfd03219981bab3ffcec3c7b6c879?pvs=204",
+      "properties": {
+        "Title": "MTG-20260909-001 API契約のすり合わせ",
+        "Record ID": "MTG-20260909-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-001, TASK-20260909-002, TASK-20260909-003, DEV-20260909-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260909-001.md",
+        "Tasks": [
+          "404bfd03-2199-814b-b341-cb150bd755ca",
+          "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+          "404bfd03-2199-8143-bfd6-eefb61b8a05b"
+        ],
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MTG-20260922-001": {
+      "id": "404bfd03-2199-81dc-8390-ec33b0055e99",
+      "url": "https://app.notion.com/p/404bfd03219981dc8390ec33b0055e99?pvs=204",
+      "properties": {
+        "Title": "MTG-20260922-001 翻訳対象環境と優先順位",
+        "Record ID": "MTG-20260922-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-001, TASK-20260922-002, DEV-20260922-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260922-001.md",
+        "Tasks": [
+          "404bfd03-2199-8168-9cd0-ecda11e87094",
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3"
+        ],
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MTG-20260929-001": {
+      "id": "404bfd03-2199-81c6-9f78-eca10cd39ff8",
+      "url": "https://app.notion.com/p/404bfd03219981c69f78eca10cd39ff8?pvs=204",
+      "properties": {
+        "Title": "MTG-20260929-001 同時送信の保存順序",
+        "Record ID": "MTG-20260929-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, TASK-20260929-002, DEV-20260929-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260929-001.md",
+        "Tasks": [
+          "404bfd03-2199-8135-b706-fc1068dc1a75",
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MTG-20261014-001": {
+      "id": "404bfd03-2199-8112-bd10-dd0feffdae7a",
+      "url": "https://app.notion.com/p/404bfd0321998112bd10dd0feffdae7a?pvs=204",
+      "properties": {
+        "Title": "MTG-20261014-001 MVP判定と次の課題",
+        "Record ID": "MTG-20261014-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-001, TASK-20261014-002, TASK-20261014-003, DEV-20261014-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20261014-001.md",
+        "Tasks": [
+          "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+          "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+          "404bfd03-2199-8175-8ff9-e77b9f415add"
+        ],
+        "date:Simulation Date:start": "2026-10-14",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20260902-001": {
+      "id": "404bfd03-2199-81aa-80ca-d0d82900e8ca",
+      "url": "https://app.notion.com/p/404bfd03219981aa80cad0d82900e8ca?pvs=204",
+      "properties": {
+        "Title": "ADR-20260902-001 Javaと素のJavaScriptを採用",
+        "Record ID": "ADR-20260902-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-001, TASK-20260908-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-001.md",
+        "Tasks": [
+          "404bfd03-2199-817b-883d-ca9e10e86e12",
+          "404bfd03-2199-81ab-bd6e-daef818ca88f"
+        ],
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20260902-002": {
+      "id": "404bfd03-2199-81dd-8e9c-d31db1bb37be",
+      "url": "https://app.notion.com/p/404bfd03219981dd8e9cd31db1bb37be?pvs=204",
+      "properties": {
+        "Title": "ADR-20260902-002 原文をPostgreSQLへ保存",
+        "Record ID": "ADR-20260902-002",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260902-003, TASK-20260916-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-002.md",
+        "Tasks": [
+          "404bfd03-2199-8149-bd76-eea6a971620b",
+          "404bfd03-2199-8117-8c05-cc12d6bdf6ca"
+        ],
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20260909-001": {
+      "id": "404bfd03-2199-81db-95ac-dc78675e26ea",
+      "url": "https://app.notion.com/p/404bfd03219981db95acdc78675e26ea?pvs=204",
+      "properties": {
+        "Title": "ADR-20260909-001 招待コードと参加トークン",
+        "Record ID": "ADR-20260909-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-001, TASK-20260909-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260909-001.md",
+        "Tasks": [
+          "404bfd03-2199-814b-b341-cb150bd755ca",
+          "404bfd03-2199-81a0-9794-ff35b8a7b6bb"
+        ],
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20260915-001": {
+      "id": "404bfd03-2199-8154-a716-f8d93c2915f9",
+      "url": "https://app.notion.com/p/404bfd0321998154a716f8d93c2915f9?pvs=204",
+      "properties": {
+        "Title": "ADR-20260915-001 2秒ポーリングと原文交換",
+        "Record ID": "ADR-20260915-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260915-002, TASK-20260916-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260915-001.md",
+        "Tasks": [
+          "404bfd03-2199-8177-8e19-dad897282dec",
+          "404bfd03-2199-810a-836c-dad8e953582f"
+        ],
+        "date:Simulation Date:start": "2026-09-15",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20260922-001": {
+      "id": "404bfd03-2199-8134-9e23-f58b786b8d7e",
+      "url": "https://app.notion.com/p/404bfd03219981349e23f58b786b8d7e?pvs=204",
+      "properties": {
+        "Title": "ADR-20260922-001 日英の端末内翻訳と原文継続",
+        "Record ID": "ADR-20260922-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-001, TASK-20260922-002, TASK-20260923-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260922-001.md",
+        "Tasks": [
+          "404bfd03-2199-8168-9cd0-ecda11e87094",
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+          "404bfd03-2199-810b-93f7-dc18d56f9665"
+        ],
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20260929-001": {
+      "id": "404bfd03-2199-818c-b06a-cbc6a49035a7",
+      "url": "https://app.notion.com/p/404bfd032199818cb06acbc6a49035a7?pvs=204",
+      "properties": {
+        "Title": "ADR-20260929-001 再試行の識別と保存順序",
+        "Record ID": "ADR-20260929-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, TASK-20260929-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260929-001.md",
+        "Tasks": [
+          "404bfd03-2199-8135-b706-fc1068dc1a75",
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "ADR-20261013-001": {
+      "id": "404bfd03-2199-8122-b23e-cdb1a55b3d60",
+      "url": "https://app.notion.com/p/404bfd0321998122b23ecdb1a55b3d60?pvs=204",
+      "properties": {
+        "Title": "ADR-20261013-001 コンテナ共用とクラウド設定",
+        "Record ID": "ADR-20261013-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-001, TASK-20261013-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20261013-001.md",
+        "Tasks": [
+          "404bfd03-2199-810e-9f87-c49b32d9097c",
+          "404bfd03-2199-816a-8317-e47d3977e6ab"
+        ],
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260909-001": {
+      "id": "404bfd03-2199-8156-9fcc-de687ac94a83",
+      "url": "https://app.notion.com/p/404bfd03219981569fccde687ac94a83?pvs=204",
+      "properties": {
+        "Title": "BUG-20260909-001 APIの入力名の認識違い",
+        "Record ID": "BUG-20260909-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-003, DEV-20260909-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260909-001.md",
+        "Tasks": [
+          "404bfd03-2199-8143-bfd6-eefb61b8a05b"
+        ],
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260916-001": {
+      "id": "404bfd03-2199-81c8-b568-d086133a717c",
+      "url": "https://app.notion.com/p/404bfd03219981c8b568d086133a717c?pvs=204",
+      "properties": {
+        "Title": "BUG-20260916-001 過去履歴の境界が重複する",
+        "Record ID": "BUG-20260916-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-002, DEV-20260916-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260916-001.md",
+        "Tasks": [
+          "404bfd03-2199-810a-836c-dad8e953582f"
+        ],
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260922-001": {
+      "id": "404bfd03-2199-81ed-806a-e3b2e98fd297",
+      "url": "https://app.notion.com/p/404bfd03219981ed806ae3b2e98fd297?pvs=204",
+      "properties": {
+        "Title": "BUG-20260922-001 翻訳失敗後に準備中へ戻る",
+        "Record ID": "BUG-20260922-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-002, DEV-20260922-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260922-001.md",
+        "Tasks": [
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3"
+        ],
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260923-001": {
+      "id": "404bfd03-2199-81c0-b29b-f7ba995b632b",
+      "url": "https://app.notion.com/p/404bfd03219981c0b29bf7ba995b632b?pvs=204",
+      "properties": {
+        "Title": "BUG-20260923-001 一件の翻訳失敗が後続を止める",
+        "Record ID": "BUG-20260923-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260923-002, DEV-20260923-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260923-001.md",
+        "Tasks": [
+          "404bfd03-2199-810b-93f7-dc18d56f9665"
+        ],
+        "date:Simulation Date:start": "2026-09-23",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260929-001": {
+      "id": "404bfd03-2199-81fc-9beb-c9a9b7b7db00",
+      "url": "https://app.notion.com/p/404bfd03219981fc9bebc9a9b7b7db00?pvs=204",
+      "properties": {
+        "Title": "BUG-20260929-001 送信再試行で二重保存",
+        "Record ID": "BUG-20260929-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, DEV-20260929-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-001.md",
+        "Tasks": [
+          "404bfd03-2199-8135-b706-fc1068dc1a75"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260929-002": {
+      "id": "404bfd03-2199-8108-83ac-cac4a3d3a711",
+      "url": "https://app.notion.com/p/404bfd032199810883accac4a3d3a711?pvs=204",
+      "properties": {
+        "Title": "BUG-20260929-002 未確定の低IDメッセージを飛ばす",
+        "Record ID": "BUG-20260929-002",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-002, DEV-20260929-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-002.md",
+        "Tasks": [
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20260930-001": {
+      "id": "404bfd03-2199-8139-8e2c-d099f2fa00c4",
+      "url": "https://app.notion.com/p/404bfd03219981398e2cd099f2fa00c4?pvs=204",
+      "properties": {
+        "Title": "BUG-20260930-001 送信応答が新着カーソルを進める",
+        "Record ID": "BUG-20260930-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260930-001, DEV-20260930-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260930-001.md",
+        "Tasks": [
+          "404bfd03-2199-81eb-a671-e58db971d2c2"
+        ],
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "BUG-20261013-001": {
+      "id": "404bfd03-2199-81cf-93e4-d46cbd4e82fa",
+      "url": "https://app.notion.com/p/404bfd03219981cf93e4d46cbd4e82fa?pvs=204",
+      "properties": {
+        "Title": "BUG-20261013-001 プロキシ越しのOriginが一致しない",
+        "Record ID": "BUG-20261013-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-002, DEV-20261013-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20261013-001.md",
+        "Tasks": [
+          "404bfd03-2199-816a-8317-e47d3977e6ab"
+        ],
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260909-001": {
+      "id": "404bfd03-2199-8180-a26e-c01c171a1caf",
+      "url": "https://app.notion.com/p/404bfd0321998180a26ec01c171a1caf?pvs=204",
+      "properties": {
+        "Title": "REV-20260909-001 部屋の識別と参加契約",
+        "Record ID": "REV-20260909-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-001, DEV-20260909-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md",
+        "Tasks": [
+          "404bfd03-2199-814b-b341-cb150bd755ca"
+        ],
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260915-001": {
+      "id": "404bfd03-2199-81d9-8581-ce692fde1d0b",
+      "url": "https://app.notion.com/p/404bfd03219981d98581ce692fde1d0b?pvs=204",
+      "properties": {
+        "Title": "REV-20260915-001 原文画面の安全な表示",
+        "Record ID": "REV-20260915-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260915-002, DEV-20260915-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md",
+        "Tasks": [
+          "404bfd03-2199-8177-8e19-dad897282dec"
+        ],
+        "date:Simulation Date:start": "2026-09-15",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260916-001": {
+      "id": "404bfd03-2199-81f2-8ea1-c4f731a14b95",
+      "url": "https://app.notion.com/p/404bfd03219981f28ea1c4f731a14b95?pvs=204",
+      "properties": {
+        "Title": "REV-20260916-001 過去履歴境界",
+        "Record ID": "REV-20260916-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-002, DEV-20260916-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md",
+        "Tasks": [
+          "404bfd03-2199-810a-836c-dad8e953582f"
+        ],
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260922-001": {
+      "id": "404bfd03-2199-8186-9188-d71a42dfc1d0",
+      "url": "https://app.notion.com/p/404bfd03219981869188d71a42dfc1d0?pvs=204",
+      "properties": {
+        "Title": "REV-20260922-001 翻訳準備の失敗",
+        "Record ID": "REV-20260922-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-002, DEV-20260922-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md",
+        "Tasks": [
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3"
+        ],
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260923-001": {
+      "id": "404bfd03-2199-8194-850a-ed22bd5ff83c",
+      "url": "https://app.notion.com/p/404bfd0321998194850aed22bd5ff83c?pvs=204",
+      "properties": {
+        "Title": "REV-20260923-001 翻訳の失敗分離",
+        "Record ID": "REV-20260923-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260923-002, DEV-20260923-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md",
+        "Tasks": [
+          "404bfd03-2199-810b-93f7-dc18d56f9665"
+        ],
+        "date:Simulation Date:start": "2026-09-23",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260929-001": {
+      "id": "404bfd03-2199-81f6-9b0d-f920df4dfe1a",
+      "url": "https://app.notion.com/p/404bfd03219981f69b0df920df4dfe1a?pvs=204",
+      "properties": {
+        "Title": "REV-20260929-001 重複送信と衝突",
+        "Record ID": "REV-20260929-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, DEV-20260929-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md",
+        "Tasks": [
+          "404bfd03-2199-8135-b706-fc1068dc1a75"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260929-002": {
+      "id": "404bfd03-2199-8191-906b-e2a87d9b6c73",
+      "url": "https://app.notion.com/p/404bfd0321998191906be2a87d9b6c73?pvs=204",
+      "properties": {
+        "Title": "REV-20260929-002 保存順序と行ロック",
+        "Record ID": "REV-20260929-002",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-002, DEV-20260929-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md",
+        "Tasks": [
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20260930-001": {
+      "id": "404bfd03-2199-8195-b158-d142e62c06b8",
+      "url": "https://app.notion.com/p/404bfd0321998195b158d142e62c06b8?pvs=204",
+      "properties": {
+        "Title": "REV-20260930-001 新着と表示済みID",
+        "Record ID": "REV-20260930-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260930-001, DEV-20260930-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md",
+        "Tasks": [
+          "404bfd03-2199-81eb-a671-e58db971d2c2"
+        ],
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20261006-001": {
+      "id": "404bfd03-2199-81a6-b3b9-e8bce215cb5e",
+      "url": "https://app.notion.com/p/404bfd03219981a6b3b9e8bce215cb5e?pvs=204",
+      "properties": {
+        "Title": "REV-20261006-001 キーボードと下書き",
+        "Record ID": "REV-20261006-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261006-001, DEV-20261006-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md",
+        "Tasks": [
+          "404bfd03-2199-81f7-a243-db59d95c8884"
+        ],
+        "date:Simulation Date:start": "2026-10-06",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "REV-20261013-001": {
+      "id": "404bfd03-2199-81f1-8f20-eb7a1a89b8a7",
+      "url": "https://app.notion.com/p/404bfd03219981f18f20eb7a1a89b8a7?pvs=204",
+      "properties": {
+        "Title": "REV-20261013-001 クラウド設定と公開Origin",
+        "Record ID": "REV-20261013-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-002, DEV-20261013-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md",
+        "Tasks": [
+          "404bfd03-2199-816a-8317-e47d3977e6ab"
+        ],
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20260909-001": {
+      "id": "404bfd03-2199-811b-928f-c92f87e31e03",
+      "url": "https://app.notion.com/p/404bfd032199811b928fc92f87e31e03?pvs=204",
+      "properties": {
+        "Title": "TEST-20260909-001 ルーム・参加・部屋分離",
+        "Record ID": "TEST-20260909-001",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260909-001.md",
+        "Tasks": [
+          "404bfd03-2199-814b-b341-cb150bd755ca",
+          "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+          "404bfd03-2199-8143-bfd6-eefb61b8a05b"
+        ],
+        "date:Simulation Date:start": "2026-09-09",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20260916-001": {
+      "id": "404bfd03-2199-814a-b8af-f3c8f7703d02",
+      "url": "https://app.notion.com/p/404bfd032199814ab8aff3c8f7703d02?pvs=204",
+      "properties": {
+        "Title": "TEST-20260916-001 履歴ページングと再入室",
+        "Record ID": "TEST-20260916-001",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-002, TASK-20260916-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260916-001.md",
+        "Tasks": [
+          "404bfd03-2199-810a-836c-dad8e953582f",
+          "404bfd03-2199-81a2-8938-f9df0e6edc6a"
+        ],
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20260922-001": {
+      "id": "404bfd03-2199-8145-9706-ea92cfc47291",
+      "url": "https://app.notion.com/p/404bfd03219981459706ea92cfc47291?pvs=204",
+      "properties": {
+        "Title": "TEST-20260922-001 翻訳モジュールの回帰",
+        "Record ID": "TEST-20260922-001",
+        "Owner": "zahin-dev",
+        "Status": "実行成功",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-002, TASK-20260923-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260922-001.md",
+        "Tasks": [
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+          "404bfd03-2199-810b-93f7-dc18d56f9665"
+        ],
+        "date:Simulation Date:start": "2026-09-22",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20260929-001": {
+      "id": "404bfd03-2199-8111-835a-e897f9946a71",
+      "url": "https://app.notion.com/p/404bfd0321998111835ae897f9946a71?pvs=204",
+      "properties": {
+        "Title": "TEST-20260929-001 再試行・同時送信",
+        "Record ID": "TEST-20260929-001",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-001, TASK-20260929-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260929-001.md",
+        "Tasks": [
+          "404bfd03-2199-8135-b706-fc1068dc1a75",
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-29",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20260930-001": {
+      "id": "404bfd03-2199-81d8-8e0c-ff20be2cbedc",
+      "url": "https://app.notion.com/p/404bfd03219981d88e0cff20be2cbedc?pvs=204",
+      "properties": {
+        "Title": "TEST-20260930-001 新着カーソルの回帰",
+        "Record ID": "TEST-20260930-001",
+        "Owner": "zahin-dev",
+        "Status": "実行成功",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260930-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-001.md",
+        "Tasks": [
+          "404bfd03-2199-81eb-a671-e58db971d2c2"
+        ],
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20260930-002": {
+      "id": "404bfd03-2199-8192-8fac-d596b9a9e874",
+      "url": "https://app.notion.com/p/404bfd03219981928facd596b9a9e874?pvs=204",
+      "properties": {
+        "Title": "TEST-20260930-002 入力・Origin・頻度制限",
+        "Record ID": "TEST-20260930-002",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260930-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-002.md",
+        "Tasks": [
+          "404bfd03-2199-8101-9889-e16a806c132e"
+        ],
+        "date:Simulation Date:start": "2026-09-30",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20261006-001": {
+      "id": "404bfd03-2199-81e1-88c4-e3ae3d7c5086",
+      "url": "https://app.notion.com/p/404bfd03219981e188c4e3ae3d7c5086?pvs=204",
+      "properties": {
+        "Title": "TEST-20261006-001 日英UI・入力保持・キーボード",
+        "Record ID": "TEST-20261006-001",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261006-001, TASK-20261006-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261006-001.md",
+        "Tasks": [
+          "404bfd03-2199-81f7-a243-db59d95c8884",
+          "404bfd03-2199-8116-91f4-d17151d47df2"
+        ],
+        "date:Simulation Date:start": "2026-10-06",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20261013-001": {
+      "id": "404bfd03-2199-81d3-af91-f2d9b3e7d4d9",
+      "url": "https://app.notion.com/p/404bfd03219981d3af91f2d9b3e7d4d9?pvs=204",
+      "properties": {
+        "Title": "TEST-20261013-001 クラウド設定の解決",
+        "Record ID": "TEST-20261013-001",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-001.md",
+        "Tasks": [
+          "404bfd03-2199-816a-8317-e47d3977e6ab"
+        ],
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20261013-002": {
+      "id": "404bfd03-2199-8118-9a77-d40d2eaf04c9",
+      "url": "https://app.notion.com/p/404bfd03219981189a77d40d2eaf04c9?pvs=204",
+      "properties": {
+        "Title": "TEST-20261013-002 コンテナと履歴永続性",
+        "Record ID": "TEST-20261013-002",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-002.md",
+        "Tasks": [
+          "404bfd03-2199-810e-9f87-c49b32d9097c"
+        ],
+        "date:Simulation Date:start": "2026-10-13",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "TEST-20261014-001": {
+      "id": "404bfd03-2199-813e-947a-d86c6638d687",
+      "url": "https://app.notion.com/p/404bfd032199813e947ad86c6638d687?pvs=204",
+      "properties": {
+        "Title": "TEST-20261014-001 Chrome日英翻訳・原文・公開URL",
+        "Record ID": "TEST-20261014-001",
+        "Owner": "zahin-dev",
+        "Status": "未実行",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261014-001.md",
+        "Tasks": [
+          "404bfd03-2199-81b7-97d7-d4e01ae65ad7"
+        ],
+        "date:Simulation Date:start": "2026-10-14",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20260903-001": {
+      "id": "404bfd03-2199-8171-9a31-fb94bcd67fb8",
+      "url": "https://app.notion.com/p/404bfd03219981719a31fb94bcd67fb8?pvs=204",
+      "properties": {
+        "Title": "KPT-20260903-001 Week 1 KPT",
+        "Record ID": "KPT-20260903-001",
+        "Owner": "member1",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260909-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260903-001.md",
+        "Tasks": [
+          "404bfd03-2199-8143-bfd6-eefb61b8a05b"
+        ],
+        "date:Simulation Date:start": "2026-09-03",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20260910-001": {
+      "id": "404bfd03-2199-81ff-8a56-ddd81c4de12b",
+      "url": "https://app.notion.com/p/404bfd03219981ff8a56ddd81c4de12b?pvs=204",
+      "properties": {
+        "Title": "KPT-20260910-001 Week 2 KPT",
+        "Record ID": "KPT-20260910-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260910-001.md",
+        "Tasks": [
+          "404bfd03-2199-810a-836c-dad8e953582f"
+        ],
+        "date:Simulation Date:start": "2026-09-10",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20260917-001": {
+      "id": "404bfd03-2199-8147-9c27-f67957298305",
+      "url": "https://app.notion.com/p/404bfd03219981479c27f67957298305?pvs=204",
+      "properties": {
+        "Title": "KPT-20260917-001 Week 3 KPT",
+        "Record ID": "KPT-20260917-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260917-001.md",
+        "Tasks": [
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3"
+        ],
+        "date:Simulation Date:start": "2026-09-17",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20260924-001": {
+      "id": "404bfd03-2199-817a-9fc5-f41cc9e3d5c9",
+      "url": "https://app.notion.com/p/404bfd032199817a9fc5f41cc9e3d5c9?pvs=204",
+      "properties": {
+        "Title": "KPT-20260924-001 Week 4 KPT",
+        "Record ID": "KPT-20260924-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260924-001.md",
+        "Tasks": [
+          "404bfd03-2199-81ee-afe0-dba2f8b20971"
+        ],
+        "date:Simulation Date:start": "2026-09-24",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20261001-001": {
+      "id": "404bfd03-2199-81f8-b149-e043a715f55b",
+      "url": "https://app.notion.com/p/404bfd03219981f8b149e043a715f55b?pvs=204",
+      "properties": {
+        "Title": "KPT-20261001-001 Week 5 KPT",
+        "Record ID": "KPT-20261001-001",
+        "Owner": "member2",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261006-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261001-001.md",
+        "Tasks": [
+          "404bfd03-2199-81f7-a243-db59d95c8884"
+        ],
+        "date:Simulation Date:start": "2026-10-01",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20261008-001": {
+      "id": "404bfd03-2199-81be-9b40-d385ebd3bb9b",
+      "url": "https://app.notion.com/p/404bfd03219981be9b40d385ebd3bb9b?pvs=204",
+      "properties": {
+        "Title": "KPT-20261008-001 Week 6 KPT",
+        "Record ID": "KPT-20261008-001",
+        "Owner": "zahin-dev",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261013-001",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261008-001.md",
+        "Tasks": [
+          "404bfd03-2199-810e-9f87-c49b32d9097c"
+        ],
+        "date:Simulation Date:start": "2026-10-08",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "KPT-20261015-001": {
+      "id": "404bfd03-2199-819f-84f4-e3d537e7265f",
+      "url": "https://app.notion.com/p/404bfd032199819f84f4e3d537e7265f?pvs=204",
+      "properties": {
+        "Title": "KPT-20261015-001 Week 7 KPT",
+        "Record ID": "KPT-20261015-001",
+        "Owner": "全員",
+        "Status": "保留",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261015-001.md",
+        "Tasks": [
+          "404bfd03-2199-8175-8ff9-e77b9f415add"
+        ],
+        "date:Simulation Date:start": "2026-10-15",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MILE-20260902-001": {
+      "id": "404bfd03-2199-811e-9392-f2015dc109fd",
+      "url": "https://app.notion.com/p/404bfd032199811e9392f2015dc109fd?pvs=204",
+      "properties": {
+        "Title": "MILE-20260902-001 MVP範囲・基本設計の合意",
+        "Record ID": "MILE-20260902-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260901-001, TASK-20260901-002, TASK-20260902-001, TASK-20260902-002, TASK-20260902-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260902-001.md",
+        "Tasks": [
+          "404bfd03-2199-8192-afaf-fd60a6c3e186",
+          "404bfd03-2199-81d1-a648-d23504c4f916",
+          "404bfd03-2199-817b-883d-ca9e10e86e12",
+          "404bfd03-2199-81b9-85c7-eb923b70a52f",
+          "404bfd03-2199-8149-bd76-eea6a971620b"
+        ],
+        "date:Simulation Date:start": "2026-09-02",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MILE-20260916-001": {
+      "id": "404bfd03-2199-8109-84fb-c37da710fd18",
+      "url": "https://app.notion.com/p/404bfd032199810984fbc37da710fd18?pvs=204",
+      "properties": {
+        "Title": "MILE-20260916-001 原文保存と再入室の到達点",
+        "Record ID": "MILE-20260916-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260916-001, TASK-20260916-002, TASK-20260916-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260916-001.md",
+        "Tasks": [
+          "404bfd03-2199-8117-8c05-cc12d6bdf6ca",
+          "404bfd03-2199-810a-836c-dad8e953582f",
+          "404bfd03-2199-81a2-8938-f9df0e6edc6a"
+        ],
+        "date:Simulation Date:start": "2026-09-16",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MILE-20260923-001": {
+      "id": "404bfd03-2199-8159-904a-dd2b3764c477",
+      "url": "https://app.notion.com/p/404bfd0321998159904add2b3764c477?pvs=204",
+      "properties": {
+        "Title": "MILE-20260923-001 翻訳・原文継続の到達点",
+        "Record ID": "MILE-20260923-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260922-002, TASK-20260923-001, TASK-20260923-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260923-001.md",
+        "Tasks": [
+          "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+          "404bfd03-2199-818b-ba5a-f435f37acef6",
+          "404bfd03-2199-810b-93f7-dc18d56f9665"
+        ],
+        "date:Simulation Date:start": "2026-09-23",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MILE-20261007-001": {
+      "id": "404bfd03-2199-81e8-ae6b-d8fdd5397bc7",
+      "url": "https://app.notion.com/p/404bfd03219981e8ae6bd8fdd5397bc7?pvs=204",
+      "properties": {
+        "Title": "MILE-20261007-001 順序対策・回帰検証の定義",
+        "Record ID": "MILE-20261007-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20260929-002, TASK-20260930-001, TASK-20261007-001, TASK-20261007-002",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261007-001.md",
+        "Tasks": [
+          "404bfd03-2199-81ee-afe0-dba2f8b20971",
+          "404bfd03-2199-81eb-a671-e58db971d2c2",
+          "404bfd03-2199-81cd-a458-f943f51afaf6",
+          "404bfd03-2199-81c0-b807-df0f4a6605f1"
+        ],
+        "date:Simulation Date:start": "2026-10-07",
+        "date:Simulation Date:is_datetime": 0
+      }
+    },
+    "MILE-20261018-001": {
+      "id": "404bfd03-2199-815f-a591-efe2ba6f3d6a",
+      "url": "https://app.notion.com/p/404bfd032199815fa591efe2ba6f3d6a?pvs=204",
+      "properties": {
+        "Title": "MILE-20261018-001 MVPスナップショット基準",
+        "Record ID": "MILE-20261018-001",
+        "Owner": "全員",
+        "Status": "完了（模擬）",
+        "Evidence Type": "Simulated",
+        "Priority": "High",
+        "Phase": "反復開発",
+        "Related IDs": "TASK-20261014-001, TASK-20261014-002, TASK-20261014-003",
+        "GitHub Reference": "https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261018-001.md",
+        "Tasks": [
+          "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+          "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+          "404bfd03-2199-8175-8ff9-e77b9f415add"
+        ],
+        "date:Simulation Date:start": "2026-10-18",
+        "date:Simulation Date:is_datetime": 0
+      }
+    }
+  }
+}

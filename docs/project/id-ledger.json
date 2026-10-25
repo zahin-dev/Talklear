@@ -1,0 +1,1089 @@
+[
+  {
+    "id": "ADR-20260902-001",
+    "database": "ADR",
+    "date": "2026-09-02",
+    "path": "docs/design/decisions/ADR-20260902-001.md",
+    "related": [
+      "TASK-20260902-001",
+      "TASK-20260908-002"
+    ]
+  },
+  {
+    "id": "ADR-20260902-002",
+    "database": "ADR",
+    "date": "2026-09-02",
+    "path": "docs/design/decisions/ADR-20260902-002.md",
+    "related": [
+      "TASK-20260902-003",
+      "TASK-20260916-001"
+    ]
+  },
+  {
+    "id": "ADR-20260909-001",
+    "database": "ADR",
+    "date": "2026-09-09",
+    "path": "docs/design/decisions/ADR-20260909-001.md",
+    "related": [
+      "TASK-20260909-001",
+      "TASK-20260909-002"
+    ]
+  },
+  {
+    "id": "ADR-20260915-001",
+    "database": "ADR",
+    "date": "2026-09-15",
+    "path": "docs/design/decisions/ADR-20260915-001.md",
+    "related": [
+      "TASK-20260915-002",
+      "TASK-20260916-002"
+    ]
+  },
+  {
+    "id": "ADR-20260922-001",
+    "database": "ADR",
+    "date": "2026-09-22",
+    "path": "docs/design/decisions/ADR-20260922-001.md",
+    "related": [
+      "TASK-20260922-001",
+      "TASK-20260922-002",
+      "TASK-20260923-002"
+    ]
+  },
+  {
+    "id": "ADR-20260929-001",
+    "database": "ADR",
+    "date": "2026-09-29",
+    "path": "docs/design/decisions/ADR-20260929-001.md",
+    "related": [
+      "TASK-20260929-001",
+      "TASK-20260929-002"
+    ]
+  },
+  {
+    "id": "ADR-20261013-001",
+    "database": "ADR",
+    "date": "2026-10-13",
+    "path": "docs/design/decisions/ADR-20261013-001.md",
+    "related": [
+      "TASK-20261013-001",
+      "TASK-20261013-002"
+    ]
+  },
+  {
+    "id": "BUG-20260909-001",
+    "database": "Bugs",
+    "date": "2026-09-09",
+    "path": "docs/bugs/BUG-20260909-001.md",
+    "related": [
+      "TASK-20260909-003",
+      "DEV-20260909-001"
+    ]
+  },
+  {
+    "id": "BUG-20260916-001",
+    "database": "Bugs",
+    "date": "2026-09-16",
+    "path": "docs/bugs/BUG-20260916-001.md",
+    "related": [
+      "TASK-20260916-002",
+      "DEV-20260916-001"
+    ]
+  },
+  {
+    "id": "BUG-20260922-001",
+    "database": "Bugs",
+    "date": "2026-09-22",
+    "path": "docs/bugs/BUG-20260922-001.md",
+    "related": [
+      "TASK-20260922-002",
+      "DEV-20260922-001"
+    ]
+  },
+  {
+    "id": "BUG-20260923-001",
+    "database": "Bugs",
+    "date": "2026-09-23",
+    "path": "docs/bugs/BUG-20260923-001.md",
+    "related": [
+      "TASK-20260923-002",
+      "DEV-20260923-001"
+    ]
+  },
+  {
+    "id": "BUG-20260929-001",
+    "database": "Bugs",
+    "date": "2026-09-29",
+    "path": "docs/bugs/BUG-20260929-001.md",
+    "related": [
+      "TASK-20260929-001",
+      "DEV-20260929-001"
+    ]
+  },
+  {
+    "id": "BUG-20260929-002",
+    "database": "Bugs",
+    "date": "2026-09-29",
+    "path": "docs/bugs/BUG-20260929-002.md",
+    "related": [
+      "TASK-20260929-002",
+      "DEV-20260929-001"
+    ]
+  },
+  {
+    "id": "BUG-20260930-001",
+    "database": "Bugs",
+    "date": "2026-09-30",
+    "path": "docs/bugs/BUG-20260930-001.md",
+    "related": [
+      "TASK-20260930-001",
+      "DEV-20260930-001"
+    ]
+  },
+  {
+    "id": "BUG-20261013-001",
+    "database": "Bugs",
+    "date": "2026-10-13",
+    "path": "docs/bugs/BUG-20261013-001.md",
+    "related": [
+      "TASK-20261013-002",
+      "DEV-20261013-001"
+    ]
+  },
+  {
+    "id": "REV-20260909-001",
+    "database": "Code Reviews",
+    "date": "2026-09-09",
+    "path": "docs/reviews/REV-20260909-001.md",
+    "related": [
+      "TASK-20260909-001",
+      "DEV-20260909-001"
+    ]
+  },
+  {
+    "id": "REV-20260915-001",
+    "database": "Code Reviews",
+    "date": "2026-09-15",
+    "path": "docs/reviews/REV-20260915-001.md",
+    "related": [
+      "TASK-20260915-002",
+      "DEV-20260915-001"
+    ]
+  },
+  {
+    "id": "REV-20260916-001",
+    "database": "Code Reviews",
+    "date": "2026-09-16",
+    "path": "docs/reviews/REV-20260916-001.md",
+    "related": [
+      "TASK-20260916-002",
+      "DEV-20260916-001"
+    ]
+  },
+  {
+    "id": "REV-20260922-001",
+    "database": "Code Reviews",
+    "date": "2026-09-22",
+    "path": "docs/reviews/REV-20260922-001.md",
+    "related": [
+      "TASK-20260922-002",
+      "DEV-20260922-001"
+    ]
+  },
+  {
+    "id": "REV-20260923-001",
+    "database": "Code Reviews",
+    "date": "2026-09-23",
+    "path": "docs/reviews/REV-20260923-001.md",
+    "related": [
+      "TASK-20260923-002",
+      "DEV-20260923-001"
+    ]
+  },
+  {
+    "id": "REV-20260929-001",
+    "database": "Code Reviews",
+    "date": "2026-09-29",
+    "path": "docs/reviews/REV-20260929-001.md",
+    "related": [
+      "TASK-20260929-001",
+      "DEV-20260929-001"
+    ]
+  },
+  {
+    "id": "REV-20260929-002",
+    "database": "Code Reviews",
+    "date": "2026-09-29",
+    "path": "docs/reviews/REV-20260929-002.md",
+    "related": [
+      "TASK-20260929-002",
+      "DEV-20260929-001"
+    ]
+  },
+  {
+    "id": "REV-20260930-001",
+    "database": "Code Reviews",
+    "date": "2026-09-30",
+    "path": "docs/reviews/REV-20260930-001.md",
+    "related": [
+      "TASK-20260930-001",
+      "DEV-20260930-001"
+    ]
+  },
+  {
+    "id": "REV-20261006-001",
+    "database": "Code Reviews",
+    "date": "2026-10-06",
+    "path": "docs/reviews/REV-20261006-001.md",
+    "related": [
+      "TASK-20261006-001",
+      "DEV-20261006-001"
+    ]
+  },
+  {
+    "id": "REV-20261013-001",
+    "database": "Code Reviews",
+    "date": "2026-10-13",
+    "path": "docs/reviews/REV-20261013-001.md",
+    "related": [
+      "TASK-20261013-002",
+      "DEV-20261013-001"
+    ]
+  },
+  {
+    "id": "TEST-20260909-001",
+    "database": "Tests",
+    "date": "2026-09-09",
+    "path": "docs/testing/TEST-20260909-001.md",
+    "related": [
+      "TASK-20260909-001",
+      "TASK-20260909-002",
+      "TASK-20260909-003"
+    ]
+  },
+  {
+    "id": "TEST-20260916-001",
+    "database": "Tests",
+    "date": "2026-09-16",
+    "path": "docs/testing/TEST-20260916-001.md",
+    "related": [
+      "TASK-20260916-002",
+      "TASK-20260916-003"
+    ]
+  },
+  {
+    "id": "TEST-20260922-001",
+    "database": "Tests",
+    "date": "2026-09-22",
+    "path": "docs/testing/TEST-20260922-001.md",
+    "related": [
+      "TASK-20260922-002",
+      "TASK-20260923-002"
+    ]
+  },
+  {
+    "id": "TEST-20260929-001",
+    "database": "Tests",
+    "date": "2026-09-29",
+    "path": "docs/testing/TEST-20260929-001.md",
+    "related": [
+      "TASK-20260929-001",
+      "TASK-20260929-002"
+    ]
+  },
+  {
+    "id": "TEST-20260930-001",
+    "database": "Tests",
+    "date": "2026-09-30",
+    "path": "docs/testing/TEST-20260930-001.md",
+    "related": [
+      "TASK-20260930-001"
+    ]
+  },
+  {
+    "id": "TEST-20260930-002",
+    "database": "Tests",
+    "date": "2026-09-30",
+    "path": "docs/testing/TEST-20260930-002.md",
+    "related": [
+      "TASK-20260930-002"
+    ]
+  },
+  {
+    "id": "TEST-20261006-001",
+    "database": "Tests",
+    "date": "2026-10-06",
+    "path": "docs/testing/TEST-20261006-001.md",
+    "related": [
+      "TASK-20261006-001",
+      "TASK-20261006-002"
+    ]
+  },
+  {
+    "id": "TEST-20261013-001",
+    "database": "Tests",
+    "date": "2026-10-13",
+    "path": "docs/testing/TEST-20261013-001.md",
+    "related": [
+      "TASK-20261013-002"
+    ]
+  },
+  {
+    "id": "TEST-20261013-002",
+    "database": "Tests",
+    "date": "2026-10-13",
+    "path": "docs/testing/TEST-20261013-002.md",
+    "related": [
+      "TASK-20261013-001"
+    ]
+  },
+  {
+    "id": "TEST-20261014-001",
+    "database": "Tests",
+    "date": "2026-10-14",
+    "path": "docs/testing/TEST-20261014-001.md",
+    "related": [
+      "TASK-20261014-001"
+    ]
+  },
+  {
+    "id": "MTG-20260901-001",
+    "database": "Meetings",
+    "date": "2026-09-01",
+    "path": "docs/development/meetings/MTG-20260901-001.md",
+    "related": [
+      "TASK-20260901-001",
+      "TASK-20260901-002",
+      "DEV-20260901-001"
+    ]
+  },
+  {
+    "id": "MTG-20260902-001",
+    "database": "Meetings",
+    "date": "2026-09-02",
+    "path": "docs/development/meetings/MTG-20260902-001.md",
+    "related": [
+      "TASK-20260902-001",
+      "TASK-20260902-002",
+      "TASK-20260902-003",
+      "DEV-20260902-001"
+    ]
+  },
+  {
+    "id": "MTG-20260909-001",
+    "database": "Meetings",
+    "date": "2026-09-09",
+    "path": "docs/development/meetings/MTG-20260909-001.md",
+    "related": [
+      "TASK-20260909-001",
+      "TASK-20260909-002",
+      "TASK-20260909-003",
+      "DEV-20260909-001"
+    ]
+  },
+  {
+    "id": "MTG-20260922-001",
+    "database": "Meetings",
+    "date": "2026-09-22",
+    "path": "docs/development/meetings/MTG-20260922-001.md",
+    "related": [
+      "TASK-20260922-001",
+      "TASK-20260922-002",
+      "DEV-20260922-001"
+    ]
+  },
+  {
+    "id": "MTG-20260929-001",
+    "database": "Meetings",
+    "date": "2026-09-29",
+    "path": "docs/development/meetings/MTG-20260929-001.md",
+    "related": [
+      "TASK-20260929-001",
+      "TASK-20260929-002",
+      "DEV-20260929-001"
+    ]
+  },
+  {
+    "id": "MTG-20261014-001",
+    "database": "Meetings",
+    "date": "2026-10-14",
+    "path": "docs/development/meetings/MTG-20261014-001.md",
+    "related": [
+      "TASK-20261014-001",
+      "TASK-20261014-002",
+      "TASK-20261014-003",
+      "DEV-20261014-001"
+    ]
+  },
+  {
+    "id": "KPT-20260903-001",
+    "database": "KPT",
+    "date": "2026-09-03",
+    "path": "docs/retrospective/KPT-20260903-001.md",
+    "related": [
+      "TASK-20260909-003"
+    ]
+  },
+  {
+    "id": "KPT-20260910-001",
+    "database": "KPT",
+    "date": "2026-09-10",
+    "path": "docs/retrospective/KPT-20260910-001.md",
+    "related": [
+      "TASK-20260916-002"
+    ]
+  },
+  {
+    "id": "KPT-20260917-001",
+    "database": "KPT",
+    "date": "2026-09-17",
+    "path": "docs/retrospective/KPT-20260917-001.md",
+    "related": [
+      "TASK-20260922-002"
+    ]
+  },
+  {
+    "id": "KPT-20260924-001",
+    "database": "KPT",
+    "date": "2026-09-24",
+    "path": "docs/retrospective/KPT-20260924-001.md",
+    "related": [
+      "TASK-20260929-002"
+    ]
+  },
+  {
+    "id": "KPT-20261001-001",
+    "database": "KPT",
+    "date": "2026-10-01",
+    "path": "docs/retrospective/KPT-20261001-001.md",
+    "related": [
+      "TASK-20261006-001"
+    ]
+  },
+  {
+    "id": "KPT-20261008-001",
+    "database": "KPT",
+    "date": "2026-10-08",
+    "path": "docs/retrospective/KPT-20261008-001.md",
+    "related": [
+      "TASK-20261013-001"
+    ]
+  },
+  {
+    "id": "KPT-20261015-001",
+    "database": "KPT",
+    "date": "2026-10-15",
+    "path": "docs/retrospective/KPT-20261015-001.md",
+    "related": [
+      "TASK-20261014-003"
+    ]
+  },
+  {
+    "id": "DEV-20260901-001",
+    "database": "Development Sessions",
+    "date": "2026-09-01",
+    "path": "docs/development/sessions/DEV-20260901-001.md",
+    "related": [
+      "TASK-20260901-001",
+      "TASK-20260901-002"
+    ]
+  },
+  {
+    "id": "DEV-20260902-001",
+    "database": "Development Sessions",
+    "date": "2026-09-02",
+    "path": "docs/development/sessions/DEV-20260902-001.md",
+    "related": [
+      "TASK-20260902-001",
+      "TASK-20260902-002",
+      "TASK-20260902-003"
+    ]
+  },
+  {
+    "id": "DEV-20260908-001",
+    "database": "Development Sessions",
+    "date": "2026-09-08",
+    "path": "docs/development/sessions/DEV-20260908-001.md",
+    "related": [
+      "TASK-20260908-001",
+      "TASK-20260908-002"
+    ]
+  },
+  {
+    "id": "DEV-20260909-001",
+    "database": "Development Sessions",
+    "date": "2026-09-09",
+    "path": "docs/development/sessions/DEV-20260909-001.md",
+    "related": [
+      "TASK-20260909-001",
+      "TASK-20260909-002",
+      "TASK-20260909-003"
+    ]
+  },
+  {
+    "id": "DEV-20260915-001",
+    "database": "Development Sessions",
+    "date": "2026-09-15",
+    "path": "docs/development/sessions/DEV-20260915-001.md",
+    "related": [
+      "TASK-20260915-001",
+      "TASK-20260915-002"
+    ]
+  },
+  {
+    "id": "DEV-20260916-001",
+    "database": "Development Sessions",
+    "date": "2026-09-16",
+    "path": "docs/development/sessions/DEV-20260916-001.md",
+    "related": [
+      "TASK-20260916-001",
+      "TASK-20260916-002",
+      "TASK-20260916-003"
+    ]
+  },
+  {
+    "id": "DEV-20260922-001",
+    "database": "Development Sessions",
+    "date": "2026-09-22",
+    "path": "docs/development/sessions/DEV-20260922-001.md",
+    "related": [
+      "TASK-20260922-001",
+      "TASK-20260922-002"
+    ]
+  },
+  {
+    "id": "DEV-20260923-001",
+    "database": "Development Sessions",
+    "date": "2026-09-23",
+    "path": "docs/development/sessions/DEV-20260923-001.md",
+    "related": [
+      "TASK-20260923-001",
+      "TASK-20260923-002"
+    ]
+  },
+  {
+    "id": "DEV-20260929-001",
+    "database": "Development Sessions",
+    "date": "2026-09-29",
+    "path": "docs/development/sessions/DEV-20260929-001.md",
+    "related": [
+      "TASK-20260929-001",
+      "TASK-20260929-002"
+    ]
+  },
+  {
+    "id": "DEV-20260930-001",
+    "database": "Development Sessions",
+    "date": "2026-09-30",
+    "path": "docs/development/sessions/DEV-20260930-001.md",
+    "related": [
+      "TASK-20260930-001",
+      "TASK-20260930-002"
+    ]
+  },
+  {
+    "id": "DEV-20261006-001",
+    "database": "Development Sessions",
+    "date": "2026-10-06",
+    "path": "docs/development/sessions/DEV-20261006-001.md",
+    "related": [
+      "TASK-20261006-001",
+      "TASK-20261006-002"
+    ]
+  },
+  {
+    "id": "DEV-20261007-001",
+    "database": "Development Sessions",
+    "date": "2026-10-07",
+    "path": "docs/development/sessions/DEV-20261007-001.md",
+    "related": [
+      "TASK-20261007-001",
+      "TASK-20261007-002"
+    ]
+  },
+  {
+    "id": "DEV-20261013-001",
+    "database": "Development Sessions",
+    "date": "2026-10-13",
+    "path": "docs/development/sessions/DEV-20261013-001.md",
+    "related": [
+      "TASK-20261013-001",
+      "TASK-20261013-002"
+    ]
+  },
+  {
+    "id": "DEV-20261014-001",
+    "database": "Development Sessions",
+    "date": "2026-10-14",
+    "path": "docs/development/sessions/DEV-20261014-001.md",
+    "related": [
+      "TASK-20261014-001",
+      "TASK-20261014-002",
+      "TASK-20261014-003"
+    ]
+  },
+  {
+    "id": "TASK-20260901-001",
+    "database": "Tasks",
+    "date": "2026-09-01",
+    "path": "docs/project/tasks/TASK-20260901-001.md",
+    "related": [
+      "DEV-20260901-001",
+      "MTG-20260901-001"
+    ]
+  },
+  {
+    "id": "TASK-20260901-002",
+    "database": "Tasks",
+    "date": "2026-09-01",
+    "path": "docs/project/tasks/TASK-20260901-002.md",
+    "related": [
+      "TASK-20260901-001",
+      "DEV-20260901-001",
+      "MTG-20260901-001"
+    ]
+  },
+  {
+    "id": "TASK-20260902-001",
+    "database": "Tasks",
+    "date": "2026-09-02",
+    "path": "docs/project/tasks/TASK-20260902-001.md",
+    "related": [
+      "TASK-20260901-002",
+      "DEV-20260902-001",
+      "ADR-20260902-001",
+      "MTG-20260902-001"
+    ]
+  },
+  {
+    "id": "TASK-20260902-002",
+    "database": "Tasks",
+    "date": "2026-09-02",
+    "path": "docs/project/tasks/TASK-20260902-002.md",
+    "related": [
+      "TASK-20260902-001",
+      "DEV-20260902-001",
+      "MTG-20260902-001"
+    ]
+  },
+  {
+    "id": "TASK-20260902-003",
+    "database": "Tasks",
+    "date": "2026-09-02",
+    "path": "docs/project/tasks/TASK-20260902-003.md",
+    "related": [
+      "TASK-20260902-002",
+      "DEV-20260902-001",
+      "ADR-20260902-002",
+      "MTG-20260902-001"
+    ]
+  },
+  {
+    "id": "TASK-20260908-001",
+    "database": "Tasks",
+    "date": "2026-09-08",
+    "path": "docs/project/tasks/TASK-20260908-001.md",
+    "related": [
+      "TASK-20260902-001",
+      "DEV-20260908-001"
+    ]
+  },
+  {
+    "id": "TASK-20260908-002",
+    "database": "Tasks",
+    "date": "2026-09-08",
+    "path": "docs/project/tasks/TASK-20260908-002.md",
+    "related": [
+      "TASK-20260902-002",
+      "TASK-20260908-001",
+      "DEV-20260908-001",
+      "ADR-20260902-001"
+    ]
+  },
+  {
+    "id": "TASK-20260909-001",
+    "database": "Tasks",
+    "date": "2026-09-09",
+    "path": "docs/project/tasks/TASK-20260909-001.md",
+    "related": [
+      "TASK-20260902-003",
+      "TASK-20260908-002",
+      "DEV-20260909-001",
+      "ADR-20260909-001",
+      "REV-20260909-001",
+      "TEST-20260909-001",
+      "MTG-20260909-001"
+    ]
+  },
+  {
+    "id": "TASK-20260909-002",
+    "database": "Tasks",
+    "date": "2026-09-09",
+    "path": "docs/project/tasks/TASK-20260909-002.md",
+    "related": [
+      "TASK-20260909-001",
+      "DEV-20260909-001",
+      "ADR-20260909-001",
+      "TEST-20260909-001",
+      "MTG-20260909-001"
+    ]
+  },
+  {
+    "id": "TASK-20260909-003",
+    "database": "Tasks",
+    "date": "2026-09-09",
+    "path": "docs/project/tasks/TASK-20260909-003.md",
+    "related": [
+      "TASK-20260902-002",
+      "TASK-20260909-001",
+      "DEV-20260909-001",
+      "BUG-20260909-001",
+      "TEST-20260909-001",
+      "MTG-20260909-001",
+      "KPT-20260903-001"
+    ]
+  },
+  {
+    "id": "TASK-20260915-001",
+    "database": "Tasks",
+    "date": "2026-09-15",
+    "path": "docs/project/tasks/TASK-20260915-001.md",
+    "related": [
+      "TASK-20260909-002",
+      "DEV-20260915-001"
+    ]
+  },
+  {
+    "id": "TASK-20260915-002",
+    "database": "Tasks",
+    "date": "2026-09-15",
+    "path": "docs/project/tasks/TASK-20260915-002.md",
+    "related": [
+      "TASK-20260909-003",
+      "TASK-20260915-001",
+      "DEV-20260915-001",
+      "ADR-20260915-001",
+      "REV-20260915-001"
+    ]
+  },
+  {
+    "id": "TASK-20260916-001",
+    "database": "Tasks",
+    "date": "2026-09-16",
+    "path": "docs/project/tasks/TASK-20260916-001.md",
+    "related": [
+      "TASK-20260902-003",
+      "TASK-20260915-001",
+      "DEV-20260916-001",
+      "ADR-20260902-002"
+    ]
+  },
+  {
+    "id": "TASK-20260916-002",
+    "database": "Tasks",
+    "date": "2026-09-16",
+    "path": "docs/project/tasks/TASK-20260916-002.md",
+    "related": [
+      "TASK-20260916-001",
+      "DEV-20260916-001",
+      "ADR-20260915-001",
+      "BUG-20260916-001",
+      "REV-20260916-001",
+      "TEST-20260916-001",
+      "KPT-20260910-001"
+    ]
+  },
+  {
+    "id": "TASK-20260916-003",
+    "database": "Tasks",
+    "date": "2026-09-16",
+    "path": "docs/project/tasks/TASK-20260916-003.md",
+    "related": [
+      "TASK-20260915-002",
+      "TASK-20260916-002",
+      "DEV-20260916-001",
+      "TEST-20260916-001"
+    ]
+  },
+  {
+    "id": "TASK-20260922-001",
+    "database": "Tasks",
+    "date": "2026-09-22",
+    "path": "docs/project/tasks/TASK-20260922-001.md",
+    "related": [
+      "TASK-20260915-002",
+      "DEV-20260922-001",
+      "ADR-20260922-001",
+      "MTG-20260922-001"
+    ]
+  },
+  {
+    "id": "TASK-20260922-002",
+    "database": "Tasks",
+    "date": "2026-09-22",
+    "path": "docs/project/tasks/TASK-20260922-002.md",
+    "related": [
+      "TASK-20260922-001",
+      "DEV-20260922-001",
+      "ADR-20260922-001",
+      "BUG-20260922-001",
+      "REV-20260922-001",
+      "TEST-20260922-001",
+      "MTG-20260922-001",
+      "KPT-20260917-001"
+    ]
+  },
+  {
+    "id": "TASK-20260923-001",
+    "database": "Tasks",
+    "date": "2026-09-23",
+    "path": "docs/project/tasks/TASK-20260923-001.md",
+    "related": [
+      "TASK-20260916-003",
+      "TASK-20260922-002",
+      "DEV-20260923-001"
+    ]
+  },
+  {
+    "id": "TASK-20260923-002",
+    "database": "Tasks",
+    "date": "2026-09-23",
+    "path": "docs/project/tasks/TASK-20260923-002.md",
+    "related": [
+      "TASK-20260923-001",
+      "DEV-20260923-001",
+      "ADR-20260922-001",
+      "BUG-20260923-001",
+      "REV-20260923-001",
+      "TEST-20260922-001"
+    ]
+  },
+  {
+    "id": "TASK-20260929-001",
+    "database": "Tasks",
+    "date": "2026-09-29",
+    "path": "docs/project/tasks/TASK-20260929-001.md",
+    "related": [
+      "TASK-20260916-001",
+      "DEV-20260929-001",
+      "ADR-20260929-001",
+      "BUG-20260929-001",
+      "REV-20260929-001",
+      "TEST-20260929-001",
+      "MTG-20260929-001"
+    ]
+  },
+  {
+    "id": "TASK-20260929-002",
+    "database": "Tasks",
+    "date": "2026-09-29",
+    "path": "docs/project/tasks/TASK-20260929-002.md",
+    "related": [
+      "TASK-20260929-001",
+      "DEV-20260929-001",
+      "ADR-20260929-001",
+      "BUG-20260929-002",
+      "REV-20260929-002",
+      "TEST-20260929-001",
+      "MTG-20260929-001",
+      "KPT-20260924-001"
+    ]
+  },
+  {
+    "id": "TASK-20260930-001",
+    "database": "Tasks",
+    "date": "2026-09-30",
+    "path": "docs/project/tasks/TASK-20260930-001.md",
+    "related": [
+      "TASK-20260923-002",
+      "TASK-20260929-002",
+      "DEV-20260930-001",
+      "BUG-20260930-001",
+      "REV-20260930-001",
+      "TEST-20260930-001"
+    ]
+  },
+  {
+    "id": "TASK-20260930-002",
+    "database": "Tasks",
+    "date": "2026-09-30",
+    "path": "docs/project/tasks/TASK-20260930-002.md",
+    "related": [
+      "TASK-20260909-002",
+      "TASK-20260929-001",
+      "DEV-20260930-001",
+      "TEST-20260930-002"
+    ]
+  },
+  {
+    "id": "TASK-20261006-001",
+    "database": "Tasks",
+    "date": "2026-10-06",
+    "path": "docs/project/tasks/TASK-20261006-001.md",
+    "related": [
+      "TASK-20260930-001",
+      "TASK-20260930-002",
+      "DEV-20261006-001",
+      "REV-20261006-001",
+      "TEST-20261006-001",
+      "KPT-20261001-001"
+    ]
+  },
+  {
+    "id": "TASK-20261006-002",
+    "database": "Tasks",
+    "date": "2026-10-06",
+    "path": "docs/project/tasks/TASK-20261006-002.md",
+    "related": [
+      "TASK-20261006-001",
+      "DEV-20261006-001",
+      "TEST-20261006-001"
+    ]
+  },
+  {
+    "id": "TASK-20261007-001",
+    "database": "Tasks",
+    "date": "2026-10-07",
+    "path": "docs/project/tasks/TASK-20261007-001.md",
+    "related": [
+      "TASK-20260922-002",
+      "TASK-20260929-002",
+      "TASK-20260930-001",
+      "TASK-20260930-002",
+      "DEV-20261007-001"
+    ]
+  },
+  {
+    "id": "TASK-20261007-002",
+    "database": "Tasks",
+    "date": "2026-10-07",
+    "path": "docs/project/tasks/TASK-20261007-002.md",
+    "related": [
+      "TASK-20261007-001",
+      "DEV-20261007-001"
+    ]
+  },
+  {
+    "id": "TASK-20261013-001",
+    "database": "Tasks",
+    "date": "2026-10-13",
+    "path": "docs/project/tasks/TASK-20261013-001.md",
+    "related": [
+      "TASK-20261006-002",
+      "TASK-20261007-002",
+      "DEV-20261013-001",
+      "ADR-20261013-001",
+      "TEST-20261013-002",
+      "KPT-20261008-001"
+    ]
+  },
+  {
+    "id": "TASK-20261013-002",
+    "database": "Tasks",
+    "date": "2026-10-13",
+    "path": "docs/project/tasks/TASK-20261013-002.md",
+    "related": [
+      "TASK-20261013-001",
+      "DEV-20261013-001",
+      "ADR-20261013-001",
+      "BUG-20261013-001",
+      "REV-20261013-001",
+      "TEST-20261013-001"
+    ]
+  },
+  {
+    "id": "TASK-20261014-001",
+    "database": "Tasks",
+    "date": "2026-10-14",
+    "path": "docs/project/tasks/TASK-20261014-001.md",
+    "related": [
+      "TASK-20261007-001",
+      "TASK-20261013-001",
+      "TASK-20261013-002",
+      "DEV-20261014-001",
+      "TEST-20261014-001",
+      "MTG-20261014-001"
+    ]
+  },
+  {
+    "id": "TASK-20261014-002",
+    "database": "Tasks",
+    "date": "2026-10-14",
+    "path": "docs/project/tasks/TASK-20261014-002.md",
+    "related": [
+      "TASK-20261014-001",
+      "DEV-20261014-001",
+      "MTG-20261014-001"
+    ]
+  },
+  {
+    "id": "TASK-20261014-003",
+    "database": "Tasks",
+    "date": "2026-10-14",
+    "path": "docs/project/tasks/TASK-20261014-003.md",
+    "related": [
+      "TASK-20261014-001",
+      "DEV-20261014-001",
+      "MTG-20261014-001",
+      "KPT-20261015-001"
+    ]
+  },
+  {
+    "id": "MILE-20260902-001",
+    "database": "Milestones",
+    "date": "2026-09-02",
+    "path": "docs/project/milestones/MILE-20260902-001.md",
+    "related": [
+      "TASK-20260901-001",
+      "TASK-20260901-002",
+      "TASK-20260902-001",
+      "TASK-20260902-002",
+      "TASK-20260902-003"
+    ]
+  },
+  {
+    "id": "MILE-20260916-001",
+    "database": "Milestones",
+    "date": "2026-09-16",
+    "path": "docs/project/milestones/MILE-20260916-001.md",
+    "related": [
+      "TASK-20260916-001",
+      "TASK-20260916-002",
+      "TASK-20260916-003"
+    ]
+  },
+  {
+    "id": "MILE-20260923-001",
+    "database": "Milestones",
+    "date": "2026-09-23",
+    "path": "docs/project/milestones/MILE-20260923-001.md",
+    "related": [
+      "TASK-20260922-002",
+      "TASK-20260923-001",
+      "TASK-20260923-002"
+    ]
+  },
+  {
+    "id": "MILE-20261007-001",
+    "database": "Milestones",
+    "date": "2026-10-07",
+    "path": "docs/project/milestones/MILE-20261007-001.md",
+    "related": [
+      "TASK-20260929-002",
+      "TASK-20260930-001",
+      "TASK-20261007-001",
+      "TASK-20261007-002"
+    ]
+  },
+  {
+    "id": "MILE-20261018-001",
+    "database": "Milestones",
+    "date": "2026-10-18",
+    "path": "docs/project/milestones/MILE-20261018-001.md",
+    "related": [
+      "TASK-20261014-001",
+      "TASK-20261014-002",
+      "TASK-20261014-003"
+    ]
+  }
+]

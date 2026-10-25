@@ -1,0 +1,302 @@
+﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+ADR-20260902-001,Javaと素のJavaScriptを採用,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260902-001, TASK-20260908-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+Javaと素のJavaScriptを採用を、限られた作業枠で選ぶ。
+
+## Options
+
+Java/Spring Boot + HTML/CSS/JS／Python/FastAPI、React
+
+## Trade-offs
+
+member1のJava経験を活かし、member2が画面を直接調整できる。FastAPIは未実装の比較案。Reactもコード移行の履歴はない。
+
+## Decision
+
+Java/Spring Boot + HTML/CSS/JS
+
+## Reason
+
+member1のJava経験を活かし、member2が画面を直接調整できる。FastAPIは未実装の比較案。Reactもコード移行の履歴はない。
+
+## Consequences
+
+ビルド系統を増やさず、静的画面とAPIを同じアプリから配信する。UI拡大時の状態管理は手作業になる。
+
+## Risks
+
+ビルド系統を増やさず、静的画面とAPIを同じアプリから配信する。UI拡大時の状態管理は手作業になる。
+
+## Related Tasks
+
+TASK-20260902-001, TASK-20260908-002
+
+## Verified implementation
+
+pom.xml。採用理由・議論はSimulated。"
+ADR-20260902-002,原文をPostgreSQLへ保存,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260902-003, TASK-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+原文をPostgreSQLへ保存を、限られた作業枠で選ぶ。
+
+## Options
+
+Spring JDBC + PostgreSQL／メモリのみ、ファイル保存
+
+## Trade-offs
+
+再入室と履歴保持の要件を満たし、SQLと一意制約を直接確認できる。初期試作のみメモリで契約を試す。
+
+## Decision
+
+Spring JDBC + PostgreSQL
+
+## Reason
+
+再入室と履歴保持の要件を満たし、SQLと一意制約を直接確認できる。初期試作のみメモリで契約を試す。
+
+## Consequences
+
+3表の参照整合性を使う。接続設定・DB運用の学習負担が増える。
+
+## Risks
+
+3表の参照整合性を使う。接続設定・DB運用の学習負担が増える。
+
+## Related Tasks
+
+TASK-20260902-003, TASK-20260916-001
+
+## Verified implementation
+
+src/main/resources/schema.sql。採用理由・議論はSimulated。"
+ADR-20260909-001,招待コードと参加トークン,2026-09-09,全員,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, TASK-20260909-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260909-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+招待コードと参加トークンを、限られた作業枠で選ぶ。
+
+## Options
+
+12文字招待コード + ランダム参加トークン／表示名だけ、アカウント登録
+
+## Trade-offs
+
+登録なしの雑談を優先する一方、表示名を認証情報には使わない。トークンはSHA-256で保存する。
+
+## Decision
+
+12文字招待コード + ランダム参加トークン
+
+## Reason
+
+登録なしの雑談を優先する一方、表示名を認証情報には使わない。トークンはSHA-256で保存する。
+
+## Consequences
+
+招待コードを知る人は履歴にアクセス可能。本人確認・招待失効・期限は未実装。
+
+## Risks
+
+招待コードを知る人は履歴にアクセス可能。本人確認・招待失効・期限は未実装。
+
+## Related Tasks
+
+TASK-20260909-001, TASK-20260909-002
+
+## Verified implementation
+
+src/main/java/jp/translatechat/ChatService.java。採用理由・議論はSimulated。"
+ADR-20260915-001,2秒ポーリングと原文交換,2026-09-15,全員,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, TASK-20260916-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260915-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-15 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+2秒ポーリングと原文交換を、限られた作業枠で選ぶ。
+
+## Options
+
+HTTP state API + after / before／WebSocket、全履歴の毎回取得
+
+## Trade-offs
+
+初チーム開発で双方向接続の管理を増やさず、差分取得を理解する。ページングは次回に具体化。
+
+## Decision
+
+HTTP state API + after / before
+
+## Reason
+
+初チーム開発で双方向接続の管理を増やさず、差分取得を理解する。ページングは次回に具体化。
+
+## Consequences
+
+遅延・リクエスト増加の制約が残る。将来の順序問題はこの時点で解決済みとしない。
+
+## Risks
+
+遅延・リクエスト増加の制約が残る。将来の順序問題はこの時点で解決済みとしない。
+
+## Related Tasks
+
+TASK-20260915-002, TASK-20260916-002
+
+## Verified implementation
+
+src/main/java/jp/translatechat/ChatController.java。採用理由・議論はSimulated。"
+ADR-20260922-001,日英の端末内翻訳と原文継続,2026-09-22,全員,完了（模擬）,Simulated,反復開発,"TASK-20260922-001, TASK-20260922-002, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260922-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+日英の端末内翻訳と原文継続を、限られた作業枠で選ぶ。
+
+## Options
+
+Chrome Translator / LanguageDetector、原文フォールバック／外部翻訳API、翻訳必須の入室条件
+
+## Trade-offs
+
+APIキーと翻訳サーバーを不要にする。対象はPC Chromeに絞り、準備失敗で会話を止めない。
+
+## Decision
+
+Chrome Translator / LanguageDetector、原文フォールバック
+
+## Reason
+
+APIキーと翻訳サーバーを不要にする。対象はPC Chromeに絞り、準備失敗で会話を止めない。
+
+## Consequences
+
+スマホと非対応環境は原文。訳文品質・混在短文の判定は別途評価が必要。
+
+## Risks
+
+スマホと非対応環境は原文。訳文品質・混在短文の判定は別途評価が必要。
+
+## Related Tasks
+
+TASK-20260922-001, TASK-20260922-002, TASK-20260923-002
+
+## Verified implementation
+
+src/main/resources/static/translator.js。採用理由・議論はSimulated。"
+ADR-20260929-001,再試行の識別と保存順序,2026-09-29,全員,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260929-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+再試行の識別と保存順序を、限られた作業枠で選ぶ。
+
+## Options
+
+clientId一意制約 + 部屋行FOR NO KEY UPDATE／時刻順のみ、クライアントだけで重複除去
+
+## Trade-offs
+
+ID採番順とコミット順がずれるとafterで未確定の低IDを飛ばす。採番前に部屋単位で直列化する。
+
+## Decision
+
+clientId一意制約 + 部屋行FOR NO KEY UPDATE
+
+## Reason
+
+ID採番順とコミット順がずれるとafterで未確定の低IDを飛ばす。採番前に部屋単位で直列化する。
+
+## Consequences
+
+同室送信は待機する。別室は独立。表示カーソルの問題は翌日のクライアント検証で調べる。
+
+## Risks
+
+同室送信は待機する。別室は独立。表示カーソルの問題は翌日のクライアント検証で調べる。
+
+## Related Tasks
+
+TASK-20260929-001, TASK-20260929-002
+
+## Verified implementation
+
+src/main/java/jp/translatechat/ChatService.java。採用理由・議論はSimulated。"
+ADR-20261013-001,コンテナ共用とクラウド設定,2026-10-13,全員,完了（模擬）,Simulated,反復開発,"TASK-20261013-001, TASK-20261013-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20261013-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: 全員
+
+## Context
+
+3人全員で設計案を比較した再現例。現在の採用構成との対応を確認する。
+
+## Problem
+
+コンテナ共用とクラウド設定を、限られた作業枠で選ぶ。
+
+## Options
+
+Dockerfile共用 + Vercel設定 + Neon PG*／PCのローカルDBを公開、環境ごとに別コード
+
+## Trade-offs
+
+秘密を環境変数に分離し、PG*とCHAT_DB_*の互換性を確保する。verify-fullでTLSを検証する。
+
+## Decision
+
+Dockerfile共用 + Vercel設定 + Neon PG*
+
+## Reason
+
+秘密を環境変数に分離し、PG*とCHAT_DB_*の互換性を確保する。verify-fullでTLSを検証する。
+
+## Consequences
+
+Free枠の容量・継続運用・公開URLは確認事項。設定ファイルの存在はデプロイ成功の証拠ではない。
+
+## Risks
+
+Free枠の容量・継続運用・公開URLは確認事項。設定ファイルの存在はデプロイ成功の証拠ではない。
+
+## Related Tasks
+
+TASK-20261013-001, TASK-20261013-002
+
+## Verified implementation
+
+src/main/resources/application-cloud.properties。採用理由・議論はSimulated。"

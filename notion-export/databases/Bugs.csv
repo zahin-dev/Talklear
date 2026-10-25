@@ -1,0 +1,473 @@
+﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+BUG-20260909-001,APIの入力名の認識違い,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-003, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260909-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: member2
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+不正な入力として400になる想定
+
+## 発生条件
+
+入室フォームがnameを送る試作案
+
+## 再現手順
+
+作成フォームで名前を入れて送信する
+
+## 期待結果
+
+displayNameで契約を統一し201を得る
+
+## 実際の結果
+
+不正な入力として400になる想定。実測ではない。
+
+## 影響範囲
+
+フォームとJoinRequestの接続
+
+## 原因仮説
+
+画面とAPIで別の語彙を使った可能性
+
+## 調査過程
+
+member2が送信JSON、member1がJoinRequestを並べて確認する再現例
+
+## 根本原因（模擬）
+
+nameとdisplayNameの契約不一致
+
+## 修正内容（模擬）
+
+displayNameへ統一する設計に変更。完成版は一致。
+
+## 回帰テスト
+
+入室のHTTP確認。実行は未確認。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/java/jp/translatechat/ChatController.java
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20260916-001,過去履歴の境界が重複する,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260916-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: member1
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+境界を含む試作SQLでは同じ発言が再び現れる想定
+
+## 発生条件
+
+100件を超える履歴の追加取得
+
+## 再現手順
+
+beforeに先頭IDを指定して読む
+
+## 期待結果
+
+指定ID未満だけを取得する
+
+## 実際の結果
+
+境界を含む試作SQLでは同じ発言が再び現れる想定。実測ではない。
+
+## 影響範囲
+
+過去履歴
+
+## 原因仮説
+
+<=を使っていた可能性
+
+## 調査過程
+
+110件のケースをテスト設計する再現例
+
+## 根本原因（模擬）
+
+カーソル境界の包含条件
+
+## 修正内容（模擬）
+
+id < before、101件で続き判定、昇順へ反転。
+
+## 回帰テスト
+
+pagingLoadsOlderHistoryWithoutRepeatingTheCursor。今回の実行欄を参照。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/java/jp/translatechat/ChatService.java
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20260922-001,翻訳失敗後に準備中へ戻る,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260922-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: member2
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+古い進捗でpreparingへ戻る想定
+
+## 発生条件
+
+一方のモデル準備失敗後に遅延progressが届く
+
+## 再現手順
+
+準備失敗後、保存したprogressコールバックを実行する
+
+## 期待結果
+
+error状態を保つ
+
+## 実際の結果
+
+古い進捗でpreparingへ戻る想定。実測ではない。
+
+## 影響範囲
+
+翻訳状態表示
+
+## 原因仮説
+
+非同期イベントに世代確認がない可能性
+
+## 調査過程
+
+モックのイベント順を逆にする再現例
+
+## 根本原因（模擬）
+
+試行世代を区別しない状態更新
+
+## 修正内容（模擬）
+
+attemptとstatusで古いイベントを無視する。
+
+## 回帰テスト
+
+translator.test.mjs 1件目。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/resources/static/translator.js
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20260923-001,一件の翻訳失敗が後続を止める,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260923-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: member2
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+連鎖したrejectで次も失敗する想定
+
+## 発生条件
+
+翻訳Promiseがrejectする
+
+## 再現手順
+
+失敗メッセージの次に正常な文章を翻訳する
+
+## 期待結果
+
+後続翻訳を継続し、失敗分は原文を表示
+
+## 実際の結果
+
+連鎖したrejectで次も失敗する想定。実測ではない。
+
+## 影響範囲
+
+翻訳キュー
+
+## 原因仮説
+
+queueのrejectが残る可能性
+
+## 調査過程
+
+2回のtranslate呼出しを独立して観察する再現例
+
+## 根本原因（模擬）
+
+回復しないPromise連鎖
+
+## 修正内容（模擬）
+
+queue=job.catch(() => {})、呼出元には失敗を返す。
+
+## 回帰テスト
+
+translator.test.mjs 3件目。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/resources/static/translator.js
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20260929-001,送信再試行で二重保存,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member1
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+別IDで二重登録される想定
+
+## 発生条件
+
+保存成功後に応答を失う
+
+## 再現手順
+
+同じclientIdと本文で2回送信する
+
+## 期待結果
+
+同じメッセージIDを返す
+
+## 実際の結果
+
+別IDで二重登録される想定。実測ではない。
+
+## 影響範囲
+
+送信・保存
+
+## 原因仮説
+
+通信成功と保存成功を同一視した可能性
+
+## 調査過程
+
+DB制約とAPIの再試行を照合する再現例
+
+## 根本原因（模擬）
+
+再試行を識別しない保存設計
+
+## 修正内容（模擬）
+
+部屋・参加者・clientIdを一意にする。同IDの本文変更は409。
+
+## 回帰テスト
+
+retryDoesNotDuplicateMessageAndChangedPayloadIsRejected。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/java/jp/translatechat/ChatService.java
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20260929-002,未確定の低IDメッセージを飛ばす,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member1
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+高IDだけ見てafterを進め低IDが欠落する想定
+
+## 発生条件
+
+同室で採番後のトランザクションが遅れる
+
+## 再現手順
+
+低IDを未確定にし、別送信とafter取得を進める
+
+## 期待結果
+
+保存済み順序に沿い全発言を取得
+
+## 実際の結果
+
+高IDだけ見てafterを進め低IDが欠落する想定。実測ではない。
+
+## 影響範囲
+
+同室同時送信
+
+## 原因仮説
+
+sequence順とcommit順の不一致
+
+## 調査過程
+
+zahin-devがロック待ちを含むテスト案を作る再現例
+
+## 根本原因（模擬）
+
+採番前の同室送信直列化不足
+
+## 修正内容（模擬）
+
+部屋行FOR NO KEY UPDATEを採番前に取得する。
+
+## 回帰テスト
+
+concurrentSendsCannotCommitAYoungerMessageBeforeAnOlderOne。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/java/jp/translatechat/ChatService.java
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20260930-001,送信応答が新着カーソルを進める,2026-09-30,member2,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260930-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: member2
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+cursor=12として11が飛ぶ想定
+
+## 発生条件
+
+他人の発言より先に自分の送信応答が届く
+
+## 再現手順
+
+cursor=10で他人11、自分12の送信応答を先に処理
+
+## 期待結果
+
+次回pollで11を取得する
+
+## 実際の結果
+
+cursor=12として11が飛ぶ想定。実測ではない。
+
+## 影響範囲
+
+画面の新着取得
+
+## 原因仮説
+
+表示済IDと取得済IDの混同
+
+## 調査過程
+
+MessageFeedへ受信経路を分離する再現例
+
+## 根本原因（模擬）
+
+送信応答でafterを進める設計
+
+## 修正内容（模擬）
+
+addとreceiveを分け、poll応答だけcursor更新、DOMはID位置へ挿入。
+
+## 回帰テスト
+
+message-feed.test.mjs 1・2件目。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/resources/static/message-feed.js
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"
+BUG-20261013-001,プロキシ越しのOriginが一致しない,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20261013-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: zahin-dev
+
+## Classification
+
+Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+
+## 症状
+
+内部HTTPとの比較で403になる想定
+
+## 発生条件
+
+外側HTTPS・アプリ側HTTP
+
+## 再現手順
+
+正規HTTPS OriginでPOSTする
+
+## 期待結果
+
+CHAT_PUBLIC_ORIGINと一致すれば許可する
+
+## 実際の結果
+
+内部HTTPとの比較で403になる想定。実測ではない。
+
+## 影響範囲
+
+クラウド書込み
+
+## 原因仮説
+
+リクエスト内部URLを公開URLとして扱った可能性
+
+## 調査過程
+
+転送ヘッダー偽装と正規Originの両方を検討する再現例
+
+## 根本原因（模擬）
+
+公開Origin設定の不足
+
+## 修正内容（模擬）
+
+設定された公開Originを検証して使用し、偽装転送ヘッダーを信用しない。
+
+## 回帰テスト
+
+SecurityHeadersTest 4件。 本実行の結果はTests正本で管理。
+
+## 対象コード
+
+src/main/java/jp/translatechat/SecurityHeaders.java
+
+## 対応ステータス
+
+現行対策との整合を静的確認。過去の修正実績はUnverified。"

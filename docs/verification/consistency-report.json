@@ -1,0 +1,174 @@
+{
+  "checked_at_utc": "2026-10-25T07:06:10.689289+00:00",
+  "counts": {
+    "ADR": 7,
+    "Bugs": 8,
+    "Code Reviews": 10,
+    "Tests": 10,
+    "Meetings": 6,
+    "KPT": 7,
+    "Development Sessions": 14,
+    "Tasks": 32,
+    "Milestones": 5
+  },
+  "checks": [
+    {
+      "check": "unique IDs",
+      "passed": true
+    },
+    {
+      "check": "record date matches ID",
+      "passed": true
+    },
+    {
+      "check": "all related IDs exist",
+      "passed": true
+    },
+    {
+      "check": "required counts",
+      "passed": true
+    },
+    {
+      "check": "14 development dates",
+      "passed": true
+    },
+    {
+      "check": "development Tue/Wed; KPT Thu",
+      "passed": true
+    },
+    {
+      "check": "7 KPT dates",
+      "passed": true
+    },
+    {
+      "check": "210 person hours; 70 per member",
+      "passed": true
+    },
+    {
+      "check": "no 10/18 extra development",
+      "passed": true
+    },
+    {
+      "check": "dependency dates",
+      "passed": true
+    },
+    {
+      "check": "dependency graph acyclic",
+      "passed": true
+    },
+    {
+      "check": "KPT improvement task links",
+      "passed": true
+    },
+    {
+      "check": "KPT continuation outcome present",
+      "passed": true
+    },
+    {
+      "check": "all record files and Notion mappings exist",
+      "passed": true
+    },
+    {
+      "check": "simulation disclosure on every record",
+      "passed": true
+    },
+    {
+      "check": "tests separate expectation and execution",
+      "passed": true
+    },
+    {
+      "check": "successful test records require current evidence",
+      "passed": true
+    },
+    {
+      "check": "all 48 snapshot paths preserved",
+      "passed": true
+    },
+    {
+      "check": "only four permitted document differences",
+      "passed": true
+    },
+    {
+      "check": "44 application test config files byte identical",
+      "passed": true
+    },
+    {
+      "check": "no extra source or application test files",
+      "passed": true
+    },
+    {
+      "check": "REV-20260909-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260915-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260916-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260922-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260923-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260929-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260929-002 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260930-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20261006-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20261013-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "dedicated simulation author and committer",
+      "passed": true
+    },
+    {
+      "check": "no backdated commits",
+      "passed": true
+    },
+    {
+      "check": "one independent root commit",
+      "passed": true
+    },
+    {
+      "check": "no runtime credential or data paths",
+      "passed": true
+    },
+    {
+      "check": "credential pattern scan (bounded heuristic)",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "source_modified_docs": [
+    "docs/basic-design.md",
+    "docs/deployment.md",
+    "docs/requirements.md",
+    "README.md"
+  ],
+  "source_missing": [],
+  "credential_suspect_paths": [],
+  "limits": [
+    "Notion publication and remote CI require separate live verification.",
+    "No historical activity or browser translation quality is proved.",
+    "Credential pattern scan is heuristic; manual review also required."
+  ]
+}

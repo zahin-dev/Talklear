@@ -1,0 +1,311 @@
+﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+TEST-20260909-001,ルーム・参加・部屋分離,2026-09-09,zahin-dev,未実行,Simulated,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260909-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: zahin-dev
+
+## テスト種別
+
+HTTP + PostgreSQL
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+ChatIntegrationTest: groupConversationKeepsOriginalsAndPresence / anotherRoomAndMissingCredentialsCannotReadOrWrite / leaveRevokesTokenAndRejoinReadsSavedHistory
+
+## 期待結果
+
+作成201、別室トークン401、退出後401
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+ChatIntegrationTest: groupConversationKeepsOriginalsAndPresence / anotherRoomAndMissingCredentialsCannotReadOrWrite / leaveRevokesTokenAndRejoinReadsSavedHistory
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20260916-001,履歴ページングと再入室,2026-09-16,zahin-dev,未実行,Simulated,反復開発,"TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260916-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: zahin-dev
+
+## テスト種別
+
+HTTP + PostgreSQL
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+ChatIntegrationTest: pagingLoadsOlderHistoryWithoutRepeatingTheCursor / leaveRevokesTokenAndRejoinReadsSavedHistory
+
+## 期待結果
+
+最近100件、残り10件、境界重複なし
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+ChatIntegrationTest: pagingLoadsOlderHistoryWithoutRepeatingTheCursor / leaveRevokesTokenAndRejoinReadsSavedHistory
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20260922-001,翻訳モジュールの回帰,2026-09-22,zahin-dev,実行成功,Simulated,反復開発,"TASK-20260922-002, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260922-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: zahin-dev
+
+## テスト種別
+
+Node.js（Chrome APIモック）
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+tests/translator.test.mjs
+
+## 期待結果
+
+遅延progress無効、準備再試行、後続翻訳継続
+
+## 実行結果
+
+Verified：再構成コミットでNode.js v24.15.0により3件成功。実行日は2026-10-25（JST）。Chrome APIはモックであり実訳文の品質を証明しない。ログ：docs/verification/translation-stage-test.log
+
+## 対象コード・ケース
+
+tests/translator.test.mjs
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20260929-001,再試行・同時送信,2026-09-29,zahin-dev,未実行,Simulated,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260929-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: zahin-dev
+
+## テスト種別
+
+HTTP + PostgreSQL
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+ChatIntegrationTest: retryDoesNotDuplicateMessageAndChangedPayloadIsRejected / concurrentSendsCannotCommitAYoungerMessageBeforeAnOlderOne
+
+## 期待結果
+
+同ID再試行は一件、本文変更409、ロック待ちの後に順序保証
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+ChatIntegrationTest: retryDoesNotDuplicateMessageAndChangedPayloadIsRejected / concurrentSendsCannotCommitAYoungerMessageBeforeAnOlderOne
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20260930-001,新着カーソルの回帰,2026-09-30,zahin-dev,実行成功,Simulated,反復開発,TASK-20260930-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: zahin-dev
+
+## テスト種別
+
+Node.js
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+tests/message-feed.test.mjs
+
+## 期待結果
+
+自分の応答で他人発言を飛ばさず、履歴や重複でcursorを進めず、別室でclear
+
+## 実行結果
+
+Verified：再構成コミットでNode.js v24.15.0により3件成功。実行日は2026-10-25（JST）。Chrome APIはモックであり実訳文の品質を証明しない。ログ：docs/verification/feed-stage-test.log
+
+## 対象コード・ケース
+
+tests/message-feed.test.mjs
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20260930-002,入力・Origin・頻度制限,2026-09-30,zahin-dev,未実行,Simulated,反復開発,TASK-20260930-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: zahin-dev
+
+## テスト種別
+
+JUnit + HTTP + PostgreSQL
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+ChatIntegrationTest / SecurityHeadersTest / RequestLimitsTest
+
+## 期待結果
+
+長文400、過大本文413、不正Origin403、頻度429
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+ChatIntegrationTest / SecurityHeadersTest / RequestLimitsTest
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20261006-001,日英UI・入力保持・キーボード,2026-10-06,zahin-dev,未実行,Simulated,反復開発,"TASK-20261006-001, TASK-20261006-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261006-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-06 / Owner: zahin-dev
+
+## テスト種別
+
+手動ブラウザ
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+src/main/resources/static/app.js / sidebar.js / style.css
+
+## 期待結果
+
+言語切替で入力を保持、左右キーで幅変更、退出取消、400px幅と640x360の表示
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+src/main/resources/static/app.js / sidebar.js / style.css
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20261013-001,クラウド設定の解決,2026-10-13,zahin-dev,未実行,Simulated,反復開発,TASK-20261013-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: zahin-dev
+
+## テスト種別
+
+JUnit（設定ファイル解決）
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+CloudConfigurationTest / SecurityHeadersTest
+
+## 期待結果
+
+PG*でTLS検証、明示CHAT_DB_*優先、Originの妥当性
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+CloudConfigurationTest / SecurityHeadersTest
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20261013-002,コンテナと履歴永続性,2026-10-13,zahin-dev,未実行,Simulated,反復開発,TASK-20261013-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: zahin-dev
+
+## テスト種別
+
+Docker統合
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+tests/docker-smoke.test.mjs
+
+## 期待結果
+
+3人参加、送受信、Origin拒否、コンテナ再作成後に履歴保持
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+tests/docker-smoke.test.mjs
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
+TEST-20261014-001,Chrome日英翻訳・原文・公開URL,2026-10-14,zahin-dev,未実行,Simulated,反復開発,TASK-20261014-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261014-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+
+Evidence Type: Simulated / Simulation Date: 2026-10-14 / Owner: zahin-dev
+
+## テスト種別
+
+手動Chrome / クラウド
+
+## 背景・目的
+
+模擬開発の受入条件として設計する。以下の実行結果だけが現在の実測である。
+
+## 前提・手順
+
+実Chromeと新規デプロイを要する。元アプリの利用者データへ書き込まない。
+
+## 期待結果
+
+日英双方向と原文、失敗時の継続、認証なしの閲覧
+
+## 実行結果
+
+未実行。ローカルJava・Maven未導入、Dockerエンジン停止。実Chrome・公開アプリの操作も今回未実施。
+
+## 対象コード・ケース
+
+実Chromeと新規デプロイを要する。元アプリの利用者データへ書き込まない。
+
+## 模擬活動との区別
+
+シミュレーション日に実行された証拠はない。元READMEの成功件数はUnverifiedとして扱う。"
