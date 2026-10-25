@@ -1,5 +1,10 @@
 # アクセス設定
 
-GitHub管理リポジトリはPrivate。Notionの親ページはSites未公開、一般アクセスは招待者のみ。元のアプリリポジトリと公開アプリの設定は変更しない。
+2026-10-25にGitHub管理リポジトリをPublicへ変更。Notionの親ページと配下の9データベース・子ページをWeb公開し、リンクを知っている人がログインなしで閲覧できる設定です。Notionの検索エンジンへの掲載は、ユーザーの指定によりオフです。
 
-設定変更の記録・匿名アクセス結果・未検証事項は[監査報告](../../reports/private-workspace-audit.md)に日付付きで残す。公開時の記録はreports/archive配下に保管し、現在の設定判定へ流用しない。
+- [GitHubリポジトリ](https://github.com/zahin-dev/talklear-development-simulation)
+- [Notion公開ダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99)
+
+親ページ、9データベース、計画・チーム・出典の3子ページ、およびタスク詳細本文の匿名閲覧を確認しました。元のアプリリポジトリと公開アプリの設定は変更していません。
+
+過去の非公開監査やreports配下の記録は当時の状態を示す履歴です。現在のアクセス設定はこのページを参照してください。
