@@ -2,7 +2,7 @@
 
 Talklearの日英翻訳チャットのコード、設計、タスク、検証を管理する個人用ワークスペースです。
 
-[Notionダッシュボード](https://app.notion.com/p/404bfd032199810eac93f56f7cf89f99) / [計画](docs/project/master-plan.md) / [技術設計](docs/design/architecture.md) / [監査結果](reports/private-workspace-audit.md)
+[Notionダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99) / [計画](docs/project/master-plan.md) / [技術設計](docs/design/architecture.md) / [監査結果](reports/private-workspace-audit.md)
 
 ## MVPと技術構成
 
@@ -22,4 +22,4 @@ Docker DesktopとPowerShellを用意し、`./Start-Docker.ps1`を実行します
 
 `python scripts/verify_records.py`でID・日程・参照・出典・アクセス証拠・ソースハッシュを照合します。`node --test tests/translator.test.mjs tests/message-feed.test.mjs`でブラウザロジックを検証できます。Java/DBは準備済みのテスト環境で`./Test-App.ps1`、Docker結合は独立環境で`./Test-Docker.ps1`を使用します。実測の結果と未実行項目はテスト記録を参照してください。
 
-GitHubとNotionは非公開で管理します。開発記録は工程モデルとして整理しており、出典と実測の区分は管理用資料に集約しています。
+GitHubはPublic、Notionはリンクを知っている人がログインなしで閲覧できるWeb公開設定です。Notionの検索エンジンへの掲載はオフです。開発記録は工程モデルとして整理しており、出典と実測の区分は管理用資料に集約しています。
