@@ -42,15 +42,12 @@ Talklearの日英翻訳チャットのコード、設計、タスク、検証を
 
 元アプリとCompose名が同じため、既存の環境と同時に再作成テストを行わないでください。パスワードや実データはGit管理外の`.local/`へ保存します。
 
-<details>
-<summary>📦 Dockerを使わずに起動する</summary>
+### 📦 Dockerを使わずに起動する
 
 ```powershell
 ./Setup.ps1
 ./Start-App.ps1
 ```
-
-</details>
 
 <a id="features"></a>
 
@@ -97,8 +94,7 @@ node --test tests/translator.test.mjs tests/message-feed.test.mjs
 
 `verify_records.py`は、ID・日程・参照・出典・アクセス証拠・ソースハッシュを照合します。
 
-<details>
-<summary>🔎 Java / DB・Dockerの検証コマンド</summary>
+### 🔎 Java / DB・Dockerの検証コマンド
 
 Java / DBは準備済みのテスト環境で実行します。
 
@@ -111,8 +107,6 @@ Docker結合は独立環境で実行します。
 ```powershell
 ./Test-Docker.ps1
 ```
-
-</details>
 
 実測の結果と未実行項目は、[テスト記録](docs/testing)を参照してください。
 
