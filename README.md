@@ -1,25 +1,123 @@
-# Talklear Development Workspace
+<h1 align="center">💬 Talklear</h1>
 
-Talklearの日英翻訳チャットのコード、設計、タスク、検証を管理する個人用ワークスペースです。
+<p align="center">
+  <b>日英の端末内翻訳で、言葉をつなぐルームチャット。</b><br>
+  コード・設計・タスク・検証をまとめた Development Workspace
+</p>
 
-[Notionダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99) / [計画](docs/project/master-plan.md) / [技術設計](docs/design/architecture.md) / [監査結果](reports/private-workspace-audit.md)
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-E76F00?style=flat-square" alt="Java 21">
+  <img src="https://img.shields.io/badge/Spring_Boot-3.5.16-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot 3.5.16">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=222222" alt="JavaScript">
+</p>
 
-## MVPと技術構成
+<p align="center">
+  <a href="https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99">Notionダッシュボード</a> ·
+  <a href="#quickstart">クイックスタート</a> ·
+  <a href="#features">主な機能</a> ·
+  <a href="#documentation">ドキュメント</a> ·
+  <a href="#verification">検証</a>
+</p>
 
-部屋作成・参加、原文チャット、PostgreSQLへの保存と履歴、日英の端末内翻訳、原文表示に対応します。Java 21 / Spring Boot 3.5.16 / Spring JDBC、HTML/CSS/JavaScript、PostgreSQL、Chrome Translator / LanguageDetectorを使用します。
+---
 
-## ローカル起動
+Talklearの日英翻訳チャットのコード、設計、タスク、検証を管理する個人用ワークスペースです。開発記録は工程モデルとして整理しており、出典と実測の区分は[管理用資料](docs/admin/record-sources.md)に集約しています。
 
-Docker DesktopとPowerShellを用意し、`./Start-Docker.ps1`を実行します。停止は`./Stop-Docker.ps1`。非Docker版は`./Setup.ps1`、`./Start-App.ps1`を使用します。パスワードや実データはGit管理外の`.local/`へ保存します。元アプリとCompose名が同じため、既存の環境と同時に再作成テストを行わないでください。
+<a id="quickstart"></a>
 
-## ドキュメント
+## ⚡ クイックスタート
 
-- [要件](docs/requirements.md)、[API](docs/design/api.md)、[DB](docs/design/database.md)、[アプリ公開設定](docs/deployment.md)
-- [開発日程](docs/project/timeline.md)、[チーム](docs/project/team.md)、[ID台帳](docs/project/id-ledger.json)
-- [テスト計画](docs/testing/plan.md)、[アクセス設定](docs/deployment/access-settings.md)、[記録の出典](docs/admin/record-sources.md)
+**Docker Desktop**と**PowerShell**を用意し、リポジトリのルートで実行します。
 
-## 検証
+```powershell
+./Start-Docker.ps1
+```
 
-`python scripts/verify_records.py`でID・日程・参照・出典・アクセス証拠・ソースハッシュを照合します。`node --test tests/translator.test.mjs tests/message-feed.test.mjs`でブラウザロジックを検証できます。Java/DBは準備済みのテスト環境で`./Test-App.ps1`、Docker結合は独立環境で`./Test-Docker.ps1`を使用します。実測の結果と未実行項目はテスト記録を参照してください。
+停止するときは、次のコマンドを実行します。
 
-GitHubはPublic、Notionはリンクを知っている人がログインなしで閲覧できるWeb公開設定です。Notionの検索エンジンへの掲載はオフです。開発記録は工程モデルとして整理しており、出典と実測の区分は管理用資料に集約しています。
+```powershell
+./Stop-Docker.ps1
+```
+
+元アプリとCompose名が同じため、既存の環境と同時に再作成テストを行わないでください。パスワードや実データはGit管理外の`.local/`へ保存します。
+
+<details>
+<summary>📦 Dockerを使わずに起動する</summary>
+
+```powershell
+./Setup.ps1
+./Start-App.ps1
+```
+
+</details>
+
+<a id="features"></a>
+
+## 🎯 主な機能
+
+- **ルームチャット** — 部屋の作成・参加と、原文メッセージの送受信。
+- **メッセージ保存** — PostgreSQLへの保存と履歴の取得。
+- **日英の端末内翻訳** — Chrome Translator / LanguageDetectorを使用。
+- **原文表示** — 翻訳に加えて、元のメッセージも確認。
+
+## 🧩 技術構成
+
+| 領域 | 使用技術 |
+| :--- | :--- |
+| バックエンド | Java 21 / Spring Boot 3.5.16 / Spring JDBC |
+| フロントエンド | HTML / CSS / JavaScript |
+| データベース | PostgreSQL |
+| 翻訳・言語判定 | Chrome Translator / LanguageDetector |
+
+📖 [アーキテクチャ](docs/design/architecture.md) · [API設計](docs/design/api.md) · [DB設計](docs/design/database.md)
+
+<a id="documentation"></a>
+
+## 📚 ドキュメント
+
+| 分類 | 資料 |
+| :--- | :--- |
+| 企画・要件 | [要件](docs/requirements.md) · [計画](docs/project/master-plan.md) |
+| 開発管理 | [開発日程](docs/project/timeline.md) · [チーム](docs/project/team.md) · [ID台帳](docs/project/id-ledger.json) |
+| 設計 | [技術設計](docs/design/architecture.md) · [API](docs/design/api.md) · [DB](docs/design/database.md) |
+| 公開・運用 | [アプリ公開設定](docs/deployment.md) · [アクセス設定](docs/deployment/access-settings.md) |
+| 品質・記録 | [テスト計画](docs/testing/plan.md) · [記録の出典](docs/admin/record-sources.md) · [過去の非公開監査結果](reports/private-workspace-audit.md) |
+
+<a id="verification"></a>
+
+## 🧪 検証
+
+記録の整合性とブラウザロジックを、次のコマンドで確認できます。
+
+```powershell
+python scripts/verify_records.py
+node --test tests/translator.test.mjs tests/message-feed.test.mjs
+```
+
+`verify_records.py`は、ID・日程・参照・出典・アクセス証拠・ソースハッシュを照合します。
+
+<details>
+<summary>🔎 Java / DB・Dockerの検証コマンド</summary>
+
+Java / DBは準備済みのテスト環境で実行します。
+
+```powershell
+./Test-App.ps1
+```
+
+Docker結合は独立環境で実行します。
+
+```powershell
+./Test-Docker.ps1
+```
+
+</details>
+
+実測の結果と未実行項目は、[テスト記録](docs/testing)を参照してください。
+
+## 🌐 公開・共有
+
+GitHubは**Public**、[Notionダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99)は**リンクを知っている人がログインなしで閲覧できるWeb公開設定**です。Notionの検索エンジンへの掲載はオフです。
+
+📖 現在の設定は[アクセス設定](docs/deployment/access-settings.md)にまとめています。
