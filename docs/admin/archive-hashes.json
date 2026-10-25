@@ -1,0 +1,86 @@
+[
+  {
+    "path": "reports/archive/2026-10-25-publication/ci-run-initial.json",
+    "source_path": "reports/ci-run-initial.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "8c0ec934b36ab05659c83d68c26435a2ace82ecc4756fc90af9274a5ed8fd32e"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/ci-run.json",
+    "source_path": "reports/ci-run.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "501e798e57fa5390d4e8e2dcb3aa4801bfdee581bcb42b08cea45a23a13fcecd"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/ci-test-summary.log",
+    "source_path": "reports/ci-test-summary.log",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "2e1f70ea666f037f0c0d9a2e3b5c9a7a7b3f592a3d3d674a4fc94794b24b48fb"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/consistency-report.json",
+    "source_path": "docs/verification/consistency-report.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "f24f855db57dfd0ebbfcf49dea1322ca240dcaa40be3cbef433dfbc93ff76054"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/consistency-report.md",
+    "source_path": "docs/verification/consistency-report.md",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "0bda0cfac6a4ae8fe57fe3c93d63e58a63e6904c20ef5511a394d30833e5a89e"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/execution-report.md",
+    "source_path": "reports/execution-report.md",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "47556e45a7a461b01ae0e3a71590b4c3074189f8fe4c5c9edf386a45fb1d9a34"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/file-inventory.json",
+    "source_path": "reports/file-inventory.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "5ebf5621d3c41f5dbe9876eefad2dfdd7ef6ed3ea8767bf66fdff6ca1fc656b4"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/notion-public.png",
+    "source_path": "reports/notion-public.png",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "5c9d108375203627db69121fdd4ad2ef0c5334e72485614a92086c884ad62dac"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/notion-verification.json",
+    "source_path": "reports/notion-verification.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "96de0358d41a09f00f40cd1f8e7e29dd97977c1b9811ce70875df4029030ada0"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/public-browser-checks.json",
+    "source_path": "reports/public-browser-checks.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "6b82a77584710dcf13bfd77a42e59fa5b407a9411b450436a55e1f2681687240"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/publication.json",
+    "source_path": "reports/publication.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "c1f9bed3add71f7620bf0e2261b10ad2e9319b9c026c383fd50b558da4d61387"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/remaining-actions.md",
+    "source_path": "reports/remaining-actions.md",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "9ea71b893470f0ab53cc96c14847306ef72c593edaa22a813c4794cc7623b254"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/source-diff.md",
+    "source_path": "docs/verification/source-diff.md",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "e6674ab7552d2afa191cd71117fcfdc77094ff2fcfea4d36252d37e0b2ae1e23"
+  },
+  {
+    "path": "reports/archive/2026-10-25-publication/source-protection.json",
+    "source_path": "reports/source-protection.json",
+    "source_commit": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+    "sha256": "61ca662848eb5e0252bca2b61d1cf51afdee34aa04e7adf41dbb3b23ebd863be"
+  }
+]

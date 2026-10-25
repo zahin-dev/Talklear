@@ -1,7 +1,5 @@
-﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-TASK-20260901-001,課題・対象利用者・チーム規約,2026-09-01,全員,完了（模擬）,Simulated,企画・基本設計,"DEV-20260901-001, MTG-20260901-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
-
-Evidence Type: Simulated / Simulation Date: 2026-09-01 / Owner: 全員
+﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+TASK-20260901-001,課題・対象利用者・チーム規約,2026-09-01,全員,完了（模擬）,Simulated,企画・基本設計,"DEV-20260901-001, MTG-20260901-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-001.md,"工程モデル | 工程日：2026-09-01 | 担当：全員
 
 ## 課題・背景
 
@@ -25,7 +23,7 @@ High（MVP）。改善バックログはLow。
 
 ## 実施内容
 
-課題・対象利用者・チーム規約。成果の対応先：docs/project/charter.md
+課題・対象利用者・チーム規約。成果の対応先：`docs/project/charter.md`
 
 ## 完了条件・受け入れ基準
 
@@ -41,7 +39,7 @@ High（MVP）。改善バックログはLow。
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -49,14 +47,14 @@ DEV-20260901-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-MTG-20260901-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260901-002,MVP範囲と受入条件,2026-09-01,全員,完了（模擬）,Simulated,企画・基本設計,"TASK-20260901-001, DEV-20260901-001, MTG-20260901-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+MTG-20260901-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-01 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-001.md)"
+TASK-20260901-002,MVP範囲と受入条件,2026-09-01,全員,完了（模擬）,Simulated,企画・基本設計,"TASK-20260901-001, DEV-20260901-001, MTG-20260901-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-002.md,"工程モデル | 工程日：2026-09-01 | 担当：全員
 
 ## 課題・背景
 
@@ -80,7 +78,7 @@ TASK-20260901-001
 
 ## 実施内容
 
-MVP範囲と受入条件。成果の対応先：docs/requirements.md
+MVP範囲と受入条件。成果の対応先：`docs/requirements.md`
 
 ## 完了条件・受け入れ基準
 
@@ -96,7 +94,7 @@ MVP範囲と受入条件。成果の対応先：docs/requirements.md
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -104,14 +102,14 @@ DEV-20260901-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-MTG-20260901-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260902-001,技術比較と採用判断,2026-09-02,全員,完了（模擬）,Simulated,企画・基本設計,"TASK-20260901-002, DEV-20260902-001, ADR-20260902-001, MTG-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+MTG-20260901-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260901-002.md)"
+TASK-20260902-001,技術比較と採用判断,2026-09-02,全員,完了（模擬）,Simulated,企画・基本設計,"TASK-20260901-002, DEV-20260902-001, ADR-20260902-001, MTG-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-001.md,"工程モデル | 工程日：2026-09-02 | 担当：全員
 
 ## 課題・背景
 
@@ -151,7 +149,7 @@ Java/FastAPI、素のJS/React、外部/端末内翻訳の比較理由を残す
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -159,14 +157,14 @@ DEV-20260902-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260902-001, MTG-20260902-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260902-002,API契約・エラー形式,2026-09-02,member1,完了（模擬）,Simulated,企画・基本設計,"TASK-20260902-001, DEV-20260902-001, MTG-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260902-001, MTG-20260902-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-001.md)"
+TASK-20260902-002,API契約・エラー形式,2026-09-02,member1,完了（模擬）,Simulated,企画・基本設計,"TASK-20260902-001, DEV-20260902-001, MTG-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-002.md,"工程モデル | 工程日：2026-09-02 | 担当：member1
 
 ## 課題・背景
 
@@ -190,7 +188,7 @@ TASK-20260902-001
 
 ## 実施内容
 
-API契約・エラー形式。成果の対応先：src/main/java/jp/translatechat/ChatController.java
+API契約・エラー形式。成果の対応先：`src/main/java/jp/translatechat/ChatController.java`
 
 ## 完了条件・受け入れ基準
 
@@ -206,7 +204,7 @@ API契約・エラー形式。成果の対応先：src/main/java/jp/translatecha
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -214,14 +212,14 @@ DEV-20260902-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-MTG-20260902-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260902-003,DB基本設計,2026-09-02,member1,完了（模擬）,Simulated,企画・基本設計,"TASK-20260902-002, DEV-20260902-001, ADR-20260902-002, MTG-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-003.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+MTG-20260902-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-002.md)"
+TASK-20260902-003,DB基本設計,2026-09-02,member1,完了（模擬）,Simulated,企画・基本設計,"TASK-20260902-002, DEV-20260902-001, ADR-20260902-002, MTG-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-003.md,"工程モデル | 工程日：2026-09-02 | 担当：member1
 
 ## 課題・背景
 
@@ -245,7 +243,7 @@ TASK-20260902-002
 
 ## 実施内容
 
-DB基本設計。成果の対応先：src/main/resources/schema.sql
+DB基本設計。成果の対応先：`src/main/resources/schema.sql`
 
 ## 完了条件・受け入れ基準
 
@@ -261,7 +259,7 @@ DB基本設計。成果の対応先：src/main/resources/schema.sql
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -269,14 +267,14 @@ DEV-20260902-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260902-002, MTG-20260902-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260908-001,環境準備と秘密情報の除外,2026-09-08,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260902-001, DEV-20260908-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260902-002, MTG-20260902-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-08 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260902-003.md)"
+TASK-20260908-001,環境準備と秘密情報の除外,2026-09-08,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260902-001, DEV-20260908-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-001.md,"工程モデル | 工程日：2026-09-08 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -284,7 +282,7 @@ Evidence Type: Simulated / Simulation Date: 2026-09-08 / Owner: zahin-dev
 
 ## 達成目的
 
-Windows準備方法と.tools/.local除外を説明する
+Windows準備方法と `.tools/`・`.local/` の除外を説明する
 
 ## 予定・担当
 
@@ -300,11 +298,11 @@ TASK-20260902-001
 
 ## 実施内容
 
-環境準備と秘密情報の除外。成果の対応先：scripts/LocalEnvironment.ps1
+環境準備と秘密情報の除外。成果の対応先：`scripts/LocalEnvironment.ps1`
 
 ## 完了条件・受け入れ基準
 
-Windows準備方法と.tools/.local除外を説明する
+Windows準備方法と `.tools/`・`.local/` の除外を説明する
 
 ## レビュー
 
@@ -316,7 +314,7 @@ Windows準備方法と.tools/.local除外を説明する
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -324,14 +322,14 @@ DEV-20260908-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260908-002,Spring Bootプロトタイプ,2026-09-08,member1,完了（模擬）,Simulated,反復開発,"TASK-20260902-002, TASK-20260908-001, DEV-20260908-001, ADR-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-08 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-001.md)"
+TASK-20260908-002,Spring Bootプロトタイプ,2026-09-08,member1,完了（模擬）,Simulated,反復開発,"TASK-20260902-002, TASK-20260908-001, DEV-20260908-001, ADR-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-002.md,"工程モデル | 工程日：2026-09-08 | 担当：member1
 
 ## 課題・背景
 
@@ -355,7 +353,7 @@ TASK-20260902-002, TASK-20260908-001
 
 ## 実施内容
 
-Spring Bootプロトタイプ。成果の対応先：src/main/java/jp/translatechat/ChatApplication.java
+Spring Bootプロトタイプ。成果の対応先：`src/main/java/jp/translatechat/ChatApplication.java`
 
 ## 完了条件・受け入れ基準
 
@@ -371,7 +369,7 @@ Spring Bootプロトタイプ。成果の対応先：src/main/java/jp/translatec
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -379,14 +377,14 @@ DEV-20260908-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260902-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260909-001,部屋の作成とID発行,2026-09-09,member1,完了（模擬）,Simulated,反復開発,"TASK-20260902-003, TASK-20260908-002, DEV-20260909-001, ADR-20260909-001, REV-20260909-001, TEST-20260909-001, MTG-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260902-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260908-002.md)"
+TASK-20260909-001,部屋の作成とID発行,2026-09-09,member1,完了（模擬）,Simulated,反復開発,"TASK-20260902-003, TASK-20260908-002, DEV-20260909-001, ADR-20260909-001, REV-20260909-001, TEST-20260909-001, MTG-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：member1
 
 ## 課題・背景
 
@@ -410,7 +408,7 @@ TASK-20260902-003, TASK-20260908-002
 
 ## 実施内容
 
-部屋の作成とID発行。成果の対応先：src/main/java/jp/translatechat/ChatService.java
+部屋の作成とID発行。成果の対応先：`src/main/java/jp/translatechat/ChatService.java`
 
 ## 完了条件・受け入れ基準
 
@@ -426,7 +424,7 @@ TEST-20260909-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -434,14 +432,14 @@ DEV-20260909-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260909-001, REV-20260909-001, TEST-20260909-001, MTG-20260909-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260909-002,参加者と退出の扱い,2026-09-09,member1,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, DEV-20260909-001, ADR-20260909-001, TEST-20260909-001, MTG-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260909-001, REV-20260909-001, TEST-20260909-001, MTG-20260909-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-001.md)"
+TASK-20260909-002,参加者と退出の扱い,2026-09-09,member1,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, DEV-20260909-001, ADR-20260909-001, TEST-20260909-001, MTG-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-002.md,"工程モデル | 工程日：2026-09-09 | 担当：member1
 
 ## 課題・背景
 
@@ -465,7 +463,7 @@ TASK-20260909-001
 
 ## 実施内容
 
-参加者と退出の扱い。成果の対応先：src/main/java/jp/translatechat/ChatService.java
+参加者と退出の扱い。成果の対応先：`src/main/java/jp/translatechat/ChatService.java`
 
 ## 完了条件・受け入れ基準
 
@@ -481,7 +479,7 @@ TEST-20260909-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -489,14 +487,14 @@ DEV-20260909-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260909-001, TEST-20260909-001, MTG-20260909-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260909-003,入室フォームとAPI接続,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260902-002, TASK-20260909-001, DEV-20260909-001, BUG-20260909-001, TEST-20260909-001, MTG-20260909-001, KPT-20260903-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-003.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260909-001, TEST-20260909-001, MTG-20260909-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-002.md)"
+TASK-20260909-003,入室フォームとAPI接続,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260902-002, TASK-20260909-001, DEV-20260909-001, BUG-20260909-001, TEST-20260909-001, MTG-20260909-001, KPT-20260903-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-003.md,"工程モデル | 工程日：2026-09-09 | 担当：member2
 
 ## 課題・背景
 
@@ -536,7 +534,7 @@ TEST-20260909-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -544,14 +542,14 @@ DEV-20260909-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-BUG-20260909-001, TEST-20260909-001, MTG-20260909-001, KPT-20260903-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260915-001,原文メッセージ送信,2026-09-15,member1,完了（模擬）,Simulated,反復開発,"TASK-20260909-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+BUG-20260909-001, TEST-20260909-001, MTG-20260909-001, KPT-20260903-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-15 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260909-003.md)"
+TASK-20260915-001,原文メッセージ送信,2026-09-15,member1,完了（模擬）,Simulated,反復開発,"TASK-20260909-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-001.md,"工程モデル | 工程日：2026-09-15 | 担当：member1
 
 ## 課題・背景
 
@@ -575,7 +573,7 @@ TASK-20260909-002
 
 ## 実施内容
 
-原文メッセージ送信。成果の対応先：src/main/java/jp/translatechat/ChatService.java
+原文メッセージ送信。成果の対応先：`src/main/java/jp/translatechat/ChatService.java`
 
 ## 完了条件・受け入れ基準
 
@@ -591,7 +589,7 @@ TASK-20260909-002
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -599,14 +597,14 @@ DEV-20260915-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260915-002,新着取得とチャット表示,2026-09-15,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-003, TASK-20260915-001, DEV-20260915-001, ADR-20260915-001, REV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-15 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-001.md)"
+TASK-20260915-002,新着取得とチャット表示,2026-09-15,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-003, TASK-20260915-001, DEV-20260915-001, ADR-20260915-001, REV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-002.md,"工程モデル | 工程日：2026-09-15 | 担当：member2
 
 ## 課題・背景
 
@@ -630,7 +628,7 @@ TASK-20260909-003, TASK-20260915-001
 
 ## 実施内容
 
-新着取得とチャット表示。成果の対応先：src/main/resources/static/app.js
+新着取得とチャット表示。成果の対応先：`src/main/resources/static/app.js`
 
 ## 完了条件・受け入れ基準
 
@@ -646,7 +644,7 @@ TASK-20260909-003, TASK-20260915-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -654,14 +652,14 @@ DEV-20260915-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260915-001, REV-20260915-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260916-001,PostgreSQL保存の統合,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260902-003, TASK-20260915-001, DEV-20260916-001, ADR-20260902-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260915-001, REV-20260915-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260915-002.md)"
+TASK-20260916-001,PostgreSQL保存の統合,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260902-003, TASK-20260915-001, DEV-20260916-001, ADR-20260902-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：member1
 
 ## 課題・背景
 
@@ -685,7 +683,7 @@ TASK-20260902-003, TASK-20260915-001
 
 ## 実施内容
 
-PostgreSQL保存の統合。成果の対応先：src/main/resources/schema.sql
+PostgreSQL保存の統合。成果の対応先：`src/main/resources/schema.sql`
 
 ## 完了条件・受け入れ基準
 
@@ -701,7 +699,7 @@ PostgreSQL保存の統合。成果の対応先：src/main/resources/schema.sql
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -709,14 +707,14 @@ DEV-20260916-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260902-002。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260916-002,最近100件と過去履歴,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, DEV-20260916-001, ADR-20260915-001, BUG-20260916-001, REV-20260916-001, TEST-20260916-001, KPT-20260910-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260902-002。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-001.md)"
+TASK-20260916-002,最近100件と過去履歴,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, DEV-20260916-001, ADR-20260915-001, BUG-20260916-001, REV-20260916-001, TEST-20260916-001, KPT-20260910-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-002.md,"工程モデル | 工程日：2026-09-16 | 担当：member1
 
 ## 課題・背景
 
@@ -740,7 +738,7 @@ TASK-20260916-001
 
 ## 実施内容
 
-最近100件と過去履歴。成果の対応先：src/main/java/jp/translatechat/ChatService.java
+最近100件と過去履歴。成果の対応先：`src/main/java/jp/translatechat/ChatService.java`
 
 ## 完了条件・受け入れ基準
 
@@ -756,7 +754,7 @@ TEST-20260916-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -764,14 +762,14 @@ DEV-20260916-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260915-001, BUG-20260916-001, REV-20260916-001, TEST-20260916-001, KPT-20260910-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260916-003,再入室・タブ再読込,2026-09-16,member2,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, TASK-20260916-002, DEV-20260916-001, TEST-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-003.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260915-001, BUG-20260916-001, REV-20260916-001, TEST-20260916-001, KPT-20260910-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-002.md)"
+TASK-20260916-003,再入室・タブ再読込,2026-09-16,member2,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, TASK-20260916-002, DEV-20260916-001, TEST-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-003.md,"工程モデル | 工程日：2026-09-16 | 担当：member2
 
 ## 課題・背景
 
@@ -795,7 +793,7 @@ TASK-20260915-002, TASK-20260916-002
 
 ## 実施内容
 
-再入室・タブ再読込。成果の対応先：src/main/resources/static/app.js
+再入室・タブ再読込。成果の対応先：`src/main/resources/static/app.js`
 
 ## 完了条件・受け入れ基準
 
@@ -811,7 +809,7 @@ TEST-20260916-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -819,14 +817,14 @@ DEV-20260916-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-TEST-20260916-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260922-001,端末内翻訳・言語判定の試作,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, DEV-20260922-001, ADR-20260922-001, MTG-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+TEST-20260916-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260916-003.md)"
+TASK-20260922-001,端末内翻訳・言語判定の試作,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, DEV-20260922-001, ADR-20260922-001, MTG-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：member2
 
 ## 課題・背景
 
@@ -850,7 +848,7 @@ TASK-20260915-002
 
 ## 実施内容
 
-端末内翻訳・言語判定の試作。成果の対応先：src/main/resources/static/translator.js
+端末内翻訳・言語判定の試作。成果の対応先：`src/main/resources/static/translator.js`
 
 ## 完了条件・受け入れ基準
 
@@ -866,7 +864,7 @@ ja/enの翻訳器と文字種フォールバックを用意する
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -874,14 +872,14 @@ DEV-20260922-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260922-001, MTG-20260922-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260922-002,翻訳準備失敗と再試行,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260922-001, DEV-20260922-001, ADR-20260922-001, BUG-20260922-001, REV-20260922-001, TEST-20260922-001, MTG-20260922-001, KPT-20260917-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260922-001, MTG-20260922-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-001.md)"
+TASK-20260922-002,翻訳準備失敗と再試行,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260922-001, DEV-20260922-001, ADR-20260922-001, BUG-20260922-001, REV-20260922-001, TEST-20260922-001, MTG-20260922-001, KPT-20260917-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-002.md,"工程モデル | 工程日：2026-09-22 | 担当：member2
 
 ## 課題・背景
 
@@ -905,7 +903,7 @@ TASK-20260922-001
 
 ## 実施内容
 
-翻訳準備失敗と再試行。成果の対応先：tests/translator.test.mjs
+翻訳準備失敗と再試行。成果の対応先：`tests/translator.test.mjs`
 
 ## 完了条件・受け入れ基準
 
@@ -921,7 +919,7 @@ TEST-20260922-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -929,14 +927,14 @@ DEV-20260922-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260922-001, BUG-20260922-001, REV-20260922-001, TEST-20260922-001, MTG-20260922-001, KPT-20260917-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260923-001,翻訳とチャットの統合,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260916-003, TASK-20260922-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260922-001, BUG-20260922-001, REV-20260922-001, TEST-20260922-001, MTG-20260922-001, KPT-20260917-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260922-002.md)"
+TASK-20260923-001,翻訳とチャットの統合,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260916-003, TASK-20260922-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-001.md,"工程モデル | 工程日：2026-09-23 | 担当：member2
 
 ## 課題・背景
 
@@ -960,7 +958,7 @@ TASK-20260916-003, TASK-20260922-002
 
 ## 実施内容
 
-翻訳とチャットの統合。成果の対応先：src/main/resources/static/app.js
+翻訳とチャットの統合。成果の対応先：`src/main/resources/static/app.js`
 
 ## 完了条件・受け入れ基準
 
@@ -976,7 +974,7 @@ TASK-20260916-003, TASK-20260922-002
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -984,14 +982,14 @@ DEV-20260923-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260923-002,原文表示と翻訳失敗時の継続,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-001, DEV-20260923-001, ADR-20260922-001, BUG-20260923-001, REV-20260923-001, TEST-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-001.md)"
+TASK-20260923-002,原文表示と翻訳失敗時の継続,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-001, DEV-20260923-001, ADR-20260922-001, BUG-20260923-001, REV-20260923-001, TEST-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-002.md,"工程モデル | 工程日：2026-09-23 | 担当：member2
 
 ## 課題・背景
 
@@ -1015,7 +1013,7 @@ TASK-20260923-001
 
 ## 実施内容
 
-原文表示と翻訳失敗時の継続。成果の対応先：src/main/resources/static/app.js
+原文表示と翻訳失敗時の継続。成果の対応先：`src/main/resources/static/app.js`
 
 ## 完了条件・受け入れ基準
 
@@ -1031,7 +1029,7 @@ TEST-20260922-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1039,14 +1037,14 @@ DEV-20260923-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260922-001, BUG-20260923-001, REV-20260923-001, TEST-20260922-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260929-001,送信再試行の重複抑止,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, DEV-20260929-001, ADR-20260929-001, BUG-20260929-001, REV-20260929-001, TEST-20260929-001, MTG-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260922-001, BUG-20260923-001, REV-20260923-001, TEST-20260922-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260923-002.md)"
+TASK-20260929-001,送信再試行の重複抑止,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, DEV-20260929-001, ADR-20260929-001, BUG-20260929-001, REV-20260929-001, TEST-20260929-001, MTG-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：member1
 
 ## 課題・背景
 
@@ -1070,7 +1068,7 @@ TASK-20260916-001
 
 ## 実施内容
 
-送信再試行の重複抑止。成果の対応先：src/main/java/jp/translatechat/ChatService.java
+送信再試行の重複抑止。成果の対応先：`src/main/java/jp/translatechat/ChatService.java`
 
 ## 完了条件・受け入れ基準
 
@@ -1086,7 +1084,7 @@ TEST-20260929-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1094,14 +1092,14 @@ DEV-20260929-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260929-001, BUG-20260929-001, REV-20260929-001, TEST-20260929-001, MTG-20260929-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260929-002,同時送信の保存順序,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001, ADR-20260929-001, BUG-20260929-002, REV-20260929-002, TEST-20260929-001, MTG-20260929-001, KPT-20260924-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260929-001, BUG-20260929-001, REV-20260929-001, TEST-20260929-001, MTG-20260929-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-001.md)"
+TASK-20260929-002,同時送信の保存順序,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001, ADR-20260929-001, BUG-20260929-002, REV-20260929-002, TEST-20260929-001, MTG-20260929-001, KPT-20260924-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-002.md,"工程モデル | 工程日：2026-09-29 | 担当：member1
 
 ## 課題・背景
 
@@ -1125,7 +1123,7 @@ TASK-20260929-001
 
 ## 実施内容
 
-同時送信の保存順序。成果の対応先：src/main/java/jp/translatechat/ChatService.java
+同時送信の保存順序。成果の対応先：`src/main/java/jp/translatechat/ChatService.java`
 
 ## 完了条件・受け入れ基準
 
@@ -1141,7 +1139,7 @@ TEST-20260929-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1149,14 +1147,14 @@ DEV-20260929-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20260929-001, BUG-20260929-002, REV-20260929-002, TEST-20260929-001, MTG-20260929-001, KPT-20260924-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260930-001,新着カーソルの分離と表示順,2026-09-30,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, TASK-20260929-002, DEV-20260930-001, BUG-20260930-001, REV-20260930-001, TEST-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20260929-001, BUG-20260929-002, REV-20260929-002, TEST-20260929-001, MTG-20260929-001, KPT-20260924-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260929-002.md)"
+TASK-20260930-001,新着カーソルの分離と表示順,2026-09-30,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, TASK-20260929-002, DEV-20260930-001, BUG-20260930-001, REV-20260930-001, TEST-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-001.md,"工程モデル | 工程日：2026-09-30 | 担当：member2
 
 ## 課題・背景
 
@@ -1180,7 +1178,7 @@ TASK-20260923-002, TASK-20260929-002
 
 ## 実施内容
 
-新着カーソルの分離と表示順。成果の対応先：src/main/resources/static/message-feed.js
+新着カーソルの分離と表示順。成果の対応先：`src/main/resources/static/message-feed.js`
 
 ## 完了条件・受け入れ基準
 
@@ -1196,7 +1194,7 @@ TEST-20260930-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1204,14 +1202,14 @@ DEV-20260930-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-BUG-20260930-001, REV-20260930-001, TEST-20260930-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20260930-002,入力・Origin・リクエスト制限,2026-09-30,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260909-002, TASK-20260929-001, DEV-20260930-001, TEST-20260930-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+BUG-20260930-001, REV-20260930-001, TEST-20260930-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-001.md)"
+TASK-20260930-002,入力・Origin・リクエスト制限,2026-09-30,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260909-002, TASK-20260929-001, DEV-20260930-001, TEST-20260930-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-002.md,"工程モデル | 工程日：2026-09-30 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -1235,7 +1233,7 @@ TASK-20260909-002, TASK-20260929-001
 
 ## 実施内容
 
-入力・Origin・リクエスト制限。成果の対応先：src/main/java/jp/translatechat/SecurityHeaders.java
+入力・Origin・リクエスト制限。成果の対応先：`src/main/java/jp/translatechat/SecurityHeaders.java`
 
 ## 完了条件・受け入れ基準
 
@@ -1251,7 +1249,7 @@ TEST-20260930-002
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1259,14 +1257,14 @@ DEV-20260930-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-TEST-20260930-002。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261006-001,入力保持・サイドバー操作,2026-10-06,member2,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, TASK-20260930-002, DEV-20261006-001, REV-20261006-001, TEST-20261006-001, KPT-20261001-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+TEST-20260930-002。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-06 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20260930-002.md)"
+TASK-20261006-001,入力保持・サイドバー操作,2026-10-06,member2,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, TASK-20260930-002, DEV-20261006-001, REV-20261006-001, TEST-20261006-001, KPT-20261001-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-001.md,"工程モデル | 工程日：2026-10-06 | 担当：member2
 
 ## 課題・背景
 
@@ -1290,7 +1288,7 @@ TASK-20260930-001, TASK-20260930-002
 
 ## 実施内容
 
-入力保持・サイドバー操作。成果の対応先：src/main/resources/static/sidebar.js
+入力保持・サイドバー操作。成果の対応先：`src/main/resources/static/sidebar.js`
 
 ## 完了条件・受け入れ基準
 
@@ -1306,7 +1304,7 @@ TEST-20261006-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1314,14 +1312,14 @@ DEV-20261006-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-REV-20261006-001, TEST-20261006-001, KPT-20261001-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261006-002,日英表示文言と狭い画面,2026-10-06,member2,完了（模擬）,Simulated,反復開発,"TASK-20261006-001, DEV-20261006-001, TEST-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+REV-20261006-001, TEST-20261006-001, KPT-20261001-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-06 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-001.md)"
+TASK-20261006-002,日英表示文言と狭い画面,2026-10-06,member2,完了（模擬）,Simulated,反復開発,"TASK-20261006-001, DEV-20261006-001, TEST-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-002.md,"工程モデル | 工程日：2026-10-06 | 担当：member2
 
 ## 課題・背景
 
@@ -1345,7 +1343,7 @@ TASK-20261006-001
 
 ## 実施内容
 
-日英表示文言と狭い画面。成果の対応先：src/main/resources/static/translations.js
+日英表示文言と狭い画面。成果の対応先：`src/main/resources/static/translations.js`
 
 ## 完了条件・受け入れ基準
 
@@ -1361,7 +1359,7 @@ TEST-20261006-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1369,14 +1367,14 @@ DEV-20261006-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-TEST-20261006-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261007-001,回帰テストと検証表,2026-10-07,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, TASK-20260929-002, TASK-20260930-001, TASK-20260930-002, DEV-20261007-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+TEST-20261006-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-07 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261006-002.md)"
+TASK-20261007-001,回帰テストと検証表,2026-10-07,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, TASK-20260929-002, TASK-20260930-001, TASK-20260930-002, DEV-20261007-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-001.md,"工程モデル | 工程日：2026-10-07 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -1400,7 +1398,7 @@ TASK-20260922-002, TASK-20260929-002, TASK-20260930-001, TASK-20260930-002
 
 ## 実施内容
 
-回帰テストと検証表。成果の対応先：src/test/java/jp/translatechat/ChatIntegrationTest.java
+回帰テストと検証表。成果の対応先：`src/test/java/jp/translatechat/ChatIntegrationTest.java`
 
 ## 完了条件・受け入れ基準
 
@@ -1416,7 +1414,7 @@ TASK-20260922-002, TASK-20260929-002, TASK-20260930-001, TASK-20260930-002
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1424,14 +1422,14 @@ DEV-20261007-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261007-002,CIへの検証組込み,2026-10-07,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261007-001, DEV-20261007-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-07 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-001.md)"
+TASK-20261007-002,CIへの検証組込み,2026-10-07,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261007-001, DEV-20261007-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-002.md,"工程モデル | 工程日：2026-10-07 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -1455,7 +1453,7 @@ TASK-20261007-001
 
 ## 実施内容
 
-CIへの検証組込み。成果の対応先：.github/workflows/ci.yml
+CIへの検証組込み。成果の対応先：`.github/workflows/ci.yml`
 
 ## 完了条件・受け入れ基準
 
@@ -1471,7 +1469,7 @@ JS、JUnit、コンテナ検証を定義する
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1479,14 +1477,14 @@ DEV-20261007-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261013-001,Docker起動と保存領域,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261006-002, TASK-20261007-002, DEV-20261013-001, ADR-20261013-001, TEST-20261013-002, KPT-20261008-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261007-002.md)"
+TASK-20261013-001,Docker起動と保存領域,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261006-002, TASK-20261007-002, DEV-20261013-001, ADR-20261013-001, TEST-20261013-002, KPT-20261008-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -1526,7 +1524,7 @@ TEST-20261013-002
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1534,14 +1532,14 @@ DEV-20261013-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20261013-001, TEST-20261013-002, KPT-20261008-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261013-002,Vercel・Neon設定,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261013-001, DEV-20261013-001, ADR-20261013-001, BUG-20261013-001, REV-20261013-001, TEST-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20261013-001, TEST-20261013-002, KPT-20261008-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-001.md)"
+TASK-20261013-002,Vercel・Neon設定,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261013-001, DEV-20261013-001, ADR-20261013-001, BUG-20261013-001, REV-20261013-001, TEST-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-002.md,"工程モデル | 工程日：2026-10-13 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -1565,7 +1563,7 @@ TASK-20261013-001
 
 ## 実施内容
 
-Vercel・Neon設定。成果の対応先：src/main/resources/application-cloud.properties
+Vercel・Neon設定。成果の対応先：`src/main/resources/application-cloud.properties`
 
 ## 完了条件・受け入れ基準
 
@@ -1581,7 +1579,7 @@ TEST-20261013-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1589,14 +1587,14 @@ DEV-20261013-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-ADR-20261013-001, BUG-20261013-001, REV-20261013-001, TEST-20261013-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261014-001,総合検証と残リスク整理,2026-10-14,全員,完了（模擬）,Simulated,反復開発,"TASK-20261007-001, TASK-20261013-001, TASK-20261013-002, DEV-20261014-001, TEST-20261014-001, MTG-20261014-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+ADR-20261013-001, BUG-20261013-001, REV-20261013-001, TEST-20261013-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-14 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261013-002.md)"
+TASK-20261014-001,総合検証と残リスク整理,2026-10-14,全員,完了（模擬）,Simulated,反復開発,"TASK-20261007-001, TASK-20261013-001, TASK-20261013-002, DEV-20261014-001, TEST-20261014-001, MTG-20261014-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-001.md,"工程モデル | 工程日：2026-10-14 | 担当：全員
 
 ## 課題・背景
 
@@ -1620,7 +1618,7 @@ TASK-20261007-001, TASK-20261013-001, TASK-20261013-002
 
 ## 実施内容
 
-総合検証と残リスク整理。成果の対応先：docs/testing/plan.md
+総合検証と残リスク整理。成果の対応先：`docs/testing/plan.md`
 
 ## 完了条件・受け入れ基準
 
@@ -1636,7 +1634,7 @@ TEST-20261014-001
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1644,14 +1642,14 @@ DEV-20261014-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-TEST-20261014-001, MTG-20261014-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261014-002,MVPスナップショット照合,2026-10-14,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261014-001, DEV-20261014-001, MTG-20261014-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+TEST-20261014-001, MTG-20261014-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-14 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-001.md)"
+TASK-20261014-002,MVPスナップショット照合,2026-10-14,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261014-001, DEV-20261014-001, MTG-20261014-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-002.md,"工程モデル | 工程日：2026-10-14 | 担当：zahin-dev
 
 ## 課題・背景
 
@@ -1675,7 +1673,7 @@ TASK-20261014-001
 
 ## 実施内容
 
-MVPスナップショット照合。成果の対応先：docs/verification/source-manifest.json
+MVPスナップショット照合。成果の対応先：`docs/verification/source-manifest.json`
 
 ## 完了条件・受け入れ基準
 
@@ -1691,7 +1689,7 @@ MVPスナップショット照合。成果の対応先：docs/verification/sourc
 
 ## 実施結果
 
-模擬完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
+工程モデル上の完了。現行版と照合できる成果を定義した。過去の実行・作業証明ではない。
 
 ## 関連する開発セッション
 
@@ -1699,14 +1697,14 @@ DEV-20261014-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-MTG-20261014-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
-TASK-20261014-003,MVP以後の改善バックログ,2026-10-14,全員,保留,Simulated,反復開発,"TASK-20261014-001, DEV-20261014-001, MTG-20261014-001, KPT-20261015-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-003.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+MTG-20261014-001。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-14 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-002.md)"
+TASK-20261014-003,MVP以後の改善バックログ,2026-10-14,全員,保留,Simulated,反復開発,"TASK-20261014-001, DEV-20261014-001, MTG-20261014-001, KPT-20261015-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-003.md,"工程モデル | 工程日：2026-10-14 | 担当：全員
 
 ## 課題・背景
 
@@ -1730,7 +1728,7 @@ TASK-20261014-001
 
 ## 実施内容
 
-MVP以後の改善バックログ。成果の対応先：docs/project/backlog.md
+MVP以後の改善バックログ。成果の対応先：`docs/project/backlog.md`
 
 ## 完了条件・受け入れ基準
 
@@ -1754,8 +1752,10 @@ DEV-20261014-001
 
 ## コミット等の参照先
 
-docs/verification/stage-map.json。個別の導入差分を復元できない場合は一括統合と記載。
+`docs/verification/stage-map.json`。個別の導入差分を復元できない場合は一括統合と記載。
 
-## 後日の追跡リンク
+## 追跡索引（整理時の追記）
 
-MTG-20261014-001, KPT-20261015-001。この索引は再構成時に追記したもので、当日に将来を知っていた意味ではない。"
+MTG-20261014-001, KPT-20261015-001。
+
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/tasks/TASK-20261014-003.md)"

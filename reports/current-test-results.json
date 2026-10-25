@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-25T08:59:38.617572+00:00",
+  "fresh_execution": {
+    "command": "node --test tests/translator.test.mjs tests/message-feed.test.mjs",
+    "passed": 6,
+    "failed": 0,
+    "log_sha256": "bda7bf7b2fffa1666eadc60e17076b643e290057ee017bf7da7d6b819c9fda0d",
+    "raw_log_location": "Private local audit backup: node-tests-current.txt"
+  },
+  "historical_ci": {
+    "run_id": 40172458340,
+    "head": "7a577e7528d10f269891f9666c23f0541e47e6ae",
+    "results": {
+      "junit": 17,
+      "node": 6,
+      "docker": 1
+    },
+    "evidence": "archive/2026-10-25-publication/ci-run.json",
+    "source_unchanged_since_run": true
+  },
+  "not_run_now": [
+    "Java/DB integration and Docker integration were not rerun for this documentation change.",
+    "Two Chrome manual test records remain unexecuted."
+  ]
+}

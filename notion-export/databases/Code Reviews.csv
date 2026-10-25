@@ -1,11 +1,9 @@
-﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-REV-20260909-001,部屋の識別と参加契約,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
-
-Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: member2
+﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+REV-20260909-001,部屋の識別と参加契約,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：member2
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -13,7 +11,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 変更内容
 
@@ -23,7 +21,7 @@ src/main/java/jp/translatechat/ChatService.java
 
 member2
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 表示名だけで本人確認した扱いにしない。トークンは返却時だけ平文、保存はハッシュ。
 
@@ -31,7 +29,7 @@ member2
 
 表示名だけで本人確認した扱いにしない。トークンは返却時だけ平文、保存はハッシュ。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -41,22 +39,22 @@ member2
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 773a642626ce371a1a134089422b53abbc4e8fe6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。細かな導入過程は復元不能。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6"
-REV-20260915-001,原文画面の安全な表示,2026-09-15,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
-Evidence Type: Simulated / Simulation Date: 2026-09-15 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md)"
+REV-20260915-001,原文画面の安全な表示,2026-09-15,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md,"工程モデル | 工程日：2026-09-15 | 担当：zahin-dev
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -64,7 +62,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/resources/static/app.js
+`src/main/resources/static/app.js`
 
 ## 変更内容
 
@@ -74,7 +72,7 @@ src/main/resources/static/app.js
 
 zahin-dev
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 利用者の文章をHTMLとして解釈しない。textContentを使う。
 
@@ -82,7 +80,7 @@ zahin-dev
 
 利用者の文章をHTMLとして解釈しない。textContentを使う。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -92,22 +90,22 @@ zahin-dev
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 9195af94cc36a78a3e0a24515c18f20ec6b8d521 / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。途中のCSSやUI調整差分は未復元。全JS構文検証成功、ブラウザ操作未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521"
-REV-20260916-001,過去履歴境界,2026-09-16,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521
 
-Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md)"
+REV-20260916-001,過去履歴境界,2026-09-16,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：zahin-dev
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -115,7 +113,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 変更内容
 
@@ -125,7 +123,7 @@ before未満の履歴とhasMoreHistoryを返す
 
 zahin-dev
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 beforeの境界を含めず、101件目は続き判定だけに使う。
 
@@ -133,7 +131,7 @@ beforeの境界を含めず、101件目は続き判定だけに使う。
 
 beforeの境界を含めず、101件目は続き判定だけに使う。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -143,22 +141,22 @@ beforeの境界を含めず、101件目は続き判定だけに使う。
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 773a642626ce371a1a134089422b53abbc4e8fe6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。細かな導入過程は復元不能。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6"
-REV-20260922-001,翻訳準備の失敗,2026-09-22,member1,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
-Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md)"
+REV-20260922-001,翻訳準備の失敗,2026-09-22,member1,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：member1
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -166,7 +164,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/resources/static/translator.js
+`src/main/resources/static/translator.js`
 
 ## 変更内容
 
@@ -176,7 +174,7 @@ src/main/resources/static/translator.js
 
 member1
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 古い進捗イベントをattemptで無効化し、pendingをfinallyで解放する。
 
@@ -184,7 +182,7 @@ member1
 
 古い進捗イベントをattemptで無効化し、pendingをfinallyで解放する。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -194,22 +192,22 @@ member1
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 064f08876c73515c054ef78b7d972a5aca3a4bf6 / 翻訳モジュールとモックテスト3件。画面未接続。実Chrome訳文品質は未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/064f08876c73515c054ef78b7d972a5aca3a4bf6"
-REV-20260923-001,翻訳の失敗分離,2026-09-23,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/064f08876c73515c054ef78b7d972a5aca3a4bf6
 
-Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md)"
+REV-20260923-001,翻訳の失敗分離,2026-09-23,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md,"工程モデル | 工程日：2026-09-23 | 担当：zahin-dev
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -217,7 +215,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/resources/static/app.js
+`src/main/resources/static/app.js`
 
 ## 変更内容
 
@@ -227,7 +225,7 @@ src/main/resources/static/app.js
 
 zahin-dev
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 訳文が失敗したメッセージは原文に戻し、他の翻訳を止めない。
 
@@ -235,7 +233,7 @@ zahin-dev
 
 訳文が失敗したメッセージは原文に戻し、他の翻訳を止めない。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -245,22 +243,22 @@ zahin-dev
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 9195af94cc36a78a3e0a24515c18f20ec6b8d521 / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。途中のCSSやUI調整差分は未復元。全JS構文検証成功、ブラウザ操作未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521"
-REV-20260929-001,重複送信と衝突,2026-09-29,member2,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521
 
-Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md)"
+REV-20260929-001,重複送信と衝突,2026-09-29,member2,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：member2
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -268,7 +266,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 変更内容
 
@@ -278,7 +276,7 @@ src/main/java/jp/translatechat/ChatService.java
 
 member2
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 同じclientIdで内容が変わった場合も同一成功扱いしない。409を返す。
 
@@ -286,7 +284,7 @@ member2
 
 同じclientIdで内容が変わった場合も同一成功扱いしない。409を返す。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -296,22 +294,22 @@ member2
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 773a642626ce371a1a134089422b53abbc4e8fe6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。細かな導入過程は復元不能。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6"
-REV-20260929-002,保存順序と行ロック,2026-09-29,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
-Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md)"
+REV-20260929-002,保存順序と行ロック,2026-09-29,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md,"工程モデル | 工程日：2026-09-29 | 担当：zahin-dev
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -319,7 +317,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 変更内容
 
@@ -329,7 +327,7 @@ src/main/java/jp/translatechat/ChatService.java
 
 zahin-dev
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 member1のID順だけで十分という再現案には不足がある。コミット順も制御する。
 
@@ -337,7 +335,7 @@ member1のID順だけで十分という再現案には不足がある。コミ�
 
 member1のID順だけで十分という再現案には不足がある。コミット順も制御する。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -347,22 +345,22 @@ member1のID順だけで十分という再現案には不足がある。コミ�
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 773a642626ce371a1a134089422b53abbc4e8fe6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。細かな導入過程は復元不能。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6"
-REV-20260930-001,新着と表示済みID,2026-09-30,member1,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
-Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md)"
+REV-20260930-001,新着と表示済みID,2026-09-30,member1,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md,"工程モデル | 工程日：2026-09-30 | 担当：member1
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -370,7 +368,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/resources/static/message-feed.js
+`src/main/resources/static/message-feed.js`
 
 ## 変更内容
 
@@ -380,7 +378,7 @@ src/main/resources/static/message-feed.js
 
 member1
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 送信応答は表示へ追加しても、新着cursorを更新しない。
 
@@ -388,7 +386,7 @@ member1
 
 送信応答は表示へ追加しても、新着cursorを更新しない。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -398,22 +396,22 @@ member1
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 f5ee2d93af9205e9d7d2499e04ad9efe12adf160 / 独立した新着管理モジュールと3件の回帰テスト。既に統合したサーバーロックとは別のクライアント制御。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/f5ee2d93af9205e9d7d2499e04ad9efe12adf160"
-REV-20261006-001,キーボードと下書き,2026-10-06,member1,完了（模擬）,Simulated,反復開発,"TASK-20261006-001, DEV-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/f5ee2d93af9205e9d7d2499e04ad9efe12adf160
 
-Evidence Type: Simulated / Simulation Date: 2026-10-06 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md)"
+REV-20261006-001,キーボードと下書き,2026-10-06,member1,完了（模擬）,Simulated,反復開発,"TASK-20261006-001, DEV-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md,"工程モデル | 工程日：2026-10-06 | 担当：member1
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -421,7 +419,7 @@ Markdown模擬PR・再現レビュー。実在アカウントのコメント・�
 
 ## 対象ファイル
 
-src/main/resources/static/sidebar.js
+`src/main/resources/static/sidebar.js`
 
 ## 変更内容
 
@@ -431,7 +429,7 @@ src/main/resources/static/sidebar.js
 
 member1
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 ドラッグだけにせず左右キー、幅制限、復元操作を設ける。送信失敗は下書きを残す。
 
@@ -439,7 +437,7 @@ member1
 
 ドラッグだけにせず左右キー、幅制限、復元操作を設ける。送信失敗は下書きを残す。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -449,22 +447,22 @@ member1
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 9195af94cc36a78a3e0a24515c18f20ec6b8d521 / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。途中のCSSやUI調整差分は未復元。全JS構文検証成功、ブラウザ操作未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521"
-REV-20261013-001,クラウド設定と公開Origin,2026-10-13,member2,完了（模擬）,Simulated,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521
 
-Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md)"
+REV-20261013-001,クラウド設定と公開Origin,2026-10-13,member2,完了（模擬）,Simulated,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：member2
 
 ## 種別
 
-Markdown模擬PR・再現レビュー。実在アカウントのコメント・承認操作ではない。
+変更の検討レビュー。対象コードと指摘・対策を対応付ける。
 
 ## 変更目的
 
@@ -472,7 +470,7 @@ Vercel・Neon設定
 
 ## 対象ファイル
 
-src/main/resources/application-cloud.properties
+`src/main/resources/application-cloud.properties`
 
 ## 変更内容
 
@@ -482,7 +480,7 @@ PG*とCHAT_DB_*を扱い、TLSを検証する
 
 member2
 
-## 技術的指摘（再現例）
+## 技術的指摘（検討例）
 
 PG*への切替でも明示設定を優先し、verify-fullと公開Originを必須にする。
 
@@ -490,7 +488,7 @@ PG*への切替でも明示設定を優先し、verify-fullと公開Originを必
 
 PG*への切替でも明示設定を優先し、verify-fullと公開Originを必須にする。
 
-## 対応結果（模擬）
+## 対策との対応
 
 現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
 
@@ -500,12 +498,14 @@ PG*への切替でも明示設定を優先し、verify-fullと公開Originを必
 
 ## 最終判断
 
-学習用レビューの対応例。実際のGitHub承認なし。
+判断例：対応案を受入条件と照合する。
 
-## 再構成コミット
+## 対応コミット
 
 3ad616284e73a308f9d0d453fa4a8fa9616ed963 / 設定とCI定義を完成版へ復元。アプリの新規クラウド公開は対象外。元と同じComposeプロジェクト名なので既存環境と同時起動しない。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/3ad616284e73a308f9d0d453fa4a8fa9616ed963"
+https://github.com/zahin-dev/talklear-development-simulation/commit/3ad616284e73a308f9d0d453fa4a8fa9616ed963
+
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md)"

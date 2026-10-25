@@ -1,0 +1,322 @@
+{
+  "checked_at_utc": "2026-10-25T08:59:38.617572+00:00",
+  "baseline_head": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+  "protected_count": 44,
+  "all_unchanged": true,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "source_sha256": "dc564f83402fb0b67396633a04ac94858c2bdf53df49e3b416bb8b04726664bc",
+      "before_sha256": "dc564f83402fb0b67396633a04ac94858c2bdf53df49e3b416bb8b04726664bc",
+      "after_sha256": "dc564f83402fb0b67396633a04ac94858c2bdf53df49e3b416bb8b04726664bc",
+      "unchanged": true
+    },
+    {
+      "path": ".env.example",
+      "source_sha256": "446d44595d509ad5aad1d2a9132180dbc80647713e5d3e54121c9c1b277c33e6",
+      "before_sha256": "446d44595d509ad5aad1d2a9132180dbc80647713e5d3e54121c9c1b277c33e6",
+      "after_sha256": "446d44595d509ad5aad1d2a9132180dbc80647713e5d3e54121c9c1b277c33e6",
+      "unchanged": true
+    },
+    {
+      "path": ".gitattributes",
+      "source_sha256": "9adb12ed0a5df930270af3a14dac1cec6375b82b8acb42dbce6c75d0848a7103",
+      "before_sha256": "9adb12ed0a5df930270af3a14dac1cec6375b82b8acb42dbce6c75d0848a7103",
+      "after_sha256": "9adb12ed0a5df930270af3a14dac1cec6375b82b8acb42dbce6c75d0848a7103",
+      "unchanged": true
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "source_sha256": "27f0b4aceadbc13d8ba60ccede981d14ac7660eb4e9eec901d3b760c9a407e3a",
+      "before_sha256": "27f0b4aceadbc13d8ba60ccede981d14ac7660eb4e9eec901d3b760c9a407e3a",
+      "after_sha256": "27f0b4aceadbc13d8ba60ccede981d14ac7660eb4e9eec901d3b760c9a407e3a",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "source_sha256": "edb30df2d155f51389e9cfc5dc9a11eefaf134ae8fdfd2c77b9b1e792ca3f56c",
+      "before_sha256": "edb30df2d155f51389e9cfc5dc9a11eefaf134ae8fdfd2c77b9b1e792ca3f56c",
+      "after_sha256": "edb30df2d155f51389e9cfc5dc9a11eefaf134ae8fdfd2c77b9b1e792ca3f56c",
+      "unchanged": true
+    },
+    {
+      "path": ".vercelignore",
+      "source_sha256": "0ba11de764da059394f0aa45093693b57d2bafb4e376faf787f38d5d53641442",
+      "before_sha256": "0ba11de764da059394f0aa45093693b57d2bafb4e376faf787f38d5d53641442",
+      "after_sha256": "0ba11de764da059394f0aa45093693b57d2bafb4e376faf787f38d5d53641442",
+      "unchanged": true
+    },
+    {
+      "path": "compose.yaml",
+      "source_sha256": "d1ee7a0d97d12ea715441667dff926b548183f72f39c6c7d211d79b8df34fcc8",
+      "before_sha256": "d1ee7a0d97d12ea715441667dff926b548183f72f39c6c7d211d79b8df34fcc8",
+      "after_sha256": "d1ee7a0d97d12ea715441667dff926b548183f72f39c6c7d211d79b8df34fcc8",
+      "unchanged": true
+    },
+    {
+      "path": "Dockerfile.vercel",
+      "source_sha256": "bac3c9aec94a8aec81da30e394b568ee4a81a9620910cbb4824b3fe215813235",
+      "before_sha256": "bac3c9aec94a8aec81da30e394b568ee4a81a9620910cbb4824b3fe215813235",
+      "after_sha256": "bac3c9aec94a8aec81da30e394b568ee4a81a9620910cbb4824b3fe215813235",
+      "unchanged": true
+    },
+    {
+      "path": "pom.xml",
+      "source_sha256": "238be4bcbb418426bfb1023a942db5faf4abedb7c2712ddd1194f2eb503aae93",
+      "before_sha256": "238be4bcbb418426bfb1023a942db5faf4abedb7c2712ddd1194f2eb503aae93",
+      "after_sha256": "238be4bcbb418426bfb1023a942db5faf4abedb7c2712ddd1194f2eb503aae93",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/DatabaseSetup.java",
+      "source_sha256": "5d2eb853e25ec834ed4eef649d562fda61d644e8765a93c5668c29a94eeedbcd",
+      "before_sha256": "5d2eb853e25ec834ed4eef649d562fda61d644e8765a93c5668c29a94eeedbcd",
+      "after_sha256": "5d2eb853e25ec834ed4eef649d562fda61d644e8765a93c5668c29a94eeedbcd",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/DockerEnvironment.ps1",
+      "source_sha256": "ee7f9d3738de78a1522bb01787cdd99aeb5ab625373f64c15b516cb4c6fe22a5",
+      "before_sha256": "ee7f9d3738de78a1522bb01787cdd99aeb5ab625373f64c15b516cb4c6fe22a5",
+      "after_sha256": "ee7f9d3738de78a1522bb01787cdd99aeb5ab625373f64c15b516cb4c6fe22a5",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/LocalEnvironment.ps1",
+      "source_sha256": "5cdead0c733602209577198d0759c6308dc222102e188666c0d9ad711e5952f8",
+      "before_sha256": "5cdead0c733602209577198d0759c6308dc222102e188666c0d9ad711e5952f8",
+      "after_sha256": "5cdead0c733602209577198d0759c6308dc222102e188666c0d9ad711e5952f8",
+      "unchanged": true
+    },
+    {
+      "path": "Setup.ps1",
+      "source_sha256": "4cc7b047e58689d7d2dafb002e9eda6b6e839caecfff857f69a492050f18cebd",
+      "before_sha256": "4cc7b047e58689d7d2dafb002e9eda6b6e839caecfff857f69a492050f18cebd",
+      "after_sha256": "4cc7b047e58689d7d2dafb002e9eda6b6e839caecfff857f69a492050f18cebd",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/java/jp/translatechat/ApiErrors.java",
+      "source_sha256": "d2d0abfd70fec9f9a2f163bae9bd580f592a7290e9f1387c07b70b24c1dd2849",
+      "before_sha256": "d2d0abfd70fec9f9a2f163bae9bd580f592a7290e9f1387c07b70b24c1dd2849",
+      "after_sha256": "d2d0abfd70fec9f9a2f163bae9bd580f592a7290e9f1387c07b70b24c1dd2849",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/java/jp/translatechat/ChatApplication.java",
+      "source_sha256": "67d88d312c95181c45d938d3169f4004a40c63d9e4666f0313819d571e83a090",
+      "before_sha256": "67d88d312c95181c45d938d3169f4004a40c63d9e4666f0313819d571e83a090",
+      "after_sha256": "67d88d312c95181c45d938d3169f4004a40c63d9e4666f0313819d571e83a090",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/java/jp/translatechat/ChatController.java",
+      "source_sha256": "85be59facb83b3d66d8f5709a7e8b075d1ebc3fa0e495e5e1318b2d975c844bf",
+      "before_sha256": "85be59facb83b3d66d8f5709a7e8b075d1ebc3fa0e495e5e1318b2d975c844bf",
+      "after_sha256": "85be59facb83b3d66d8f5709a7e8b075d1ebc3fa0e495e5e1318b2d975c844bf",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/java/jp/translatechat/ChatService.java",
+      "source_sha256": "d4249c2afd5777b968ed47f234f63b10ea55364d83e6e11bb2c2053488627726",
+      "before_sha256": "d4249c2afd5777b968ed47f234f63b10ea55364d83e6e11bb2c2053488627726",
+      "after_sha256": "d4249c2afd5777b968ed47f234f63b10ea55364d83e6e11bb2c2053488627726",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/java/jp/translatechat/RequestLimits.java",
+      "source_sha256": "3b39b09529b17c5d23fe180a7892093bdc73181142fb65320bf20f66be4af6af",
+      "before_sha256": "3b39b09529b17c5d23fe180a7892093bdc73181142fb65320bf20f66be4af6af",
+      "after_sha256": "3b39b09529b17c5d23fe180a7892093bdc73181142fb65320bf20f66be4af6af",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/java/jp/translatechat/SecurityHeaders.java",
+      "source_sha256": "e39296d645f137798b37d6a292a3a2ac3ff0720551e95b923c1df3d293182044",
+      "before_sha256": "e39296d645f137798b37d6a292a3a2ac3ff0720551e95b923c1df3d293182044",
+      "after_sha256": "e39296d645f137798b37d6a292a3a2ac3ff0720551e95b923c1df3d293182044",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/application-cloud.properties",
+      "source_sha256": "2b600a11d36d76c594f7f98881cfa88167aeceef46462dff28771e3d92421e12",
+      "before_sha256": "2b600a11d36d76c594f7f98881cfa88167aeceef46462dff28771e3d92421e12",
+      "after_sha256": "2b600a11d36d76c594f7f98881cfa88167aeceef46462dff28771e3d92421e12",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/application.properties",
+      "source_sha256": "7afc995b3cd2c8c81bd54961a7e86233f547d182a1b1c7d0b9bba5ed76a170a6",
+      "before_sha256": "7afc995b3cd2c8c81bd54961a7e86233f547d182a1b1c7d0b9bba5ed76a170a6",
+      "after_sha256": "7afc995b3cd2c8c81bd54961a7e86233f547d182a1b1c7d0b9bba5ed76a170a6",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/schema.sql",
+      "source_sha256": "d635933b9d959499055fb7fc90016ecb84540fb4478b7ad1c4cd8ea84f94760e",
+      "before_sha256": "d635933b9d959499055fb7fc90016ecb84540fb4478b7ad1c4cd8ea84f94760e",
+      "after_sha256": "d635933b9d959499055fb7fc90016ecb84540fb4478b7ad1c4cd8ea84f94760e",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/app.js",
+      "source_sha256": "5e3801ae8e559e33a8109221e1b9b16c88750a7180e2fcd14f67b88583c14063",
+      "before_sha256": "5e3801ae8e559e33a8109221e1b9b16c88750a7180e2fcd14f67b88583c14063",
+      "after_sha256": "5e3801ae8e559e33a8109221e1b9b16c88750a7180e2fcd14f67b88583c14063",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/favicon.svg",
+      "source_sha256": "b310873ce491b5600d67dc9ed011957e35892d62c01b142f9304dbf96690c3c4",
+      "before_sha256": "b310873ce491b5600d67dc9ed011957e35892d62c01b142f9304dbf96690c3c4",
+      "after_sha256": "b310873ce491b5600d67dc9ed011957e35892d62c01b142f9304dbf96690c3c4",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/index.html",
+      "source_sha256": "25d91ad1647eeea88696cc55c50fd9b759f682f94695ad8bdf36b80c625d441c",
+      "before_sha256": "25d91ad1647eeea88696cc55c50fd9b759f682f94695ad8bdf36b80c625d441c",
+      "after_sha256": "25d91ad1647eeea88696cc55c50fd9b759f682f94695ad8bdf36b80c625d441c",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/message-feed.js",
+      "source_sha256": "3a5ddacf8b98dd0c7f94d9ce9035890d45531682d01737a4b221f758f79d3ca2",
+      "before_sha256": "3a5ddacf8b98dd0c7f94d9ce9035890d45531682d01737a4b221f758f79d3ca2",
+      "after_sha256": "3a5ddacf8b98dd0c7f94d9ce9035890d45531682d01737a4b221f758f79d3ca2",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/sidebar.js",
+      "source_sha256": "a2110b584c410ee2c497290d38ed81dda991afc9898ce90a28467689172ea894",
+      "before_sha256": "a2110b584c410ee2c497290d38ed81dda991afc9898ce90a28467689172ea894",
+      "after_sha256": "a2110b584c410ee2c497290d38ed81dda991afc9898ce90a28467689172ea894",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/style.css",
+      "source_sha256": "841f264d9f16a6d491570ddd3b7834584fb61bb990aadf3b02690b941613d381",
+      "before_sha256": "841f264d9f16a6d491570ddd3b7834584fb61bb990aadf3b02690b941613d381",
+      "after_sha256": "841f264d9f16a6d491570ddd3b7834584fb61bb990aadf3b02690b941613d381",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/translations.js",
+      "source_sha256": "d70e09676d3ae10bca35fc9092b6211a7dd8df005ceb863d566a8182b928f71e",
+      "before_sha256": "d70e09676d3ae10bca35fc9092b6211a7dd8df005ceb863d566a8182b928f71e",
+      "after_sha256": "d70e09676d3ae10bca35fc9092b6211a7dd8df005ceb863d566a8182b928f71e",
+      "unchanged": true
+    },
+    {
+      "path": "src/main/resources/static/translator.js",
+      "source_sha256": "44a337c9b87c4d4315b8af0868adb8958e3e4ddabffdbc64e4c8b70b3efae4cc",
+      "before_sha256": "44a337c9b87c4d4315b8af0868adb8958e3e4ddabffdbc64e4c8b70b3efae4cc",
+      "after_sha256": "44a337c9b87c4d4315b8af0868adb8958e3e4ddabffdbc64e4c8b70b3efae4cc",
+      "unchanged": true
+    },
+    {
+      "path": "src/test/java/jp/translatechat/ChatIntegrationTest.java",
+      "source_sha256": "0cdc150f91aa59f167e2244fb19f8ac7f900ca9f37f8b8cc3cd6002c0fd9c455",
+      "before_sha256": "0cdc150f91aa59f167e2244fb19f8ac7f900ca9f37f8b8cc3cd6002c0fd9c455",
+      "after_sha256": "0cdc150f91aa59f167e2244fb19f8ac7f900ca9f37f8b8cc3cd6002c0fd9c455",
+      "unchanged": true
+    },
+    {
+      "path": "src/test/java/jp/translatechat/CloudConfigurationTest.java",
+      "source_sha256": "d4e07a3157e5e66039939b076825741fe58bc311df99e1467b31df09195e33b2",
+      "before_sha256": "d4e07a3157e5e66039939b076825741fe58bc311df99e1467b31df09195e33b2",
+      "after_sha256": "d4e07a3157e5e66039939b076825741fe58bc311df99e1467b31df09195e33b2",
+      "unchanged": true
+    },
+    {
+      "path": "src/test/java/jp/translatechat/RequestLimitsTest.java",
+      "source_sha256": "5ce2a5a8ce421d40d1adaccef09cf736d41ab3521a9847222302fe46ba51aaf8",
+      "before_sha256": "5ce2a5a8ce421d40d1adaccef09cf736d41ab3521a9847222302fe46ba51aaf8",
+      "after_sha256": "5ce2a5a8ce421d40d1adaccef09cf736d41ab3521a9847222302fe46ba51aaf8",
+      "unchanged": true
+    },
+    {
+      "path": "src/test/java/jp/translatechat/SecurityHeadersTest.java",
+      "source_sha256": "0aa41df32a5b374fb6eb56d98c04497ac19e30875e3cb3658e796772c235871c",
+      "before_sha256": "0aa41df32a5b374fb6eb56d98c04497ac19e30875e3cb3658e796772c235871c",
+      "after_sha256": "0aa41df32a5b374fb6eb56d98c04497ac19e30875e3cb3658e796772c235871c",
+      "unchanged": true
+    },
+    {
+      "path": "Start-App.ps1",
+      "source_sha256": "feb93328042519cbbf08d787b9d8f35961b27d9fb711edc907b37faae285cbe7",
+      "before_sha256": "feb93328042519cbbf08d787b9d8f35961b27d9fb711edc907b37faae285cbe7",
+      "after_sha256": "feb93328042519cbbf08d787b9d8f35961b27d9fb711edc907b37faae285cbe7",
+      "unchanged": true
+    },
+    {
+      "path": "Start-Docker.ps1",
+      "source_sha256": "4c509dbb53c1e19c20c791c4f4fa4540f0f684fa2e61e1cd85890e463b7d87dc",
+      "before_sha256": "4c509dbb53c1e19c20c791c4f4fa4540f0f684fa2e61e1cd85890e463b7d87dc",
+      "after_sha256": "4c509dbb53c1e19c20c791c4f4fa4540f0f684fa2e61e1cd85890e463b7d87dc",
+      "unchanged": true
+    },
+    {
+      "path": "Stop-Database.ps1",
+      "source_sha256": "2526ff1ffa2f9e1eb51f3fbd9be0f170d3c47a3909eb1e5ca3064d503ed6a0ec",
+      "before_sha256": "2526ff1ffa2f9e1eb51f3fbd9be0f170d3c47a3909eb1e5ca3064d503ed6a0ec",
+      "after_sha256": "2526ff1ffa2f9e1eb51f3fbd9be0f170d3c47a3909eb1e5ca3064d503ed6a0ec",
+      "unchanged": true
+    },
+    {
+      "path": "Stop-Docker.ps1",
+      "source_sha256": "70d76f3a67c2ff73674900f1bb5efb2219420e1db1d4825a7d875da5d3b55093",
+      "before_sha256": "70d76f3a67c2ff73674900f1bb5efb2219420e1db1d4825a7d875da5d3b55093",
+      "after_sha256": "70d76f3a67c2ff73674900f1bb5efb2219420e1db1d4825a7d875da5d3b55093",
+      "unchanged": true
+    },
+    {
+      "path": "Test-App.ps1",
+      "source_sha256": "1e95143435931da1bf94da1f2ded3723b912f4575fc89ad4f28ae12451080568",
+      "before_sha256": "1e95143435931da1bf94da1f2ded3723b912f4575fc89ad4f28ae12451080568",
+      "after_sha256": "1e95143435931da1bf94da1f2ded3723b912f4575fc89ad4f28ae12451080568",
+      "unchanged": true
+    },
+    {
+      "path": "Test-Docker.ps1",
+      "source_sha256": "dd9b093fbb9fe34b63e2449562a0d6135f82209e5ef5176cad5a610ee5a186f4",
+      "before_sha256": "dd9b093fbb9fe34b63e2449562a0d6135f82209e5ef5176cad5a610ee5a186f4",
+      "after_sha256": "dd9b093fbb9fe34b63e2449562a0d6135f82209e5ef5176cad5a610ee5a186f4",
+      "unchanged": true
+    },
+    {
+      "path": "tests/docker-smoke.test.mjs",
+      "source_sha256": "c86474f39e42202d35dd8eb3d86ad953f946703c46fdf34de7109ce3d42a8c50",
+      "before_sha256": "c86474f39e42202d35dd8eb3d86ad953f946703c46fdf34de7109ce3d42a8c50",
+      "after_sha256": "c86474f39e42202d35dd8eb3d86ad953f946703c46fdf34de7109ce3d42a8c50",
+      "unchanged": true
+    },
+    {
+      "path": "tests/message-feed.test.mjs",
+      "source_sha256": "9ccaaf490cba9b1cfcdd56a627b1954311b066272dfa1188a68bea372ab5e87d",
+      "before_sha256": "9ccaaf490cba9b1cfcdd56a627b1954311b066272dfa1188a68bea372ab5e87d",
+      "after_sha256": "9ccaaf490cba9b1cfcdd56a627b1954311b066272dfa1188a68bea372ab5e87d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/translator.test.mjs",
+      "source_sha256": "3806a09fb7d469574ebc2c71cf7e82378163d9df3407a41f399e77dec1a99ae2",
+      "before_sha256": "3806a09fb7d469574ebc2c71cf7e82378163d9df3407a41f399e77dec1a99ae2",
+      "after_sha256": "3806a09fb7d469574ebc2c71cf7e82378163d9df3407a41f399e77dec1a99ae2",
+      "unchanged": true
+    },
+    {
+      "path": "vercel.json",
+      "source_sha256": "0c5a1df834952cf0c335f983904e3e0cd3e9f339631b91d153d4a3488d4e09e2",
+      "before_sha256": "0c5a1df834952cf0c335f983904e3e0cd3e9f339631b91d153d4a3488d4e09e2",
+      "after_sha256": "0c5a1df834952cf0c335f983904e3e0cd3e9f339631b91d153d4a3488d4e09e2",
+      "unchanged": true
+    }
+  ],
+  "permitted_document_differences": [
+    "README.md",
+    "docs/basic-design.md",
+    "docs/deployment.md",
+    "docs/requirements.md"
+  ]
+}

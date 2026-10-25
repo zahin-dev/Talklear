@@ -1,11 +1,9 @@
-﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-BUG-20260909-001,APIの入力名の認識違い,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-003, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260909-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
-
-Evidence Type: Simulated / Simulation Date: 2026-09-09 / Owner: member2
+﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+BUG-20260909-001,APIの入力名の認識違い,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-003, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：member2
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -23,7 +21,7 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 displayNameで契約を統一し201を得る
 
-## 実際の結果
+## 想定結果
 
 不正な入力として400になる想定。実測ではない。
 
@@ -37,13 +35,13 @@ displayNameで契約を統一し201を得る
 
 ## 調査過程
 
-member2が送信JSON、member1がJoinRequestを並べて確認する再現例
+member2が送信JSON、member1がJoinRequestを並べて確認する検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 nameとdisplayNameの契約不一致
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 displayNameへ統一する設計に変更。完成版は一致。
 
@@ -53,18 +51,18 @@ displayNameへ統一する設計に変更。完成版は一致。
 
 ## 対象コード
 
-src/main/java/jp/translatechat/ChatController.java
+`src/main/java/jp/translatechat/ChatController.java`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20260916-001,過去履歴の境界が重複する,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260916-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260909-001.md)"
+BUG-20260916-001,過去履歴の境界が重複する,2026-09-16,member1,完了（模擬）,Simulated,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：member1
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -82,7 +80,7 @@ beforeに先頭IDを指定して読む
 
 指定ID未満だけを取得する
 
-## 実際の結果
+## 想定結果
 
 境界を含む試作SQLでは同じ発言が再び現れる想定。実測ではない。
 
@@ -96,13 +94,13 @@ beforeに先頭IDを指定して読む
 
 ## 調査過程
 
-110件のケースをテスト設計する再現例
+110件のケースをテスト設計する検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 カーソル境界の包含条件
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 id < before、101件で続き判定、昇順へ反転。
 
@@ -112,18 +110,18 @@ pagingLoadsOlderHistoryWithoutRepeatingTheCursor。今回の実行欄を参照�
 
 ## 対象コード
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20260922-001,翻訳失敗後に準備中へ戻る,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260922-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-22 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260916-001.md)"
+BUG-20260922-001,翻訳失敗後に準備中へ戻る,2026-09-22,member2,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：member2
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -141,7 +139,7 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 error状態を保つ
 
-## 実際の結果
+## 想定結果
 
 古い進捗でpreparingへ戻る想定。実測ではない。
 
@@ -155,13 +153,13 @@ error状態を保つ
 
 ## 調査過程
 
-モックのイベント順を逆にする再現例
+モックのイベント順を逆にする検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 試行世代を区別しない状態更新
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 attemptとstatusで古いイベントを無視する。
 
@@ -171,18 +169,18 @@ translator.test.mjs 1件目。 本実行の結果はTests正本で管理。
 
 ## 対象コード
 
-src/main/resources/static/translator.js
+`src/main/resources/static/translator.js`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20260923-001,一件の翻訳失敗が後続を止める,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260923-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260922-001.md)"
+BUG-20260923-001,一件の翻訳失敗が後続を止める,2026-09-23,member2,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260923-001.md,"工程モデル | 工程日：2026-09-23 | 担当：member2
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -200,7 +198,7 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 後続翻訳を継続し、失敗分は原文を表示
 
-## 実際の結果
+## 想定結果
 
 連鎖したrejectで次も失敗する想定。実測ではない。
 
@@ -214,13 +212,13 @@ queueのrejectが残る可能性
 
 ## 調査過程
 
-2回のtranslate呼出しを独立して観察する再現例
+2回のtranslate呼出しを独立して観察する検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 回復しないPromise連鎖
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 queue=job.catch(() => {})、呼出元には失敗を返す。
 
@@ -230,18 +228,18 @@ translator.test.mjs 3件目。 本実行の結果はTests正本で管理。
 
 ## 対象コード
 
-src/main/resources/static/translator.js
+`src/main/resources/static/translator.js`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20260929-001,送信再試行で二重保存,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260923-001.md)"
+BUG-20260929-001,送信再試行で二重保存,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：member1
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -259,7 +257,7 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 同じメッセージIDを返す
 
-## 実際の結果
+## 想定結果
 
 別IDで二重登録される想定。実測ではない。
 
@@ -273,13 +271,13 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 ## 調査過程
 
-DB制約とAPIの再試行を照合する再現例
+DB制約とAPIの再試行を照合する検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 再試行を識別しない保存設計
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 部屋・参加者・clientIdを一意にする。同IDの本文変更は409。
 
@@ -289,18 +287,18 @@ retryDoesNotDuplicateMessageAndChangedPayloadIsRejected。 本実行の結果は
 
 ## 対象コード
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20260929-002,未確定の低IDメッセージを飛ばす,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-002.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-29 / Owner: member1
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-001.md)"
+BUG-20260929-002,未確定の低IDメッセージを飛ばす,2026-09-29,member1,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-002.md,"工程モデル | 工程日：2026-09-29 | 担当：member1
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -318,7 +316,7 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 保存済み順序に沿い全発言を取得
 
-## 実際の結果
+## 想定結果
 
 高IDだけ見てafterを進め低IDが欠落する想定。実測ではない。
 
@@ -332,13 +330,13 @@ sequence順とcommit順の不一致
 
 ## 調査過程
 
-zahin-devがロック待ちを含むテスト案を作る再現例
+zahin-devがロック待ちを含むテスト案を作る検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 採番前の同室送信直列化不足
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 部屋行FOR NO KEY UPDATEを採番前に取得する。
 
@@ -348,18 +346,18 @@ concurrentSendsCannotCommitAYoungerMessageBeforeAnOlderOne。 本実行の結果
 
 ## 対象コード
 
-src/main/java/jp/translatechat/ChatService.java
+`src/main/java/jp/translatechat/ChatService.java`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20260930-001,送信応答が新着カーソルを進める,2026-09-30,member2,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260930-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-30 / Owner: member2
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260929-002.md)"
+BUG-20260930-001,送信応答が新着カーソルを進める,2026-09-30,member2,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260930-001.md,"工程モデル | 工程日：2026-09-30 | 担当：member2
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -377,7 +375,7 @@ cursor=10で他人11、自分12の送信応答を先に処理
 
 次回pollで11を取得する
 
-## 実際の結果
+## 想定結果
 
 cursor=12として11が飛ぶ想定。実測ではない。
 
@@ -391,13 +389,13 @@ cursor=12として11が飛ぶ想定。実測ではない。
 
 ## 調査過程
 
-MessageFeedへ受信経路を分離する再現例
+MessageFeedへ受信経路を分離する検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 送信応答でafterを進める設計
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 addとreceiveを分け、poll応答だけcursor更新、DOMはID位置へ挿入。
 
@@ -407,18 +405,18 @@ message-feed.test.mjs 1・2件目。 本実行の結果はTests正本で管理�
 
 ## 対象コード
 
-src/main/resources/static/message-feed.js
+`src/main/resources/static/message-feed.js`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
-BUG-20261013-001,プロキシ越しのOriginが一致しない,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20261013-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+現行対策との整合を静的確認。過去の修正実績は未確認。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-13 / Owner: zahin-dev
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20260930-001.md)"
+BUG-20261013-001,プロキシ越しのOriginが一致しない,2026-10-13,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：zahin-dev
 
 ## Classification
 
-Simulated defect scenario。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
+不具合の検討シナリオ。現行版の欠陥や本番障害を確認した記録ではない。想定した旧設計と現行対策の比較。
 
 ## 症状
 
@@ -436,7 +434,7 @@ Simulated defect scenario。現行版の欠陥や本番障害を確認した記�
 
 CHAT_PUBLIC_ORIGINと一致すれば許可する
 
-## 実際の結果
+## 想定結果
 
 内部HTTPとの比較で403になる想定。実測ではない。
 
@@ -450,13 +448,13 @@ CHAT_PUBLIC_ORIGINと一致すれば許可する
 
 ## 調査過程
 
-転送ヘッダー偽装と正規Originの両方を検討する再現例
+転送ヘッダー偽装と正規Originの両方を検討する検討例
 
-## 根本原因（模擬）
+## 原因モデル
 
 公開Origin設定の不足
 
-## 修正内容（模擬）
+## 対策案と現行実装
 
 設定された公開Originを検証して使用し、偽装転送ヘッダーを信用しない。
 
@@ -466,8 +464,10 @@ SecurityHeadersTest 4件。 本実行の結果はTests正本で管理。
 
 ## 対象コード
 
-src/main/java/jp/translatechat/SecurityHeaders.java
+`src/main/java/jp/translatechat/SecurityHeaders.java`
 
 ## 対応ステータス
 
-現行対策との整合を静的確認。過去の修正実績はUnverified。"
+現行対策との整合を静的確認。過去の修正実績は未確認。
+
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/bugs/BUG-20261013-001.md)"

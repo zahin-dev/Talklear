@@ -1,9 +1,6 @@
-> 本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
-> 以下は取得した完成版の参考資料です。元資料に記載の過去の検証成功・公開状況は本実行ではUnverified。現在の検証結果はdocs/testing/plan.mdとreportsを参照してください。
-
 # トークリア 公開手順
 
-公開URL：**[https://talklear-zahin-dev.vercel.app/](https://talklear-zahin-dev.vercel.app/)**
+公開URL：**https://talklear-zahin-dev.vercel.app/**
 
 Vercel HobbyとNeon Freeで公開。本書は、公開先の構成・設定・再デプロイ時の確認項目をまとめる。
 

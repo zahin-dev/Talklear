@@ -1,4 +1,4 @@
-# 現行アーキテクチャ（Verified）
+# 現行アーキテクチャ（現在の実装で確認）
 
 Spring Boot 3.5.16 / Java 21 / Spring JDBC、HTML/CSS/JavaScript、PostgreSQL。pom.xmlで確認。画面とJSON APIは同一アプリから配信する。WebSocket・外部翻訳サーバーは実装されていない。
 

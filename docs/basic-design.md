@@ -1,9 +1,6 @@
-> 本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
-> 以下は取得した完成版の参考資料です。元資料に記載の過去の検証成功・公開状況は本実行ではUnverified。現在の検証結果はdocs/testing/plan.mdとreportsを参照してください。
-
 # トークリア 基本設計書
 
-更新日：2026年10月18日（日本時間）
+工程モデルのMVP基準日：2026年10月18日（日本時間）
 
 [要件定義書](requirements.md) に基づき、現行版の画面・データ・処理・実行環境をまとめる。制作情報と起動方法は [README](../README.md) を参照。
 
@@ -137,7 +134,7 @@ Vercel HobbyとNeon Freeで公開。アプリはローカルと同じDockerフ�
 | コンテナの再作成 | DBを名前付きボリュームへ保存する。設定ファイル紛失時に既存DBを別パスワードで初期化しない。 |
 | 無料公開環境の上限 | 利用条件・利用状況・保存の継続性を確認し、公開URLで検証する。 |
 
-### 検証結果（2026年10月18日）
+### 旧資料の検証記載（実施日・原証跡は未確認）
 
 | 方法 | 確認内容・結果 |
 |---|---|
@@ -160,7 +157,7 @@ translate-chat/
 ├─ Start-Docker.ps1 / Stop-Docker.ps1 / Test-Docker.ps1
 ├─ scripts/                  ローカル環境・DB準備
 ├─ tests/                    会話・翻訳処理・Dockerのテスト
-├─ .github/workflows/ci.yml   自動検証
+├─ `.github/workflows/ci.yml`   自動検証
 ├─ docs/
 │  ├─ requirements.md
 │  ├─ basic-design.md

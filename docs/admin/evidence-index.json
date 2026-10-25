@@ -1,0 +1,699 @@
+{
+  "authority": "https://app.notion.com/p/404bfd03219981c7a9c3c776d5f6fc39",
+  "record_date_semantics": "scenario schedule, not an attested historical event",
+  "records": [
+    {
+      "id": "ADR-20260902-001",
+      "source_page_id": "404bfd03-2199-81aa-80ca-d0d82900e8ca",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "ADR-20260902-002",
+      "source_page_id": "404bfd03-2199-81dd-8e9c-d31db1bb37be",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "ADR-20260909-001",
+      "source_page_id": "404bfd03-2199-81db-95ac-dc78675e26ea",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "ADR-20260915-001",
+      "source_page_id": "404bfd03-2199-8154-a716-f8d93c2915f9",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-15",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "ADR-20260922-001",
+      "source_page_id": "404bfd03-2199-8134-9e23-f58b786b8d7e",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "ADR-20260929-001",
+      "source_page_id": "404bfd03-2199-818c-b06a-cbc6a49035a7",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "ADR-20261013-001",
+      "source_page_id": "404bfd03-2199-8122-b23e-cdb1a55b3d60",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260909-001",
+      "source_page_id": "404bfd03-2199-8156-9fcc-de687ac94a83",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260916-001",
+      "source_page_id": "404bfd03-2199-81c8-b568-d086133a717c",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260922-001",
+      "source_page_id": "404bfd03-2199-81ed-806a-e3b2e98fd297",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260923-001",
+      "source_page_id": "404bfd03-2199-81c0-b29b-f7ba995b632b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-23",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260929-001",
+      "source_page_id": "404bfd03-2199-81fc-9beb-c9a9b7b7db00",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260929-002",
+      "source_page_id": "404bfd03-2199-8108-83ac-cac4a3d3a711",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20260930-001",
+      "source_page_id": "404bfd03-2199-8139-8e2c-d099f2fa00c4",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "BUG-20261013-001",
+      "source_page_id": "404bfd03-2199-81cf-93e4-d46cbd4e82fa",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260909-001",
+      "source_page_id": "404bfd03-2199-8180-a26e-c01c171a1caf",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260915-001",
+      "source_page_id": "404bfd03-2199-81d9-8581-ce692fde1d0b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-15",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260916-001",
+      "source_page_id": "404bfd03-2199-81f2-8ea1-c4f731a14b95",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260922-001",
+      "source_page_id": "404bfd03-2199-8186-9188-d71a42dfc1d0",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260923-001",
+      "source_page_id": "404bfd03-2199-8194-850a-ed22bd5ff83c",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-23",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260929-001",
+      "source_page_id": "404bfd03-2199-81f6-9b0d-f920df4dfe1a",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260929-002",
+      "source_page_id": "404bfd03-2199-8191-906b-e2a87d9b6c73",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20260930-001",
+      "source_page_id": "404bfd03-2199-8195-b158-d142e62c06b8",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20261006-001",
+      "source_page_id": "404bfd03-2199-81a6-b3b9-e8bce215cb5e",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-06",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "REV-20261013-001",
+      "source_page_id": "404bfd03-2199-81f1-8f20-eb7a1a89b8a7",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TEST-20260909-001",
+      "source_page_id": "404bfd03-2199-811b-928f-c92f87e31e03",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20260916-001",
+      "source_page_id": "404bfd03-2199-814a-b8af-f3c8f7703d02",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20260922-001",
+      "source_page_id": "404bfd03-2199-8145-9706-ea92cfc47291",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20260929-001",
+      "source_page_id": "404bfd03-2199-8111-835a-e897f9946a71",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20260930-001",
+      "source_page_id": "404bfd03-2199-81d8-8e0c-ff20be2cbedc",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20260930-002",
+      "source_page_id": "404bfd03-2199-8192-8fac-d596b9a9e874",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20261006-001",
+      "source_page_id": "404bfd03-2199-81e1-88c4-e3ae3d7c5086",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-06",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TEST-20261013-001",
+      "source_page_id": "404bfd03-2199-81d3-af91-f2d9b3e7d4d9",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20261013-002",
+      "source_page_id": "404bfd03-2199-8118-9a77-d40d2eaf04c9",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": true
+    },
+    {
+      "id": "TEST-20261014-001",
+      "source_page_id": "404bfd03-2199-813e-947a-d86c6638d687",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-14",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MTG-20260901-001",
+      "source_page_id": "404bfd03-2199-814e-94ee-d55c7f742621",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-01",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MTG-20260902-001",
+      "source_page_id": "404bfd03-2199-819d-a88d-e222a416f88f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MTG-20260909-001",
+      "source_page_id": "404bfd03-2199-81ba-b3ff-cec3c7b6c879",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MTG-20260922-001",
+      "source_page_id": "404bfd03-2199-81dc-8390-ec33b0055e99",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MTG-20260929-001",
+      "source_page_id": "404bfd03-2199-81c6-9f78-eca10cd39ff8",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MTG-20261014-001",
+      "source_page_id": "404bfd03-2199-8112-bd10-dd0feffdae7a",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-14",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20260903-001",
+      "source_page_id": "404bfd03-2199-8171-9a31-fb94bcd67fb8",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-03",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20260910-001",
+      "source_page_id": "404bfd03-2199-81ff-8a56-ddd81c4de12b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-10",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20260917-001",
+      "source_page_id": "404bfd03-2199-8147-9c27-f67957298305",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-17",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20260924-001",
+      "source_page_id": "404bfd03-2199-817a-9fc5-f41cc9e3d5c9",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-24",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20261001-001",
+      "source_page_id": "404bfd03-2199-81f8-b149-e043a715f55b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-01",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20261008-001",
+      "source_page_id": "404bfd03-2199-81be-9b40-d385ebd3bb9b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-08",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "KPT-20261015-001",
+      "source_page_id": "404bfd03-2199-819f-84f4-e3d537e7265f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-15",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260901-001",
+      "source_page_id": "404bfd03-2199-81f3-9fd4-fb26b676808b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-01",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260902-001",
+      "source_page_id": "404bfd03-2199-81a5-8394-d2a5c27d7fe6",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260908-001",
+      "source_page_id": "404bfd03-2199-8176-8b0c-d5271dc4bc8d",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-08",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260909-001",
+      "source_page_id": "404bfd03-2199-816f-8762-f3c088af8b74",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260915-001",
+      "source_page_id": "404bfd03-2199-817f-82c4-de4d76954732",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-15",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260916-001",
+      "source_page_id": "404bfd03-2199-813a-8ce6-d69bc099d054",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260922-001",
+      "source_page_id": "404bfd03-2199-813a-a621-fdc8503c73de",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260923-001",
+      "source_page_id": "404bfd03-2199-815d-86c5-ce2b4c4ec804",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-23",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260929-001",
+      "source_page_id": "404bfd03-2199-817c-893a-cae650dd64bd",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20260930-001",
+      "source_page_id": "404bfd03-2199-81ab-b401-fc9bb42d71b1",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20261006-001",
+      "source_page_id": "404bfd03-2199-8106-bc59-d66491515279",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-06",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20261007-001",
+      "source_page_id": "404bfd03-2199-81e1-a903-e48f16dc2b54",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-07",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20261013-001",
+      "source_page_id": "404bfd03-2199-817a-b647-f8b039792a6f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "DEV-20261014-001",
+      "source_page_id": "404bfd03-2199-81ea-89ee-e0ef6aebd511",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-14",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260901-001",
+      "source_page_id": "404bfd03-2199-8192-afaf-fd60a6c3e186",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-01",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260901-002",
+      "source_page_id": "404bfd03-2199-81d1-a648-d23504c4f916",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-01",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260902-001",
+      "source_page_id": "404bfd03-2199-817b-883d-ca9e10e86e12",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260902-002",
+      "source_page_id": "404bfd03-2199-81b9-85c7-eb923b70a52f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260902-003",
+      "source_page_id": "404bfd03-2199-8149-bd76-eea6a971620b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260908-001",
+      "source_page_id": "404bfd03-2199-8189-8380-fe32927f332e",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-08",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260908-002",
+      "source_page_id": "404bfd03-2199-81ab-bd6e-daef818ca88f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-08",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260909-001",
+      "source_page_id": "404bfd03-2199-814b-b341-cb150bd755ca",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260909-002",
+      "source_page_id": "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260909-003",
+      "source_page_id": "404bfd03-2199-8143-bfd6-eefb61b8a05b",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-09",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260915-001",
+      "source_page_id": "404bfd03-2199-8114-83e3-c14b22ebbb8f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-15",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260915-002",
+      "source_page_id": "404bfd03-2199-8177-8e19-dad897282dec",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-15",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260916-001",
+      "source_page_id": "404bfd03-2199-8117-8c05-cc12d6bdf6ca",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260916-002",
+      "source_page_id": "404bfd03-2199-810a-836c-dad8e953582f",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260916-003",
+      "source_page_id": "404bfd03-2199-81a2-8938-f9df0e6edc6a",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260922-001",
+      "source_page_id": "404bfd03-2199-8168-9cd0-ecda11e87094",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260922-002",
+      "source_page_id": "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-22",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260923-001",
+      "source_page_id": "404bfd03-2199-818b-ba5a-f435f37acef6",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-23",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260923-002",
+      "source_page_id": "404bfd03-2199-810b-93f7-dc18d56f9665",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-23",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260929-001",
+      "source_page_id": "404bfd03-2199-8135-b706-fc1068dc1a75",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260929-002",
+      "source_page_id": "404bfd03-2199-81ee-afe0-dba2f8b20971",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-29",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260930-001",
+      "source_page_id": "404bfd03-2199-81eb-a671-e58db971d2c2",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20260930-002",
+      "source_page_id": "404bfd03-2199-8101-9889-e16a806c132e",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-30",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261006-001",
+      "source_page_id": "404bfd03-2199-81f7-a243-db59d95c8884",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-06",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261006-002",
+      "source_page_id": "404bfd03-2199-8116-91f4-d17151d47df2",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-06",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261007-001",
+      "source_page_id": "404bfd03-2199-81cd-a458-f943f51afaf6",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-07",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261007-002",
+      "source_page_id": "404bfd03-2199-81c0-b807-df0f4a6605f1",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-07",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261013-001",
+      "source_page_id": "404bfd03-2199-810e-9f87-c49b32d9097c",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261013-002",
+      "source_page_id": "404bfd03-2199-816a-8317-e47d3977e6ab",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-13",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261014-001",
+      "source_page_id": "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-14",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261014-002",
+      "source_page_id": "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-14",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "TASK-20261014-003",
+      "source_page_id": "404bfd03-2199-8175-8ff9-e77b9f415add",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-14",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MILE-20260902-001",
+      "source_page_id": "404bfd03-2199-811e-9392-f2015dc109fd",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-02",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MILE-20260916-001",
+      "source_page_id": "404bfd03-2199-8109-84fb-c37da710fd18",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-16",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MILE-20260923-001",
+      "source_page_id": "404bfd03-2199-8159-904a-dd2b3764c477",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-09-23",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MILE-20261007-001",
+      "source_page_id": "404bfd03-2199-81e8-ae6b-d8fdd5397bc7",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-07",
+      "actual_test_evidence": false
+    },
+    {
+      "id": "MILE-20261018-001",
+      "source_page_id": "404bfd03-2199-815f-a591-efe2ba6f3d6a",
+      "evidence_type": "Simulated",
+      "scenario_date": "2026-10-18",
+      "actual_test_evidence": false
+    }
+  ]
+}

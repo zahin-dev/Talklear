@@ -1,4 +1,4 @@
-# 現行API（Verified）
+# 現行API（現在の実装で確認）
 
 共通prefix `/api`。参加資格は`X-Participant-Token`で指定。
 

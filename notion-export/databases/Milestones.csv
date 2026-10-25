@@ -1,7 +1,5 @@
-﻿Record ID,Title,Simulation Date,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-MILE-20260902-001,MVP範囲・基本設計の合意,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260901-001, TASK-20260901-002, TASK-20260902-001, TASK-20260902-002, TASK-20260902-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260902-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
-
-Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: 全員
+﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
+MILE-20260902-001,MVP範囲・基本設計の合意,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260901-001, TASK-20260901-002, TASK-20260902-001, TASK-20260902-002, TASK-20260902-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260902-001.md,"工程モデル | 工程日：2026-09-02 | 担当：全員
 
 ## 到達条件
 
@@ -9,7 +7,7 @@ Evidence Type: Simulated / Simulation Date: 2026-09-02 / Owner: 全員
 
 ## 判定
 
-Simulatedの到達点。検証の実測はTestsとverificationへ分離。
+工程モデルの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 期日の扱い
 
@@ -17,10 +15,10 @@ Simulatedの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 未解決
 
-訳文品質、保存期限、招待失効、運用上限は残す。"
-MILE-20260916-001,原文保存と再入室の到達点,2026-09-16,全員,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260916-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+訳文品質、保存期限、招待失効、運用上限は残す。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260902-001.md)"
+MILE-20260916-001,原文保存と再入室の到達点,2026-09-16,全員,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：全員
 
 ## 到達条件
 
@@ -28,7 +26,7 @@ Evidence Type: Simulated / Simulation Date: 2026-09-16 / Owner: 全員
 
 ## 判定
 
-Simulatedの到達点。検証の実測はTestsとverificationへ分離。
+工程モデルの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 期日の扱い
 
@@ -36,10 +34,10 @@ Simulatedの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 未解決
 
-訳文品質、保存期限、招待失効、運用上限は残す。"
-MILE-20260923-001,翻訳・原文継続の到達点,2026-09-23,全員,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, TASK-20260923-001, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260923-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+訳文品質、保存期限、招待失効、運用上限は残す。
 
-Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260916-001.md)"
+MILE-20260923-001,翻訳・原文継続の到達点,2026-09-23,全員,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, TASK-20260923-001, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260923-001.md,"工程モデル | 工程日：2026-09-23 | 担当：全員
 
 ## 到達条件
 
@@ -47,7 +45,7 @@ Evidence Type: Simulated / Simulation Date: 2026-09-23 / Owner: 全員
 
 ## 判定
 
-Simulatedの到達点。検証の実測はTestsとverificationへ分離。
+工程モデルの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 期日の扱い
 
@@ -55,10 +53,10 @@ Simulatedの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 未解決
 
-訳文品質、保存期限、招待失効、運用上限は残す。"
-MILE-20261007-001,順序対策・回帰検証の定義,2026-10-07,全員,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, TASK-20260930-001, TASK-20261007-001, TASK-20261007-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261007-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+訳文品質、保存期限、招待失効、運用上限は残す。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-07 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20260923-001.md)"
+MILE-20261007-001,順序対策・回帰検証の定義,2026-10-07,全員,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, TASK-20260930-001, TASK-20261007-001, TASK-20261007-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261007-001.md,"工程モデル | 工程日：2026-10-07 | 担当：全員
 
 ## 到達条件
 
@@ -66,7 +64,7 @@ Evidence Type: Simulated / Simulation Date: 2026-10-07 / Owner: 全員
 
 ## 判定
 
-Simulatedの到達点。検証の実測はTestsとverificationへ分離。
+工程モデルの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 期日の扱い
 
@@ -74,10 +72,10 @@ Simulatedの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 未解決
 
-訳文品質、保存期限、招待失効、運用上限は残す。"
-MILE-20261018-001,MVPスナップショット基準,2026-10-18,全員,完了（模擬）,Simulated,反復開発,"TASK-20261014-001, TASK-20261014-002, TASK-20261014-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261018-001.md,"本プロジェクトの開発過程・会議・役割別の作業・レビュー・KPT・過去のタスクは、完成済みTalklearを題材に再構成したシミュレーションです。実際の活動履歴を証明するものではありません。
+訳文品質、保存期限、招待失効、運用上限は残す。
 
-Evidence Type: Simulated / Simulation Date: 2026-10-18 / Owner: 全員
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261007-001.md)"
+MILE-20261018-001,MVPスナップショット基準,2026-10-18,全員,完了（模擬）,Simulated,反復開発,"TASK-20261014-001, TASK-20261014-002, TASK-20261014-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261018-001.md,"工程モデル | 工程日：2026-10-18 | 担当：全員
 
 ## 到達条件
 
@@ -85,7 +83,7 @@ Evidence Type: Simulated / Simulation Date: 2026-10-18 / Owner: 全員
 
 ## 判定
 
-Simulatedの到達点。検証の実測はTestsとverificationへ分離。
+工程モデルの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 期日の扱い
 
@@ -93,4 +91,6 @@ Simulatedの到達点。検証の実測はTestsとverificationへ分離。
 
 ## 未解決
 
-訳文品質、保存期限、招待失効、運用上限は残す。"
+訳文品質、保存期限、招待失効、運用上限は残す。
+
+[GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/project/milestones/MILE-20261018-001.md)"

@@ -1,0 +1,285 @@
+{
+  "checked_at_utc": "2026-10-25T09:10:25.376334+00:00",
+  "counts": {
+    "ADR": 7,
+    "Bugs": 8,
+    "Code Reviews": 10,
+    "Tests": 10,
+    "Meetings": 6,
+    "KPT": 7,
+    "Development Sessions": 14,
+    "Tasks": 32,
+    "Milestones": 5
+  },
+  "checks": [
+    {
+      "check": "unique IDs",
+      "passed": true
+    },
+    {
+      "check": "record date matches ID",
+      "passed": true
+    },
+    {
+      "check": "all related IDs exist",
+      "passed": true
+    },
+    {
+      "check": "required counts",
+      "passed": true
+    },
+    {
+      "check": "14 development dates",
+      "passed": true
+    },
+    {
+      "check": "development Tue/Wed; KPT Thu",
+      "passed": true
+    },
+    {
+      "check": "7 KPT dates",
+      "passed": true
+    },
+    {
+      "check": "210 person hours; 70 per member",
+      "passed": true
+    },
+    {
+      "check": "no 10/18 extra development",
+      "passed": true
+    },
+    {
+      "check": "dependency dates",
+      "passed": true
+    },
+    {
+      "check": "dependency graph acyclic",
+      "passed": true
+    },
+    {
+      "check": "KPT improvement task links",
+      "passed": true
+    },
+    {
+      "check": "KPT continuation outcome present",
+      "passed": true
+    },
+    {
+      "check": "all record files and Notion mappings exist",
+      "passed": true
+    },
+    {
+      "check": "all task evidence files exist",
+      "passed": true
+    },
+    {
+      "check": "9 CSV backups cover all records and states",
+      "passed": true
+    },
+    {
+      "check": "CSV contents evidence and database partition preserved",
+      "passed": true
+    },
+    {
+      "check": "canonical provenance authority and complete evidence index",
+      "passed": true
+    },
+    {
+      "check": "scenario semantics remain explicit",
+      "passed": true
+    },
+    {
+      "check": "tests separate expectation and execution",
+      "passed": true
+    },
+    {
+      "check": "successful test records require dated execution evidence",
+      "passed": true
+    },
+    {
+      "check": "manual tests remain unexecuted",
+      "passed": true
+    },
+    {
+      "check": "bug outcomes remain scenarios",
+      "passed": true
+    },
+    {
+      "check": "all 48 snapshot paths preserved",
+      "passed": true
+    },
+    {
+      "check": "only four permitted document differences",
+      "passed": true
+    },
+    {
+      "check": "44 application test config files byte identical",
+      "passed": true
+    },
+    {
+      "check": "committed application bytes match snapshot",
+      "passed": true
+    },
+    {
+      "check": "no extra source or application test files",
+      "passed": true
+    },
+    {
+      "check": "REV-20260909-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260915-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260916-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260922-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260923-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260929-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260929-002 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20260930-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20261006-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "REV-20261013-001 target exists in bound commit",
+      "passed": true
+    },
+    {
+      "check": "original 13 commit identities preserved",
+      "passed": true
+    },
+    {
+      "check": "no backdated commits",
+      "passed": true
+    },
+    {
+      "check": "one independent root commit",
+      "passed": true
+    },
+    {
+      "check": "no runtime credential or data paths",
+      "passed": true
+    },
+    {
+      "check": "credential pattern scan (bounded heuristic)",
+      "passed": true
+    },
+    {
+      "check": "local Markdown target paths exist",
+      "passed": true
+    },
+    {
+      "check": "Notion all bodies properties IDs and Relations read back",
+      "passed": true
+    },
+    {
+      "check": "all 20 view configurations retained",
+      "passed": true
+    },
+    {
+      "check": "GitHub private from authoritative API evidence",
+      "passed": true
+    },
+    {
+      "check": "anonymous GitHub denied",
+      "passed": true
+    },
+    {
+      "check": "Notion Sites unpublished from UI evidence",
+      "passed": true
+    },
+    {
+      "check": "Notion general web link removed",
+      "passed": true
+    },
+    {
+      "check": "all 112 Notion entities deny anonymous access",
+      "passed": true
+    },
+    {
+      "check": "all 112 direct Notion URLs require authentication",
+      "passed": true
+    },
+    {
+      "check": "authenticated Notion access retained",
+      "passed": true
+    },
+    {
+      "check": "all Notion entities remain under requested parent",
+      "passed": true
+    },
+    {
+      "check": "Notion schema and relation definitions preserved",
+      "passed": true
+    },
+    {
+      "check": "archived measured CI passed",
+      "passed": true
+    },
+    {
+      "check": "application source unchanged since successful CI",
+      "passed": true
+    },
+    {
+      "check": "historical evidence bytes preserved",
+      "passed": true
+    },
+    {
+      "check": "daily documents contain no duplicate long notice",
+      "passed": true
+    },
+    {
+      "check": "renamed path references updated",
+      "passed": true
+    },
+    {
+      "check": "full residual audit has no update misses",
+      "passed": true
+    },
+    {
+      "check": "inventory covers every current Git file",
+      "passed": true
+    },
+    {
+      "check": "live GitHub private",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "source_modified_docs": [
+    "docs/basic-design.md",
+    "docs/deployment.md",
+    "docs/requirements.md",
+    "README.md"
+  ],
+  "source_missing": [],
+  "credential_suspect_paths": [],
+  "unverified": [
+    "Connector does not expose per-page sharing ACLs or complete invited-guest enumeration. Parent and one record dialog were inspected.",
+    "No claim about copies or search caches; no Chrome application manual test execution."
+  ],
+  "limits": [
+    "Historical evidence is archived without rewriting.",
+    "Credential scan is heuristic."
+  ]
+}

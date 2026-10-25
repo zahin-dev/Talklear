@@ -1,0 +1,1723 @@
+{
+  "checked_at_utc": "2026-10-25T08:59:38.617572+00:00",
+  "github": {
+    "repository_id": 1432922831,
+    "owner": "zahin-dev",
+    "visibility": "private",
+    "default_branch": "main",
+    "admin_permission": true,
+    "anonymous_status": 404,
+    "anonymous_checked_at": "2026-10-25T08:58:38.5850361Z",
+    "fork_count_at_check": 0,
+    "pages_before": "API 404; no Pages site returned"
+  },
+  "notion": {
+    "sites_unpublished": true,
+    "sites_action": "Publish tab already showed unpublished on initial inspection; no new Unpublish click claimed",
+    "general_access": "Only people invited",
+    "general_access_action": "Removed parent Anyone on the web with link access through authenticated UI",
+    "internal_acl_ui_scope": [
+      "parent",
+      "TASK-20260901-001 record"
+    ],
+    "all_individual_invited_guest_lists_verified": false,
+    "anonymous_checks": [
+      {
+        "id": "404bfd03-2199-810e-ac93-f56f7cf89f99",
+        "label": "Parent",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199810eac93f56f7cf89f99",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:22.405Z"
+      },
+      {
+        "id": "77b550fa7d514c679beadb767ab4f61b",
+        "label": "Tasks",
+        "url": "https://airy-mantis-6f3.notion.site/77b550fa7d514c679beadb767ab4f61b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:24.808Z"
+      },
+      {
+        "id": "eb7e6a108aa54d01add0d5f855165c4e",
+        "label": "Development Sessions",
+        "url": "https://airy-mantis-6f3.notion.site/eb7e6a108aa54d01add0d5f855165c4e",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:25.302Z"
+      },
+      {
+        "id": "3a10a4aaff5b4919956db22c63d901b7",
+        "label": "Meetings",
+        "url": "https://airy-mantis-6f3.notion.site/3a10a4aaff5b4919956db22c63d901b7",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:25.551Z"
+      },
+      {
+        "id": "0e305b0ce1344ba68309e424cc5d22c9",
+        "label": "ADR",
+        "url": "https://airy-mantis-6f3.notion.site/0e305b0ce1344ba68309e424cc5d22c9",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:29.956Z"
+      },
+      {
+        "id": "2192efc364ef4d179d4fbc83cc577027",
+        "label": "Bugs",
+        "url": "https://airy-mantis-6f3.notion.site/2192efc364ef4d179d4fbc83cc577027",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:31.453Z"
+      },
+      {
+        "id": "b72e32df6a1b42f8a9480da424116512",
+        "label": "Code Reviews",
+        "url": "https://airy-mantis-6f3.notion.site/b72e32df6a1b42f8a9480da424116512",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:31.812Z"
+      },
+      {
+        "id": "1387d51aff5542559d38ed9bdb9189ad",
+        "label": "Tests",
+        "url": "https://airy-mantis-6f3.notion.site/1387d51aff5542559d38ed9bdb9189ad",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:32.143Z"
+      },
+      {
+        "id": "e8f9fb575690435a959f65fe7a689c6f",
+        "label": "KPT",
+        "url": "https://airy-mantis-6f3.notion.site/e8f9fb575690435a959f65fe7a689c6f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:36.041Z"
+      },
+      {
+        "id": "88de900f39954701af8f644edcd31a70",
+        "label": "Milestones",
+        "url": "https://airy-mantis-6f3.notion.site/88de900f39954701af8f644edcd31a70",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:36.355Z"
+      },
+      {
+        "id": "404bfd03-2199-81ec-88d6-e7d85569e002",
+        "label": "マスタープラン・進捗・工数",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981ec88d6e7d85569e002",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:38.657Z"
+      },
+      {
+        "id": "404bfd03-2199-817b-9d49-f45740214eb0",
+        "label": "チームとプロジェクト概要",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199817b9d49f45740214eb0",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:38.937Z"
+      },
+      {
+        "id": "404bfd03-2199-81c7-a9c3-c776d5f6fc39",
+        "label": "開発記録の説明・技術文書索引",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981c7a9c3c776d5f6fc39",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:43.058Z"
+      },
+      {
+        "id": "404bfd03-2199-8192-afaf-fd60a6c3e186",
+        "label": "TASK-20260901-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998192afaffd60a6c3e186",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:43.293Z"
+      },
+      {
+        "id": "404bfd03-2199-81d1-a648-d23504c4f916",
+        "label": "TASK-20260901-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981d1a648d23504c4f916",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:45.156Z"
+      },
+      {
+        "id": "404bfd03-2199-817b-883d-ca9e10e86e12",
+        "label": "TASK-20260902-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199817b883dca9e10e86e12",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:45.412Z"
+      },
+      {
+        "id": "404bfd03-2199-81b9-85c7-eb923b70a52f",
+        "label": "TASK-20260902-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981b985c7eb923b70a52f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:49.283Z"
+      },
+      {
+        "id": "404bfd03-2199-8149-bd76-eea6a971620b",
+        "label": "TASK-20260902-003",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998149bd76eea6a971620b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:51.010Z"
+      },
+      {
+        "id": "404bfd03-2199-8189-8380-fe32927f332e",
+        "label": "TASK-20260908-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981898380fe32927f332e",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:51.444Z"
+      },
+      {
+        "id": "404bfd03-2199-81ab-bd6e-daef818ca88f",
+        "label": "TASK-20260908-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981abbd6edaef818ca88f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:51.753Z"
+      },
+      {
+        "id": "404bfd03-2199-814b-b341-cb150bd755ca",
+        "label": "TASK-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199814bb341cb150bd755ca",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:55.961Z"
+      },
+      {
+        "id": "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+        "label": "TASK-20260909-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981a09794ff35b8a7b6bb",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:56.925Z"
+      },
+      {
+        "id": "404bfd03-2199-8143-bfd6-eefb61b8a05b",
+        "label": "TASK-20260909-003",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998143bfd6eefb61b8a05b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:57.208Z"
+      },
+      {
+        "id": "404bfd03-2199-8114-83e3-c14b22ebbb8f",
+        "label": "TASK-20260915-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199811483e3c14b22ebbb8f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:51:57.577Z"
+      },
+      {
+        "id": "404bfd03-2199-8177-8e19-dad897282dec",
+        "label": "TASK-20260915-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981778e19dad897282dec",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:18.132Z"
+      },
+      {
+        "id": "404bfd03-2199-8117-8c05-cc12d6bdf6ca",
+        "label": "TASK-20260916-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981178c05cc12d6bdf6ca",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:21.806Z"
+      },
+      {
+        "id": "404bfd03-2199-810a-836c-dad8e953582f",
+        "label": "TASK-20260916-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199810a836cdad8e953582f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:22.221Z"
+      },
+      {
+        "id": "404bfd03-2199-81a2-8938-f9df0e6edc6a",
+        "label": "TASK-20260916-003",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981a28938f9df0e6edc6a",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:22.520Z"
+      },
+      {
+        "id": "404bfd03-2199-8168-9cd0-ecda11e87094",
+        "label": "TASK-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981689cd0ecda11e87094",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:27.277Z"
+      },
+      {
+        "id": "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+        "label": "TASK-20260922-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981fc82d3ddafafc44fe3",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:28.718Z"
+      },
+      {
+        "id": "404bfd03-2199-818b-ba5a-f435f37acef6",
+        "label": "TASK-20260923-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199818bba5af435f37acef6",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:28.991Z"
+      },
+      {
+        "id": "404bfd03-2199-810b-93f7-dc18d56f9665",
+        "label": "TASK-20260923-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199810b93f7dc18d56f9665",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:29.257Z"
+      },
+      {
+        "id": "404bfd03-2199-8135-b706-fc1068dc1a75",
+        "label": "TASK-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998135b706fc1068dc1a75",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:33.624Z"
+      },
+      {
+        "id": "404bfd03-2199-81ee-afe0-dba2f8b20971",
+        "label": "TASK-20260929-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981eeafe0dba2f8b20971",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:34.995Z"
+      },
+      {
+        "id": "404bfd03-2199-81eb-a671-e58db971d2c2",
+        "label": "TASK-20260930-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981eba671e58db971d2c2",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:35.280Z"
+      },
+      {
+        "id": "404bfd03-2199-8101-9889-e16a806c132e",
+        "label": "TASK-20260930-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981019889e16a806c132e",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:35.533Z"
+      },
+      {
+        "id": "404bfd03-2199-81f7-a243-db59d95c8884",
+        "label": "TASK-20261006-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981f7a243db59d95c8884",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:39.838Z"
+      },
+      {
+        "id": "404bfd03-2199-8116-91f4-d17151d47df2",
+        "label": "TASK-20261006-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199811691f4d17151d47df2",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:40.598Z"
+      },
+      {
+        "id": "404bfd03-2199-81cd-a458-f943f51afaf6",
+        "label": "TASK-20261007-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981cda458f943f51afaf6",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:41.621Z"
+      },
+      {
+        "id": "404bfd03-2199-81c0-b807-df0f4a6605f1",
+        "label": "TASK-20261007-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981c0b807df0f4a6605f1",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:42.317Z"
+      },
+      {
+        "id": "404bfd03-2199-810e-9f87-c49b32d9097c",
+        "label": "TASK-20261013-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199810e9f87c49b32d9097c",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:46.866Z"
+      },
+      {
+        "id": "404bfd03-2199-816a-8317-e47d3977e6ab",
+        "label": "TASK-20261013-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199816a8317e47d3977e6ab",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:48.295Z"
+      },
+      {
+        "id": "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+        "label": "TASK-20261014-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981b797d7d4e01ae65ad7",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:48.579Z"
+      },
+      {
+        "id": "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+        "label": "TASK-20261014-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199811da7d6e532f8e29cf8",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:48.915Z"
+      },
+      {
+        "id": "404bfd03-2199-8175-8ff9-e77b9f415add",
+        "label": "TASK-20261014-003",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981758ff9e77b9f415add",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:53.152Z"
+      },
+      {
+        "id": "404bfd03-2199-81f3-9fd4-fb26b676808b",
+        "label": "DEV-20260901-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981f39fd4fb26b676808b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:54.835Z"
+      },
+      {
+        "id": "404bfd03-2199-81a5-8394-d2a5c27d7fe6",
+        "label": "DEV-20260902-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981a58394d2a5c27d7fe6",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:55.183Z"
+      },
+      {
+        "id": "404bfd03-2199-8176-8b0c-d5271dc4bc8d",
+        "label": "DEV-20260908-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981768b0cd5271dc4bc8d",
+        "denied": true,
+        "checked_at": "2026-10-25T08:55:55.461Z"
+      },
+      {
+        "id": "404bfd03-2199-816f-8762-f3c088af8b74",
+        "label": "DEV-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199816f8762f3c088af8b74",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:08.081Z"
+      },
+      {
+        "id": "404bfd03-2199-817f-82c4-de4d76954732",
+        "label": "DEV-20260915-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199817f82c4de4d76954732",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:08.333Z"
+      },
+      {
+        "id": "404bfd03-2199-813a-8ce6-d69bc099d054",
+        "label": "DEV-20260916-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199813a8ce6d69bc099d054",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:08.638Z"
+      },
+      {
+        "id": "404bfd03-2199-813a-a621-fdc8503c73de",
+        "label": "DEV-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199813aa621fdc8503c73de",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:10.459Z"
+      },
+      {
+        "id": "404bfd03-2199-815d-86c5-ce2b4c4ec804",
+        "label": "DEV-20260923-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199815d86c5ce2b4c4ec804",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:14.249Z"
+      },
+      {
+        "id": "404bfd03-2199-817c-893a-cae650dd64bd",
+        "label": "DEV-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199817c893acae650dd64bd",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:15.628Z"
+      },
+      {
+        "id": "404bfd03-2199-81ab-b401-fc9bb42d71b1",
+        "label": "DEV-20260930-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981abb401fc9bb42d71b1",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:16.308Z"
+      },
+      {
+        "id": "404bfd03-2199-8106-bc59-d66491515279",
+        "label": "DEV-20261006-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998106bc59d66491515279",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:16.640Z"
+      },
+      {
+        "id": "404bfd03-2199-81e1-a903-e48f16dc2b54",
+        "label": "DEV-20261007-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981e1a903e48f16dc2b54",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:22.364Z"
+      },
+      {
+        "id": "404bfd03-2199-817a-b647-f8b039792a6f",
+        "label": "DEV-20261013-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199817ab647f8b039792a6f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:22.618Z"
+      },
+      {
+        "id": "404bfd03-2199-81ea-89ee-e0ef6aebd511",
+        "label": "DEV-20261014-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981ea89eee0ef6aebd511",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:22.877Z"
+      },
+      {
+        "id": "404bfd03-2199-814e-94ee-d55c7f742621",
+        "label": "MTG-20260901-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199814e94eed55c7f742621",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:23.300Z"
+      },
+      {
+        "id": "404bfd03-2199-819d-a88d-e222a416f88f",
+        "label": "MTG-20260902-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199819da88de222a416f88f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:26.420Z"
+      },
+      {
+        "id": "404bfd03-2199-81ba-b3ff-cec3c7b6c879",
+        "label": "MTG-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981bab3ffcec3c7b6c879",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:29.429Z"
+      },
+      {
+        "id": "404bfd03-2199-81dc-8390-ec33b0055e99",
+        "label": "MTG-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981dc8390ec33b0055e99",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:29.907Z"
+      },
+      {
+        "id": "404bfd03-2199-81c6-9f78-eca10cd39ff8",
+        "label": "MTG-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981c69f78eca10cd39ff8",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:30.195Z"
+      },
+      {
+        "id": "404bfd03-2199-8112-bd10-dd0feffdae7a",
+        "label": "MTG-20261014-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998112bd10dd0feffdae7a",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:32.693Z"
+      },
+      {
+        "id": "404bfd03-2199-81aa-80ca-d0d82900e8ca",
+        "label": "ADR-20260902-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981aa80cad0d82900e8ca",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:36.525Z"
+      },
+      {
+        "id": "404bfd03-2199-81dd-8e9c-d31db1bb37be",
+        "label": "ADR-20260902-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981dd8e9cd31db1bb37be",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:36.826Z"
+      },
+      {
+        "id": "404bfd03-2199-81db-95ac-dc78675e26ea",
+        "label": "ADR-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981db95acdc78675e26ea",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:37.110Z"
+      },
+      {
+        "id": "404bfd03-2199-8154-a716-f8d93c2915f9",
+        "label": "ADR-20260915-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998154a716f8d93c2915f9",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:40.384Z"
+      },
+      {
+        "id": "404bfd03-2199-8134-9e23-f58b786b8d7e",
+        "label": "ADR-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981349e23f58b786b8d7e",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:42.972Z"
+      },
+      {
+        "id": "404bfd03-2199-818c-b06a-cbc6a49035a7",
+        "label": "ADR-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199818cb06acbc6a49035a7",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:43.558Z"
+      },
+      {
+        "id": "404bfd03-2199-8122-b23e-cdb1a55b3d60",
+        "label": "ADR-20261013-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998122b23ecdb1a55b3d60",
+        "denied": true,
+        "checked_at": "2026-10-25T08:56:43.911Z"
+      },
+      {
+        "id": "404bfd03-2199-8156-9fcc-de687ac94a83",
+        "label": "BUG-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981569fccde687ac94a83",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:01.323Z"
+      },
+      {
+        "id": "404bfd03-2199-81c8-b568-d086133a717c",
+        "label": "BUG-20260916-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981c8b568d086133a717c",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:04.142Z"
+      },
+      {
+        "id": "404bfd03-2199-81ed-806a-e3b2e98fd297",
+        "label": "BUG-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981ed806ae3b2e98fd297",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:04.436Z"
+      },
+      {
+        "id": "404bfd03-2199-81c0-b29b-f7ba995b632b",
+        "label": "BUG-20260923-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981c0b29bf7ba995b632b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:04.727Z"
+      },
+      {
+        "id": "404bfd03-2199-81fc-9beb-c9a9b7b7db00",
+        "label": "BUG-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981fc9bebc9a9b7b7db00",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:07.796Z"
+      },
+      {
+        "id": "404bfd03-2199-8108-83ac-cac4a3d3a711",
+        "label": "BUG-20260929-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199810883accac4a3d3a711",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:10.502Z"
+      },
+      {
+        "id": "404bfd03-2199-8139-8e2c-d099f2fa00c4",
+        "label": "BUG-20260930-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981398e2cd099f2fa00c4",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:10.881Z"
+      },
+      {
+        "id": "404bfd03-2199-81cf-93e4-d46cbd4e82fa",
+        "label": "BUG-20261013-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981cf93e4d46cbd4e82fa",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:11.188Z"
+      },
+      {
+        "id": "404bfd03-2199-8180-a26e-c01c171a1caf",
+        "label": "REV-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998180a26ec01c171a1caf",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:14.620Z"
+      },
+      {
+        "id": "404bfd03-2199-81d9-8581-ce692fde1d0b",
+        "label": "REV-20260915-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981d98581ce692fde1d0b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:17.277Z"
+      },
+      {
+        "id": "404bfd03-2199-81f2-8ea1-c4f731a14b95",
+        "label": "REV-20260916-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981f28ea1c4f731a14b95",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:17.518Z"
+      },
+      {
+        "id": "404bfd03-2199-8186-9188-d71a42dfc1d0",
+        "label": "REV-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981869188d71a42dfc1d0",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:17.777Z"
+      },
+      {
+        "id": "404bfd03-2199-8194-850a-ed22bd5ff83c",
+        "label": "REV-20260923-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998194850aed22bd5ff83c",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:20.320Z"
+      },
+      {
+        "id": "404bfd03-2199-81f6-9b0d-f920df4dfe1a",
+        "label": "REV-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981f69b0df920df4dfe1a",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:23.658Z"
+      },
+      {
+        "id": "404bfd03-2199-8191-906b-e2a87d9b6c73",
+        "label": "REV-20260929-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998191906be2a87d9b6c73",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:24.318Z"
+      },
+      {
+        "id": "404bfd03-2199-8195-b158-d142e62c06b8",
+        "label": "REV-20260930-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998195b158d142e62c06b8",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:24.594Z"
+      },
+      {
+        "id": "404bfd03-2199-81a6-b3b9-e8bce215cb5e",
+        "label": "REV-20261006-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981a6b3b9e8bce215cb5e",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:27.956Z"
+      },
+      {
+        "id": "404bfd03-2199-81f1-8f20-eb7a1a89b8a7",
+        "label": "REV-20261013-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981f18f20eb7a1a89b8a7",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:30.334Z"
+      },
+      {
+        "id": "404bfd03-2199-811b-928f-c92f87e31e03",
+        "label": "TEST-20260909-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199811b928fc92f87e31e03",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:30.808Z"
+      },
+      {
+        "id": "404bfd03-2199-814a-b8af-f3c8f7703d02",
+        "label": "TEST-20260916-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199814ab8aff3c8f7703d02",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:31.097Z"
+      },
+      {
+        "id": "404bfd03-2199-8145-9706-ea92cfc47291",
+        "label": "TEST-20260922-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981459706ea92cfc47291",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:33.748Z"
+      },
+      {
+        "id": "404bfd03-2199-8111-835a-e897f9946a71",
+        "label": "TEST-20260929-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998111835ae897f9946a71",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:36.973Z"
+      },
+      {
+        "id": "404bfd03-2199-81d8-8e0c-ff20be2cbedc",
+        "label": "TEST-20260930-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981d88e0cff20be2cbedc",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:37.398Z"
+      },
+      {
+        "id": "404bfd03-2199-8192-8fac-d596b9a9e874",
+        "label": "TEST-20260930-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981928facd596b9a9e874",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:37.673Z"
+      },
+      {
+        "id": "404bfd03-2199-81e1-88c4-e3ae3d7c5086",
+        "label": "TEST-20261006-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981e188c4e3ae3d7c5086",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:51.891Z"
+      },
+      {
+        "id": "404bfd03-2199-81d3-af91-f2d9b3e7d4d9",
+        "label": "TEST-20261013-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981d3af91f2d9b3e7d4d9",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:55.056Z"
+      },
+      {
+        "id": "404bfd03-2199-8118-9a77-d40d2eaf04c9",
+        "label": "TEST-20261013-002",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981189a77d40d2eaf04c9",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:55.477Z"
+      },
+      {
+        "id": "404bfd03-2199-813e-947a-d86c6638d687",
+        "label": "TEST-20261014-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199813e947ad86c6638d687",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:55.809Z"
+      },
+      {
+        "id": "404bfd03-2199-8171-9a31-fb94bcd67fb8",
+        "label": "KPT-20260903-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981719a31fb94bcd67fb8",
+        "denied": true,
+        "checked_at": "2026-10-25T08:57:58.539Z"
+      },
+      {
+        "id": "404bfd03-2199-81ff-8a56-ddd81c4de12b",
+        "label": "KPT-20260910-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981ff8a56ddd81c4de12b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:01.514Z"
+      },
+      {
+        "id": "404bfd03-2199-8147-9c27-f67957298305",
+        "label": "KPT-20260917-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981479c27f67957298305",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:02.015Z"
+      },
+      {
+        "id": "404bfd03-2199-817a-9fc5-f41cc9e3d5c9",
+        "label": "KPT-20260924-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199817a9fc5f41cc9e3d5c9",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:02.302Z"
+      },
+      {
+        "id": "404bfd03-2199-81f8-b149-e043a715f55b",
+        "label": "KPT-20261001-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981f8b149e043a715f55b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:05.684Z"
+      },
+      {
+        "id": "404bfd03-2199-81be-9b40-d385ebd3bb9b",
+        "label": "KPT-20261008-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981be9b40d385ebd3bb9b",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:08.311Z"
+      },
+      {
+        "id": "404bfd03-2199-819f-84f4-e3d537e7265f",
+        "label": "KPT-20261015-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199819f84f4e3d537e7265f",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:08.737Z"
+      },
+      {
+        "id": "404bfd03-2199-811e-9392-f2015dc109fd",
+        "label": "MILE-20260902-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199811e9392f2015dc109fd",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:08.964Z"
+      },
+      {
+        "id": "404bfd03-2199-8109-84fb-c37da710fd18",
+        "label": "MILE-20260916-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199810984fbc37da710fd18",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:11.617Z"
+      },
+      {
+        "id": "404bfd03-2199-8159-904a-dd2b3764c477",
+        "label": "MILE-20260923-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd0321998159904add2b3764c477",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:15.102Z"
+      },
+      {
+        "id": "404bfd03-2199-81e8-ae6b-d8fdd5397bc7",
+        "label": "MILE-20261007-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd03219981e8ae6bd8fdd5397bc7",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:15.560Z"
+      },
+      {
+        "id": "404bfd03-2199-815f-a591-efe2ba6f3d6a",
+        "label": "MILE-20261018-001",
+        "url": "https://airy-mantis-6f3.notion.site/404bfd032199815fa591efe2ba6f3d6a",
+        "denied": true,
+        "checked_at": "2026-10-25T08:58:15.931Z"
+      }
+    ],
+    "old_site_url_check": {
+      "url": "https://airy-mantis-6f3.notion.site/Talklear-Development-Simulation-404bfd032199810eac93f56f7cf89f99",
+      "denied": true,
+      "checked_at": "2026-10-25T08:58:28.381Z"
+    },
+    "authenticated_entities_read": 112,
+    "schema_count": 9,
+    "records_read": 99,
+    "views_read": 20,
+    "direct_anonymous_checks": [
+      {
+        "id": "404bfd03-2199-810e-ac93-f56f7cf89f99",
+        "label": "Parent",
+        "url": "https://app.notion.com/p/404bfd032199810eac93f56f7cf89f99",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:43.407Z"
+      },
+      {
+        "id": "77b550fa7d514c679beadb767ab4f61b",
+        "label": "Tasks",
+        "url": "https://app.notion.com/p/77b550fa7d514c679beadb767ab4f61b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:44.311Z"
+      },
+      {
+        "id": "eb7e6a108aa54d01add0d5f855165c4e",
+        "label": "Development Sessions",
+        "url": "https://app.notion.com/p/eb7e6a108aa54d01add0d5f855165c4e",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:44.610Z"
+      },
+      {
+        "id": "3a10a4aaff5b4919956db22c63d901b7",
+        "label": "Meetings",
+        "url": "https://app.notion.com/p/3a10a4aaff5b4919956db22c63d901b7",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:44.921Z"
+      },
+      {
+        "id": "0e305b0ce1344ba68309e424cc5d22c9",
+        "label": "ADR",
+        "url": "https://app.notion.com/p/0e305b0ce1344ba68309e424cc5d22c9",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:49.892Z"
+      },
+      {
+        "id": "2192efc364ef4d179d4fbc83cc577027",
+        "label": "Bugs",
+        "url": "https://app.notion.com/p/2192efc364ef4d179d4fbc83cc577027",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:51.063Z"
+      },
+      {
+        "id": "b72e32df6a1b42f8a9480da424116512",
+        "label": "Code Reviews",
+        "url": "https://app.notion.com/p/b72e32df6a1b42f8a9480da424116512",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:52.839Z"
+      },
+      {
+        "id": "1387d51aff5542559d38ed9bdb9189ad",
+        "label": "Tests",
+        "url": "https://app.notion.com/p/1387d51aff5542559d38ed9bdb9189ad",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:54.266Z"
+      },
+      {
+        "id": "e8f9fb575690435a959f65fe7a689c6f",
+        "label": "KPT",
+        "url": "https://app.notion.com/p/e8f9fb575690435a959f65fe7a689c6f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:05:59.068Z"
+      },
+      {
+        "id": "88de900f39954701af8f644edcd31a70",
+        "label": "Milestones",
+        "url": "https://app.notion.com/p/88de900f39954701af8f644edcd31a70",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:01.138Z"
+      },
+      {
+        "id": "404bfd03-2199-81ec-88d6-e7d85569e002",
+        "label": "マスタープラン・進捗・工数",
+        "url": "https://app.notion.com/p/404bfd03219981ec88d6e7d85569e002",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:02.189Z"
+      },
+      {
+        "id": "404bfd03-2199-817b-9d49-f45740214eb0",
+        "label": "チームとプロジェクト概要",
+        "url": "https://app.notion.com/p/404bfd032199817b9d49f45740214eb0",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:02.596Z"
+      },
+      {
+        "id": "404bfd03-2199-81c7-a9c3-c776d5f6fc39",
+        "label": "開発記録の説明・技術文書索引",
+        "url": "https://app.notion.com/p/404bfd03219981c7a9c3c776d5f6fc39",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:06.071Z"
+      },
+      {
+        "id": "404bfd03-2199-8192-afaf-fd60a6c3e186",
+        "label": "TASK-20260901-001",
+        "url": "https://app.notion.com/p/404bfd0321998192afaffd60a6c3e186",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:08.794Z"
+      },
+      {
+        "id": "404bfd03-2199-81d1-a648-d23504c4f916",
+        "label": "TASK-20260901-002",
+        "url": "https://app.notion.com/p/404bfd03219981d1a648d23504c4f916",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:09.589Z"
+      },
+      {
+        "id": "404bfd03-2199-817b-883d-ca9e10e86e12",
+        "label": "TASK-20260902-001",
+        "url": "https://app.notion.com/p/404bfd032199817b883dca9e10e86e12",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:09.917Z"
+      },
+      {
+        "id": "404bfd03-2199-81b9-85c7-eb923b70a52f",
+        "label": "TASK-20260902-002",
+        "url": "https://app.notion.com/p/404bfd03219981b985c7eb923b70a52f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:14.137Z"
+      },
+      {
+        "id": "404bfd03-2199-8149-bd76-eea6a971620b",
+        "label": "TASK-20260902-003",
+        "url": "https://app.notion.com/p/404bfd0321998149bd76eea6a971620b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:15.767Z"
+      },
+      {
+        "id": "404bfd03-2199-8189-8380-fe32927f332e",
+        "label": "TASK-20260908-001",
+        "url": "https://app.notion.com/p/404bfd03219981898380fe32927f332e",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:16.195Z"
+      },
+      {
+        "id": "404bfd03-2199-81ab-bd6e-daef818ca88f",
+        "label": "TASK-20260908-002",
+        "url": "https://app.notion.com/p/404bfd03219981abbd6edaef818ca88f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:16.658Z"
+      },
+      {
+        "id": "404bfd03-2199-814b-b341-cb150bd755ca",
+        "label": "TASK-20260909-001",
+        "url": "https://app.notion.com/p/404bfd032199814bb341cb150bd755ca",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:19.749Z"
+      },
+      {
+        "id": "404bfd03-2199-81a0-9794-ff35b8a7b6bb",
+        "label": "TASK-20260909-002",
+        "url": "https://app.notion.com/p/404bfd03219981a09794ff35b8a7b6bb",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:23.159Z"
+      },
+      {
+        "id": "404bfd03-2199-8143-bfd6-eefb61b8a05b",
+        "label": "TASK-20260909-003",
+        "url": "https://app.notion.com/p/404bfd0321998143bfd6eefb61b8a05b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:23.485Z"
+      },
+      {
+        "id": "404bfd03-2199-8114-83e3-c14b22ebbb8f",
+        "label": "TASK-20260915-001",
+        "url": "https://app.notion.com/p/404bfd032199811483e3c14b22ebbb8f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:23.915Z"
+      },
+      {
+        "id": "404bfd03-2199-8177-8e19-dad897282dec",
+        "label": "TASK-20260915-002",
+        "url": "https://app.notion.com/p/404bfd03219981778e19dad897282dec",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:27.054Z"
+      },
+      {
+        "id": "404bfd03-2199-8117-8c05-cc12d6bdf6ca",
+        "label": "TASK-20260916-001",
+        "url": "https://app.notion.com/p/404bfd03219981178c05cc12d6bdf6ca",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:30.216Z"
+      },
+      {
+        "id": "404bfd03-2199-810a-836c-dad8e953582f",
+        "label": "TASK-20260916-002",
+        "url": "https://app.notion.com/p/404bfd032199810a836cdad8e953582f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:30.566Z"
+      },
+      {
+        "id": "404bfd03-2199-81a2-8938-f9df0e6edc6a",
+        "label": "TASK-20260916-003",
+        "url": "https://app.notion.com/p/404bfd03219981a28938f9df0e6edc6a",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:31.010Z"
+      },
+      {
+        "id": "404bfd03-2199-8168-9cd0-ecda11e87094",
+        "label": "TASK-20260922-001",
+        "url": "https://app.notion.com/p/404bfd03219981689cd0ecda11e87094",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:52.403Z"
+      },
+      {
+        "id": "404bfd03-2199-81fc-82d3-ddafafc44fe3",
+        "label": "TASK-20260922-002",
+        "url": "https://app.notion.com/p/404bfd03219981fc82d3ddafafc44fe3",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:55.399Z"
+      },
+      {
+        "id": "404bfd03-2199-818b-ba5a-f435f37acef6",
+        "label": "TASK-20260923-001",
+        "url": "https://app.notion.com/p/404bfd032199818bba5af435f37acef6",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:55.772Z"
+      },
+      {
+        "id": "404bfd03-2199-810b-93f7-dc18d56f9665",
+        "label": "TASK-20260923-002",
+        "url": "https://app.notion.com/p/404bfd032199810b93f7dc18d56f9665",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:56.078Z"
+      },
+      {
+        "id": "404bfd03-2199-8135-b706-fc1068dc1a75",
+        "label": "TASK-20260929-001",
+        "url": "https://app.notion.com/p/404bfd0321998135b706fc1068dc1a75",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:06:59.828Z"
+      },
+      {
+        "id": "404bfd03-2199-81ee-afe0-dba2f8b20971",
+        "label": "TASK-20260929-002",
+        "url": "https://app.notion.com/p/404bfd03219981eeafe0dba2f8b20971",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:02.193Z"
+      },
+      {
+        "id": "404bfd03-2199-81eb-a671-e58db971d2c2",
+        "label": "TASK-20260930-001",
+        "url": "https://app.notion.com/p/404bfd03219981eba671e58db971d2c2",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:02.628Z"
+      },
+      {
+        "id": "404bfd03-2199-8101-9889-e16a806c132e",
+        "label": "TASK-20260930-002",
+        "url": "https://app.notion.com/p/404bfd03219981019889e16a806c132e",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:03.097Z"
+      },
+      {
+        "id": "404bfd03-2199-81f7-a243-db59d95c8884",
+        "label": "TASK-20261006-001",
+        "url": "https://app.notion.com/p/404bfd03219981f7a243db59d95c8884",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:06.413Z"
+      },
+      {
+        "id": "404bfd03-2199-8116-91f4-d17151d47df2",
+        "label": "TASK-20261006-002",
+        "url": "https://app.notion.com/p/404bfd032199811691f4d17151d47df2",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:09.604Z"
+      },
+      {
+        "id": "404bfd03-2199-81cd-a458-f943f51afaf6",
+        "label": "TASK-20261007-001",
+        "url": "https://app.notion.com/p/404bfd03219981cda458f943f51afaf6",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:09.954Z"
+      },
+      {
+        "id": "404bfd03-2199-81c0-b807-df0f4a6605f1",
+        "label": "TASK-20261007-002",
+        "url": "https://app.notion.com/p/404bfd03219981c0b807df0f4a6605f1",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:10.329Z"
+      },
+      {
+        "id": "404bfd03-2199-810e-9f87-c49b32d9097c",
+        "label": "TASK-20261013-001",
+        "url": "https://app.notion.com/p/404bfd032199810e9f87c49b32d9097c",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:13.753Z"
+      },
+      {
+        "id": "404bfd03-2199-816a-8317-e47d3977e6ab",
+        "label": "TASK-20261013-002",
+        "url": "https://app.notion.com/p/404bfd032199816a8317e47d3977e6ab",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:16.335Z"
+      },
+      {
+        "id": "404bfd03-2199-81b7-97d7-d4e01ae65ad7",
+        "label": "TASK-20261014-001",
+        "url": "https://app.notion.com/p/404bfd03219981b797d7d4e01ae65ad7",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:17.050Z"
+      },
+      {
+        "id": "404bfd03-2199-811d-a7d6-e532f8e29cf8",
+        "label": "TASK-20261014-002",
+        "url": "https://app.notion.com/p/404bfd032199811da7d6e532f8e29cf8",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:17.375Z"
+      },
+      {
+        "id": "404bfd03-2199-8175-8ff9-e77b9f415add",
+        "label": "TASK-20261014-003",
+        "url": "https://app.notion.com/p/404bfd03219981758ff9e77b9f415add",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:21.107Z"
+      },
+      {
+        "id": "404bfd03-2199-81f3-9fd4-fb26b676808b",
+        "label": "DEV-20260901-001",
+        "url": "https://app.notion.com/p/404bfd03219981f39fd4fb26b676808b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:23.520Z"
+      },
+      {
+        "id": "404bfd03-2199-81a5-8394-d2a5c27d7fe6",
+        "label": "DEV-20260902-001",
+        "url": "https://app.notion.com/p/404bfd03219981a58394d2a5c27d7fe6",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:24.181Z"
+      },
+      {
+        "id": "404bfd03-2199-8176-8b0c-d5271dc4bc8d",
+        "label": "DEV-20260908-001",
+        "url": "https://app.notion.com/p/404bfd03219981768b0cd5271dc4bc8d",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:24.744Z"
+      },
+      {
+        "id": "404bfd03-2199-816f-8762-f3c088af8b74",
+        "label": "DEV-20260909-001",
+        "url": "https://app.notion.com/p/404bfd032199816f8762f3c088af8b74",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:29.779Z"
+      },
+      {
+        "id": "404bfd03-2199-817f-82c4-de4d76954732",
+        "label": "DEV-20260915-001",
+        "url": "https://app.notion.com/p/404bfd032199817f82c4de4d76954732",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:31.156Z"
+      },
+      {
+        "id": "404bfd03-2199-813a-8ce6-d69bc099d054",
+        "label": "DEV-20260916-001",
+        "url": "https://app.notion.com/p/404bfd032199813a8ce6d69bc099d054",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:31.540Z"
+      },
+      {
+        "id": "404bfd03-2199-813a-a621-fdc8503c73de",
+        "label": "DEV-20260922-001",
+        "url": "https://app.notion.com/p/404bfd032199813aa621fdc8503c73de",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:32.028Z"
+      },
+      {
+        "id": "404bfd03-2199-815d-86c5-ce2b4c4ec804",
+        "label": "DEV-20260923-001",
+        "url": "https://app.notion.com/p/404bfd032199815d86c5ce2b4c4ec804",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:36.054Z"
+      },
+      {
+        "id": "404bfd03-2199-817c-893a-cae650dd64bd",
+        "label": "DEV-20260929-001",
+        "url": "https://app.notion.com/p/404bfd032199817c893acae650dd64bd",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:37.533Z"
+      },
+      {
+        "id": "404bfd03-2199-81ab-b401-fc9bb42d71b1",
+        "label": "DEV-20260930-001",
+        "url": "https://app.notion.com/p/404bfd03219981abb401fc9bb42d71b1",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:38.476Z"
+      },
+      {
+        "id": "404bfd03-2199-8106-bc59-d66491515279",
+        "label": "DEV-20261006-001",
+        "url": "https://app.notion.com/p/404bfd0321998106bc59d66491515279",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:07:38.952Z"
+      },
+      {
+        "id": "404bfd03-2199-81e1-a903-e48f16dc2b54",
+        "label": "DEV-20261007-001",
+        "url": "https://app.notion.com/p/404bfd03219981e1a903e48f16dc2b54",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:00.386Z"
+      },
+      {
+        "id": "404bfd03-2199-817a-b647-f8b039792a6f",
+        "label": "DEV-20261013-001",
+        "url": "https://app.notion.com/p/404bfd032199817ab647f8b039792a6f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:01.456Z"
+      },
+      {
+        "id": "404bfd03-2199-81ea-89ee-e0ef6aebd511",
+        "label": "DEV-20261014-001",
+        "url": "https://app.notion.com/p/404bfd03219981ea89eee0ef6aebd511",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:01.844Z"
+      },
+      {
+        "id": "404bfd03-2199-814e-94ee-d55c7f742621",
+        "label": "MTG-20260901-001",
+        "url": "https://app.notion.com/p/404bfd032199814e94eed55c7f742621",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:02.318Z"
+      },
+      {
+        "id": "404bfd03-2199-819d-a88d-e222a416f88f",
+        "label": "MTG-20260902-001",
+        "url": "https://app.notion.com/p/404bfd032199819da88de222a416f88f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:06.110Z"
+      },
+      {
+        "id": "404bfd03-2199-81ba-b3ff-cec3c7b6c879",
+        "label": "MTG-20260909-001",
+        "url": "https://app.notion.com/p/404bfd03219981bab3ffcec3c7b6c879",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:08.913Z"
+      },
+      {
+        "id": "404bfd03-2199-81dc-8390-ec33b0055e99",
+        "label": "MTG-20260922-001",
+        "url": "https://app.notion.com/p/404bfd03219981dc8390ec33b0055e99",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:09.341Z"
+      },
+      {
+        "id": "404bfd03-2199-81c6-9f78-eca10cd39ff8",
+        "label": "MTG-20260929-001",
+        "url": "https://app.notion.com/p/404bfd03219981c69f78eca10cd39ff8",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:09.824Z"
+      },
+      {
+        "id": "404bfd03-2199-8112-bd10-dd0feffdae7a",
+        "label": "MTG-20261014-001",
+        "url": "https://app.notion.com/p/404bfd0321998112bd10dd0feffdae7a",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:13.698Z"
+      },
+      {
+        "id": "404bfd03-2199-81aa-80ca-d0d82900e8ca",
+        "label": "ADR-20260902-001",
+        "url": "https://app.notion.com/p/404bfd03219981aa80cad0d82900e8ca",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:16.288Z"
+      },
+      {
+        "id": "404bfd03-2199-81dd-8e9c-d31db1bb37be",
+        "label": "ADR-20260902-002",
+        "url": "https://app.notion.com/p/404bfd03219981dd8e9cd31db1bb37be",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:16.824Z"
+      },
+      {
+        "id": "404bfd03-2199-81db-95ac-dc78675e26ea",
+        "label": "ADR-20260909-001",
+        "url": "https://app.notion.com/p/404bfd03219981db95acdc78675e26ea",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:17.249Z"
+      },
+      {
+        "id": "404bfd03-2199-8154-a716-f8d93c2915f9",
+        "label": "ADR-20260915-001",
+        "url": "https://app.notion.com/p/404bfd0321998154a716f8d93c2915f9",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:22.451Z"
+      },
+      {
+        "id": "404bfd03-2199-8134-9e23-f58b786b8d7e",
+        "label": "ADR-20260922-001",
+        "url": "https://app.notion.com/p/404bfd03219981349e23f58b786b8d7e",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:23.721Z"
+      },
+      {
+        "id": "404bfd03-2199-818c-b06a-cbc6a49035a7",
+        "label": "ADR-20260929-001",
+        "url": "https://app.notion.com/p/404bfd032199818cb06acbc6a49035a7",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:24.090Z"
+      },
+      {
+        "id": "404bfd03-2199-8122-b23e-cdb1a55b3d60",
+        "label": "ADR-20261013-001",
+        "url": "https://app.notion.com/p/404bfd0321998122b23ecdb1a55b3d60",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:24.526Z"
+      },
+      {
+        "id": "404bfd03-2199-8156-9fcc-de687ac94a83",
+        "label": "BUG-20260909-001",
+        "url": "https://app.notion.com/p/404bfd03219981569fccde687ac94a83",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:29.593Z"
+      },
+      {
+        "id": "404bfd03-2199-81c8-b568-d086133a717c",
+        "label": "BUG-20260916-001",
+        "url": "https://app.notion.com/p/404bfd03219981c8b568d086133a717c",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:31.176Z"
+      },
+      {
+        "id": "404bfd03-2199-81ed-806a-e3b2e98fd297",
+        "label": "BUG-20260922-001",
+        "url": "https://app.notion.com/p/404bfd03219981ed806ae3b2e98fd297",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:31.517Z"
+      },
+      {
+        "id": "404bfd03-2199-81c0-b29b-f7ba995b632b",
+        "label": "BUG-20260923-001",
+        "url": "https://app.notion.com/p/404bfd03219981c0b29bf7ba995b632b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:31.786Z"
+      },
+      {
+        "id": "404bfd03-2199-81fc-9beb-c9a9b7b7db00",
+        "label": "BUG-20260929-001",
+        "url": "https://app.notion.com/p/404bfd03219981fc9bebc9a9b7b7db00",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:37.236Z"
+      },
+      {
+        "id": "404bfd03-2199-8108-83ac-cac4a3d3a711",
+        "label": "BUG-20260929-002",
+        "url": "https://app.notion.com/p/404bfd032199810883accac4a3d3a711",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:37.744Z"
+      },
+      {
+        "id": "404bfd03-2199-8139-8e2c-d099f2fa00c4",
+        "label": "BUG-20260930-001",
+        "url": "https://app.notion.com/p/404bfd03219981398e2cd099f2fa00c4",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:38.057Z"
+      },
+      {
+        "id": "404bfd03-2199-81cf-93e4-d46cbd4e82fa",
+        "label": "BUG-20261013-001",
+        "url": "https://app.notion.com/p/404bfd03219981cf93e4d46cbd4e82fa",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:38.351Z"
+      },
+      {
+        "id": "404bfd03-2199-8180-a26e-c01c171a1caf",
+        "label": "REV-20260909-001",
+        "url": "https://app.notion.com/p/404bfd0321998180a26ec01c171a1caf",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:41.989Z"
+      },
+      {
+        "id": "404bfd03-2199-81d9-8581-ce692fde1d0b",
+        "label": "REV-20260915-001",
+        "url": "https://app.notion.com/p/404bfd03219981d98581ce692fde1d0b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:44.365Z"
+      },
+      {
+        "id": "404bfd03-2199-81f2-8ea1-c4f731a14b95",
+        "label": "REV-20260916-001",
+        "url": "https://app.notion.com/p/404bfd03219981f28ea1c4f731a14b95",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:44.715Z"
+      },
+      {
+        "id": "404bfd03-2199-8186-9188-d71a42dfc1d0",
+        "label": "REV-20260922-001",
+        "url": "https://app.notion.com/p/404bfd03219981869188d71a42dfc1d0",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:08:45.191Z"
+      },
+      {
+        "id": "404bfd03-2199-8194-850a-ed22bd5ff83c",
+        "label": "REV-20260923-001",
+        "url": "https://app.notion.com/p/404bfd0321998194850aed22bd5ff83c",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:15.851Z"
+      },
+      {
+        "id": "404bfd03-2199-81f6-9b0d-f920df4dfe1a",
+        "label": "REV-20260929-001",
+        "url": "https://app.notion.com/p/404bfd03219981f69b0df920df4dfe1a",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:18.528Z"
+      },
+      {
+        "id": "404bfd03-2199-8191-906b-e2a87d9b6c73",
+        "label": "REV-20260929-002",
+        "url": "https://app.notion.com/p/404bfd0321998191906be2a87d9b6c73",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:19.187Z"
+      },
+      {
+        "id": "404bfd03-2199-8195-b158-d142e62c06b8",
+        "label": "REV-20260930-001",
+        "url": "https://app.notion.com/p/404bfd0321998195b158d142e62c06b8",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:19.573Z"
+      },
+      {
+        "id": "404bfd03-2199-81a6-b3b9-e8bce215cb5e",
+        "label": "REV-20261006-001",
+        "url": "https://app.notion.com/p/404bfd03219981a6b3b9e8bce215cb5e",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:23.168Z"
+      },
+      {
+        "id": "404bfd03-2199-81f1-8f20-eb7a1a89b8a7",
+        "label": "REV-20261013-001",
+        "url": "https://app.notion.com/p/404bfd03219981f18f20eb7a1a89b8a7",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:25.597Z"
+      },
+      {
+        "id": "404bfd03-2199-811b-928f-c92f87e31e03",
+        "label": "TEST-20260909-001",
+        "url": "https://app.notion.com/p/404bfd032199811b928fc92f87e31e03",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:26.114Z"
+      },
+      {
+        "id": "404bfd03-2199-814a-b8af-f3c8f7703d02",
+        "label": "TEST-20260916-001",
+        "url": "https://app.notion.com/p/404bfd032199814ab8aff3c8f7703d02",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:26.489Z"
+      },
+      {
+        "id": "404bfd03-2199-8145-9706-ea92cfc47291",
+        "label": "TEST-20260922-001",
+        "url": "https://app.notion.com/p/404bfd03219981459706ea92cfc47291",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:31.683Z"
+      },
+      {
+        "id": "404bfd03-2199-8111-835a-e897f9946a71",
+        "label": "TEST-20260929-001",
+        "url": "https://app.notion.com/p/404bfd0321998111835ae897f9946a71",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:33.063Z"
+      },
+      {
+        "id": "404bfd03-2199-81d8-8e0c-ff20be2cbedc",
+        "label": "TEST-20260930-001",
+        "url": "https://app.notion.com/p/404bfd03219981d88e0cff20be2cbedc",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:33.509Z"
+      },
+      {
+        "id": "404bfd03-2199-8192-8fac-d596b9a9e874",
+        "label": "TEST-20260930-002",
+        "url": "https://app.notion.com/p/404bfd03219981928facd596b9a9e874",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:34.084Z"
+      },
+      {
+        "id": "404bfd03-2199-81e1-88c4-e3ae3d7c5086",
+        "label": "TEST-20261006-001",
+        "url": "https://app.notion.com/p/404bfd03219981e188c4e3ae3d7c5086",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:38.739Z"
+      },
+      {
+        "id": "404bfd03-2199-81d3-af91-f2d9b3e7d4d9",
+        "label": "TEST-20261013-001",
+        "url": "https://app.notion.com/p/404bfd03219981d3af91f2d9b3e7d4d9",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:39.721Z"
+      },
+      {
+        "id": "404bfd03-2199-8118-9a77-d40d2eaf04c9",
+        "label": "TEST-20261013-002",
+        "url": "https://app.notion.com/p/404bfd03219981189a77d40d2eaf04c9",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:40.127Z"
+      },
+      {
+        "id": "404bfd03-2199-813e-947a-d86c6638d687",
+        "label": "TEST-20261014-001",
+        "url": "https://app.notion.com/p/404bfd032199813e947ad86c6638d687",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:40.413Z"
+      },
+      {
+        "id": "404bfd03-2199-8171-9a31-fb94bcd67fb8",
+        "label": "KPT-20260903-001",
+        "url": "https://app.notion.com/p/404bfd03219981719a31fb94bcd67fb8",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:45.120Z"
+      },
+      {
+        "id": "404bfd03-2199-81ff-8a56-ddd81c4de12b",
+        "label": "KPT-20260910-001",
+        "url": "https://app.notion.com/p/404bfd03219981ff8a56ddd81c4de12b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:45.394Z"
+      },
+      {
+        "id": "404bfd03-2199-8147-9c27-f67957298305",
+        "label": "KPT-20260917-001",
+        "url": "https://app.notion.com/p/404bfd03219981479c27f67957298305",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:45.654Z"
+      },
+      {
+        "id": "404bfd03-2199-817a-9fc5-f41cc9e3d5c9",
+        "label": "KPT-20260924-001",
+        "url": "https://app.notion.com/p/404bfd032199817a9fc5f41cc9e3d5c9",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:46.034Z"
+      },
+      {
+        "id": "404bfd03-2199-81f8-b149-e043a715f55b",
+        "label": "KPT-20261001-001",
+        "url": "https://app.notion.com/p/404bfd03219981f8b149e043a715f55b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:50.742Z"
+      },
+      {
+        "id": "404bfd03-2199-81be-9b40-d385ebd3bb9b",
+        "label": "KPT-20261008-001",
+        "url": "https://app.notion.com/p/404bfd03219981be9b40d385ebd3bb9b",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:51.931Z"
+      },
+      {
+        "id": "404bfd03-2199-819f-84f4-e3d537e7265f",
+        "label": "KPT-20261015-001",
+        "url": "https://app.notion.com/p/404bfd032199819f84f4e3d537e7265f",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:52.265Z"
+      },
+      {
+        "id": "404bfd03-2199-811e-9392-f2015dc109fd",
+        "label": "MILE-20260902-001",
+        "url": "https://app.notion.com/p/404bfd032199811e9392f2015dc109fd",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:52.635Z"
+      },
+      {
+        "id": "404bfd03-2199-8109-84fb-c37da710fd18",
+        "label": "MILE-20260916-001",
+        "url": "https://app.notion.com/p/404bfd032199810984fbc37da710fd18",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:57.931Z"
+      },
+      {
+        "id": "404bfd03-2199-8159-904a-dd2b3764c477",
+        "label": "MILE-20260923-001",
+        "url": "https://app.notion.com/p/404bfd0321998159904add2b3764c477",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:59.324Z"
+      },
+      {
+        "id": "404bfd03-2199-81e8-ae6b-d8fdd5397bc7",
+        "label": "MILE-20261007-001",
+        "url": "https://app.notion.com/p/404bfd03219981e8ae6bd8fdd5397bc7",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:09:59.786Z"
+      },
+      {
+        "id": "404bfd03-2199-815f-a591-efe2ba6f3d6a",
+        "label": "MILE-20261018-001",
+        "url": "https://app.notion.com/p/404bfd032199815fa591efe2ba6f3d6a",
+        "denied": true,
+        "result": "sign-in required",
+        "checked_at": "2026-10-25T09:10:00.184Z"
+      }
+    ]
+  },
+  "unverified": [
+    "All 112 independent sharing dialogs and invited guest lists were not individually enumerated; the connector does not expose ACLs.",
+    "Third-party copies and search/CDN caches cannot be recalled by these changes."
+  ],
+  "evidence_storage": "Raw before/after connector exports and UI observations are retained only in the private local audit backup."
+}

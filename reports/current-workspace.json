@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/zahin-dev/talklear-development-simulation",
+  "visibility": "private",
+  "notion_parent": "https://app.notion.com/p/404bfd032199810eac93f56f7cf89f99",
+  "provenance_authority": "https://app.notion.com/p/404bfd03219981c7a9c3c776d5f6fc39",
+  "historical_baseline_sha": "bdf75b56eb74d24917e00d95d9b3cb01f04802bd",
+  "source_repository": "zahin-dev/translate-chat",
+  "source_unchanged": true,
+  "record_count": 99,
+  "database_count": 9,
+  "audit_id": "20261025-170527"
+}
