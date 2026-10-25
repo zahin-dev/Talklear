@@ -1,4 +1,4 @@
-<h1 align="center">💬 Talklear</h1>
+<h1 align="center">Talklear</h1>
 
 <p align="center">
   <b>日英の端末内翻訳で、言葉をつなぐルームチャット。</b><br>
