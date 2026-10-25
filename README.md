@@ -81,7 +81,7 @@ Talklearの日英翻訳チャットのコード、設計、タスク、検証を
 | 企画・要件 | [要件](docs/requirements.md) · [計画](docs/project/master-plan.md) |
 | 開発管理 | [開発日程](docs/project/timeline.md) · [チーム](docs/project/team.md) · [ID台帳](docs/project/id-ledger.json) |
 | 設計 | [技術設計](docs/design/architecture.md) · [API](docs/design/api.md) · [DB](docs/design/database.md) |
-| 公開・運用 | [アプリ公開設定](docs/deployment.md) · [アクセス設定](docs/deployment/access-settings.md) |
+| 公開・運用 | [アプリ公開設定](docs/deployment.md) |
 | 品質・記録 | [テスト計画](docs/testing/plan.md) · [記録の出典](docs/admin/record-sources.md) · [過去の非公開監査結果](reports/private-workspace-audit.md) |
 
 <a id="verification"></a>
@@ -119,5 +119,3 @@ Docker結合は独立環境で実行します。
 ## 🌐 公開・共有
 
 GitHubは**Public**、[Notionダッシュボード](https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99)は**リンクを知っている人がログインなしで閲覧できるWeb公開設定**です。Notionの検索エンジンへの掲載はオフです。
-
-📖 現在の設定は[アクセス設定](docs/deployment/access-settings.md)にまとめています。
