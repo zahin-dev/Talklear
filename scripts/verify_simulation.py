@@ -46,6 +46,7 @@ check('all 48 snapshot paths preserved',not missing and len(manifest['files'])==
 check('only four permitted document differences',set(diff)==allowed)
 application=[f for f in manifest['files'] if f['path'] not in allowed]
 check('44 application test config files byte identical',len(application)==44 and all(hashlib.sha256((ROOT/f['path']).read_bytes()).hexdigest()==f['sha256'] for f in application))
+check('committed application bytes match snapshot',all(hashlib.sha256(subprocess.check_output(['git','show','HEAD:'+f['path']],cwd=ROOT)).hexdigest()==f['sha256'] for f in application))
 check('no extra source or application test files',set(p.relative_to(ROOT).as_posix() for prefix in ('src','tests') for p in (ROOT/prefix).rglob('*') if p.is_file())==set(f['path'] for f in application if f['path'].startswith(('src/','tests/'))))
 for r in records:
  if r['database']=='Code Reviews':
@@ -68,6 +69,25 @@ for file in tracked:
  text=(ROOT/file).read_text(encoding='utf-8-sig',errors='replace')
  if any(re.search(p,text) for p in patterns):suspects.append(file)
 check('credential pattern scan (bounded heuristic)',not suspects)
+broken=[]
+for p in list((ROOT/'docs').rglob('*.md'))+[ROOT/'README.md']:
+ for link in re.findall(r'\]\(([^)]+)\)',p.read_text(encoding='utf-8')):
+  if link and not link.startswith(('#','http:','https:','mailto:')):
+   from urllib.parse import unquote
+   if not (p.parent/unquote(link.split('#')[0])).exists():broken.append((str(p.relative_to(ROOT)),link))
+check('local Markdown target paths exist',not broken)
+if (ROOT/'reports/notion-verification.json').exists():
+ live=read('reports/notion-verification.json')
+ check('Notion live ID status and relation readback',live.get('passed') and len(live['records'])==99)
+if (ROOT/'reports/public-browser-checks.json').exists():
+ public=read('reports/public-browser-checks.json')
+ check('all 9 public databases render records without login',len(public)==9 and all(x['recordVisible'] and not x['loginRequired'] for x in public))
+if (ROOT/'reports/ci-run.json').exists():
+ ci=read('reports/ci-run.json')
+ check('current execution CI passed',ci['conclusion']=='success' and ci['status']=='completed')
+ original_paths=[f['path'] for f in application]
+ changes=subprocess.check_output(['git','diff',ci['headSha'],'--',*original_paths],cwd=ROOT)
+ check('application source unchanged since successful CI',not changes)
 report={'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'counts':counts,'checks':checks,'errors':errors,'source_modified_docs':diff,'source_missing':missing,'credential_suspect_paths':suspects,'limits':['Notion publication and remote CI require separate live verification.','No historical activity or browser translation quality is proved.','Credential pattern scan is heuristic; manual review also required.']}
 (ROOT/'docs/verification/consistency-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (ROOT/'docs/verification/consistency-report.md').write_text('# 整合性検証\n\n'+f'{len(checks)-len(errors)}/{len(checks)} checks passed.\n\n'+'\n'.join(('- PASS ' if c['passed'] else '- FAIL ')+c['check'] for c in checks)+'\n\n公開状態・遠隔CI・Chrome操作は別途確認。過去の事実は検証しない。\n',encoding='utf-8')

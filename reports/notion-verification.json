@@ -1,0 +1,686 @@
+{
+  "checked_on_jst": "2026-10-25",
+  "query_note": "Initial rows-mode verified all 99 records; after Free rows quota, final Tests readback used supported view mode.",
+  "counts": {
+    "Tasks": {
+      "count": 32,
+      "has_more": false
+    },
+    "Development Sessions": {
+      "count": 14,
+      "has_more": false
+    },
+    "Meetings": {
+      "count": 6,
+      "has_more": false
+    },
+    "ADR": {
+      "count": 7,
+      "has_more": false
+    },
+    "Bugs": {
+      "count": 8,
+      "has_more": false
+    },
+    "Code Reviews": {
+      "count": 10,
+      "has_more": false
+    },
+    "Tests": {
+      "count": 10,
+      "has_more": false
+    },
+    "KPT": {
+      "count": 7,
+      "has_more": false
+    },
+    "Milestones": {
+      "count": 5,
+      "has_more": false
+    }
+  },
+  "checks": [
+    {
+      "database": "Tasks",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "Development Sessions",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "Meetings",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "ADR",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "Bugs",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "Code Reviews",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "Tests",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "KPT",
+      "id_set_matches": true,
+      "no_duplicates": true
+    },
+    {
+      "database": "Milestones",
+      "id_set_matches": true,
+      "no_duplicates": true
+    }
+  ],
+  "records": [
+    {
+      "id": "TASK-20261013-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261006-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261014-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261013-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261014-003",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261014-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261007-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261007-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260930-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260923-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260923-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260930-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260929-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20261006-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260922-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260916-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260915-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260916-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260909-003",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260915-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260909-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260916-003",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260902-003",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260902-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260908-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260901-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260908-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260902-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TASK-20260901-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20261006-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20261013-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260930-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20261007-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20261014-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260916-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260923-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260908-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260915-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260902-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "DEV-20260901-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MTG-20261014-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MTG-20260901-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MTG-20260902-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MTG-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MTG-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MTG-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20261013-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20260915-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20260902-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "ADR-20260902-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260929-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260930-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260923-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260916-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20261013-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "BUG-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20261006-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20261013-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260929-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260923-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260930-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260915-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260916-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "REV-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20260909-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20260916-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20260922-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20260929-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20260930-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20260930-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20261006-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20261013-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20261013-002",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "TEST-20261014-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20260917-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20260903-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20260924-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20261015-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20261008-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20261001-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "KPT-20260910-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MILE-20260916-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MILE-20260902-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MILE-20260923-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MILE-20261018-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    },
+    {
+      "id": "MILE-20261007-001",
+      "tasks_relation_matches": true,
+      "session_relation_present": true,
+      "status_matches": true
+    }
+  ],
+  "passed": true
+}

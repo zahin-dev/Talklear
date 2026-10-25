@@ -1,0 +1,11 @@
+✔ a late model download event cannot hide a failed setup (2.0745ms)
+✔ a synchronous browser setup error can be retried (2.3794ms)
+✔ a failed message does not block the next translation (2.0422ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 194.6148

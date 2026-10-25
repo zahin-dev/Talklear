@@ -1,6 +1,6 @@
 # 整合性検証
 
-36/36 checks passed.
+42/42 checks passed.
 
 - PASS unique IDs
 - PASS record date matches ID
@@ -22,6 +22,7 @@
 - PASS all 48 snapshot paths preserved
 - PASS only four permitted document differences
 - PASS 44 application test config files byte identical
+- PASS committed application bytes match snapshot
 - PASS no extra source or application test files
 - PASS REV-20260909-001 target exists in bound commit
 - PASS REV-20260915-001 target exists in bound commit
@@ -38,5 +39,10 @@
 - PASS one independent root commit
 - PASS no runtime credential or data paths
 - PASS credential pattern scan (bounded heuristic)
+- PASS local Markdown target paths exist
+- PASS Notion live ID status and relation readback
+- PASS all 9 public databases render records without login
+- PASS current execution CI passed
+- PASS application source unchanged since successful CI
 
 公開状態・遠隔CI・Chrome操作は別途確認。過去の事実は検証しない。

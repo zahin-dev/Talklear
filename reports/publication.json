@@ -1,0 +1,11 @@
+{
+  "github": "https://github.com/zahin-dev/talklear-development-simulation",
+  "github_visibility": "PUBLIC",
+  "notion_parent": "https://app.notion.com/p/404bfd032199810eac93f56f7cf89f99",
+  "notion_public_site": "https://airy-mantis-6f3.notion.site/Talklear-Development-Simulation-404bfd032199810eac93f56f7cf89f99",
+  "notion_published": true,
+  "search_engine_indexing": "Off (observed in desktop UI)",
+  "actual_execution_date_jst": "2026-10-25",
+  "ci_run": "https://github.com/zahin-dev/talklear-development-simulation/actions/runs/40172458340",
+  "ci_head_sha": "7a577e7528d10f269891f9666c23f0541e47e6ae"
+}

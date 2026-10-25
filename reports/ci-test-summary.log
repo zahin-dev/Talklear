@@ -1,0 +1,16 @@
+verify	Message and translation logic	2026-10-25T07:21:49.2251975Z ℹ tests 6
+verify	Message and translation logic	2026-10-25T07:21:49.2260370Z ℹ pass 6
+verify	Message and translation logic	2026-10-25T07:21:49.2260874Z ℹ fail 0
+verify	Message and translation logic	2026-10-25T07:21:49.2262807Z ℹ duration_ms 74.161325
+verify	HTTP, database and origin checks	2026-10-25T07:22:01.8209976Z [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s -- in jp.translatechat.SecurityHeadersTest
+verify	HTTP, database and origin checks	2026-10-25T07:22:01.8380420Z [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in jp.translatechat.RequestLimitsTest
+verify	HTTP, database and origin checks	2026-10-25T07:22:08.8769144Z [INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.078 s -- in jp.translatechat.ChatIntegrationTest
+verify	HTTP, database and origin checks	2026-10-25T07:22:08.8829102Z [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in jp.translatechat.CloudConfigurationTest
+verify	HTTP, database and origin checks	2026-10-25T07:22:09.2698400Z [INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+verify	HTTP, database and origin checks	2026-10-25T07:22:09.8238804Z [INFO] BUILD SUCCESS
+verify	Cloud image	2026-10-25T07:22:30.6577350Z #15 13.33 [INFO] BUILD SUCCESS
+verify	Docker conversation and persistence	2026-10-25T07:22:53.0841790Z ✔ Docker UI, group chat, origin validation and saved history (14288.149438ms)
+verify	Docker conversation and persistence	2026-10-25T07:22:53.1052610Z ℹ tests 1
+verify	Docker conversation and persistence	2026-10-25T07:22:53.1054485Z ℹ pass 1
+verify	Docker conversation and persistence	2026-10-25T07:22:53.1055087Z ℹ fail 0
+verify	Docker conversation and persistence	2026-10-25T07:22:53.1058625Z ℹ duration_ms 14368.285274

@@ -1,0 +1,56 @@
+[
+  {
+    "database": "Tasks",
+    "url": "https://airy-mantis-6f3.notion.site/77b550fa7d514c679beadb767ab4f61b?v=ab93b5b5f4c64f3e8028182f36ee62ff",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "Development Sessions",
+    "url": "https://airy-mantis-6f3.notion.site/eb7e6a108aa54d01add0d5f855165c4e?v=09b4189a2a4140d78636aa622b08bf06",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "Meetings",
+    "url": "https://airy-mantis-6f3.notion.site/3a10a4aaff5b4919956db22c63d901b7?v=a0212777becb44c5ba957d767501677a",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "ADR",
+    "url": "https://airy-mantis-6f3.notion.site/0e305b0ce1344ba68309e424cc5d22c9?v=b6250fa23eb5472095020314b7209596",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "Bugs",
+    "url": "https://airy-mantis-6f3.notion.site/2192efc364ef4d179d4fbc83cc577027?v=f4af9d15f2254433a6089f4d90d2b0d9",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "Code Reviews",
+    "url": "https://airy-mantis-6f3.notion.site/b72e32df6a1b42f8a9480da424116512?v=717d1cfb63a446c190a137c296e2dfc2",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "Tests",
+    "url": "https://airy-mantis-6f3.notion.site/1387d51aff5542559d38ed9bdb9189ad?v=0c0e7640f7a247b1a6e1fb0890f86feb",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "KPT",
+    "url": "https://airy-mantis-6f3.notion.site/e8f9fb575690435a959f65fe7a689c6f?v=c86325599b114815a757d4ce15117411",
+    "recordVisible": true,
+    "loginRequired": false
+  },
+  {
+    "database": "Milestones",
+    "url": "https://airy-mantis-6f3.notion.site/88de900f39954701af8f644edcd31a70?v=b021c17b31684db6a564bbe1934b1f48",
+    "recordVisible": true,
+    "loginRequired": false
+  }
+]

@@ -1,0 +1,11 @@
+✔ sending between polls must not skip an unseen message from a friend (1.3514ms)
+✔ history and duplicate send responses do not move the polling cursor (0.2511ms)
+✔ entering another room clears messages and the cursor (0.1459ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.7866

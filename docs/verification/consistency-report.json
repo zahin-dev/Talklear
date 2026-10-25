@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-25T07:06:10.689289+00:00",
+  "checked_at_utc": "2026-10-25T07:25:17.971430+00:00",
   "counts": {
     "ADR": 7,
     "Bugs": 8,
@@ -93,6 +93,10 @@
       "passed": true
     },
     {
+      "check": "committed application bytes match snapshot",
+      "passed": true
+    },
+    {
       "check": "no extra source or application test files",
       "passed": true
     },
@@ -154,6 +158,26 @@
     },
     {
       "check": "credential pattern scan (bounded heuristic)",
+      "passed": true
+    },
+    {
+      "check": "local Markdown target paths exist",
+      "passed": true
+    },
+    {
+      "check": "Notion live ID status and relation readback",
+      "passed": true
+    },
+    {
+      "check": "all 9 public databases render records without login",
+      "passed": true
+    },
+    {
+      "check": "current execution CI passed",
+      "passed": true
+    },
+    {
+      "check": "application source unchanged since successful CI",
       "passed": true
     }
   ],

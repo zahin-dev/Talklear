@@ -4,6 +4,8 @@
 
 [Notion管理正本](https://app.notion.com/p/404bfd032199810eac93f56f7cf89f99) / [マスタープラン](docs/project/master-plan.md) / [記録の読み方](docs/simulation-notice.md) / [全ID台帳](docs/project/id-ledger.json) / [段階コミット](docs/verification/stage-map.md) / [検証結果](reports/execution-report.md)
 
+[Notion公開サイト](https://airy-mantis-6f3.notion.site/Talklear-Development-Simulation-404bfd032199810eac93f56f7cf89f99)は未ログインで閲覧できます。検索エンジンのインデックスはOffです。
+
 Verified＝現在のソース・今回の実行、Provided＝ユーザー設定、Simulated＝架空の過程、Assumed＝仮定、Unverified＝未確認。シミュレーション日は2026/9/1–10/18、実際の作成日は2026/10/25。10/18は状態基準日で追加開発日ではありません。
 
 アプリ・テスト・設定は取得版とバイト一致を検証します。DB版の安全策と完成UIの細かな途中差分は復元していません。Git作者は専用の架空組織名で統一し、過去日時やメンバーの貢献を偽装しません。

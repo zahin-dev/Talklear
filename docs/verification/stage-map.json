@@ -58,5 +58,11 @@
     "message": "build(deploy): restore Docker cloud settings and CI [TASK-20261013-001] [TASK-20261013-002]",
     "scope": "設定とCI定義を完成版へ復元。アプリの新規クラウド公開は対象外。元と同じComposeプロジェクト名なので既存環境と同時起動しない。",
     "actual_committed_at": "2026-10-25T15:52:56+09:00"
+  },
+  {
+    "commit": "7a577e7528d10f269891f9666c23f0541e47e6ae",
+    "message": "fix(snapshot): preserve archived PowerShell bytes [TASK-20261014-002]",
+    "scope": "取得ZIPのPowerShell9ファイルのCRLFをGit内でも保全。処理変更なし。最終CI40172458340で24テストとビルド成功。",
+    "actual_committed_at": "2026-10-25T16:21:18+09:00"
   }
 ]
