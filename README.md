@@ -13,11 +13,12 @@
 </p>
 
 <p align="center">
-  <a href="https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99">Notionダッシュボード</a> ·
   <a href="#quickstart">クイックスタート</a> ·
   <a href="#features">主な機能</a> ·
+  <a href="#technology">技術構成</a> ·
   <a href="#documentation">ドキュメント</a> ·
-  <a href="#verification">検証</a>
+  <a href="#verification">検証</a> ·
+  <a href="https://airy-mantis-6f3.notion.site/Talklear-Development-Workspace-404bfd032199810eac93f56f7cf89f99">Notionダッシュボード</a>
 </p>
 
 ---
@@ -57,6 +58,8 @@ Talklearの日英翻訳チャットのコード、設計、タスク、検証を
 - **メッセージ保存** — PostgreSQLへの保存と履歴の取得。
 - **日英の端末内翻訳** — Chrome Translator / LanguageDetectorを使用。
 - **原文表示** — 翻訳に加えて、元のメッセージも確認。
+
+<a id="technology"></a>
 
 ## 🧩 技術構成
 
