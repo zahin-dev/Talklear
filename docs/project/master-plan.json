@@ -1,0 +1,642 @@
+{
+  "evidence": "Simulated",
+  "schedule": "Provided",
+  "actual_generation_utc": "2026-10-25T06:51:39.680973+00:00",
+  "snapshot_reference_date": "2026-10-18",
+  "sessions": [
+    {
+      "id": "DEV-20260901-001",
+      "date": "2026-09-01",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260901-001",
+        "TASK-20260901-002"
+      ]
+    },
+    {
+      "id": "DEV-20260902-001",
+      "date": "2026-09-02",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260902-001",
+        "TASK-20260902-002",
+        "TASK-20260902-003"
+      ]
+    },
+    {
+      "id": "DEV-20260908-001",
+      "date": "2026-09-08",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260908-001",
+        "TASK-20260908-002"
+      ]
+    },
+    {
+      "id": "DEV-20260909-001",
+      "date": "2026-09-09",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260909-001",
+        "TASK-20260909-002",
+        "TASK-20260909-003"
+      ]
+    },
+    {
+      "id": "DEV-20260915-001",
+      "date": "2026-09-15",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260915-001",
+        "TASK-20260915-002"
+      ]
+    },
+    {
+      "id": "DEV-20260916-001",
+      "date": "2026-09-16",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260916-001",
+        "TASK-20260916-002",
+        "TASK-20260916-003"
+      ]
+    },
+    {
+      "id": "DEV-20260922-001",
+      "date": "2026-09-22",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260922-001",
+        "TASK-20260922-002"
+      ]
+    },
+    {
+      "id": "DEV-20260923-001",
+      "date": "2026-09-23",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260923-001",
+        "TASK-20260923-002"
+      ]
+    },
+    {
+      "id": "DEV-20260929-001",
+      "date": "2026-09-29",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260929-001",
+        "TASK-20260929-002"
+      ]
+    },
+    {
+      "id": "DEV-20260930-001",
+      "date": "2026-09-30",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20260930-001",
+        "TASK-20260930-002"
+      ]
+    },
+    {
+      "id": "DEV-20261006-001",
+      "date": "2026-10-06",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20261006-001",
+        "TASK-20261006-002"
+      ]
+    },
+    {
+      "id": "DEV-20261007-001",
+      "date": "2026-10-07",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20261007-001",
+        "TASK-20261007-002"
+      ]
+    },
+    {
+      "id": "DEV-20261013-001",
+      "date": "2026-10-13",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20261013-001",
+        "TASK-20261013-002"
+      ]
+    },
+    {
+      "id": "DEV-20261014-001",
+      "date": "2026-10-14",
+      "time": "13:00–18:00 Asia/Tokyo",
+      "hours_per_member": 5,
+      "person_hours": 15,
+      "tasks": [
+        "TASK-20261014-001",
+        "TASK-20261014-002",
+        "TASK-20261014-003"
+      ]
+    }
+  ],
+  "kpt": [
+    {
+      "id": "KPT-20260903-001",
+      "date": "2026-09-03",
+      "time": "13:00–13:30 Asia/Tokyo"
+    },
+    {
+      "id": "KPT-20260910-001",
+      "date": "2026-09-10",
+      "time": "13:00–13:30 Asia/Tokyo"
+    },
+    {
+      "id": "KPT-20260917-001",
+      "date": "2026-09-17",
+      "time": "13:00–13:30 Asia/Tokyo"
+    },
+    {
+      "id": "KPT-20260924-001",
+      "date": "2026-09-24",
+      "time": "13:00–13:30 Asia/Tokyo"
+    },
+    {
+      "id": "KPT-20261001-001",
+      "date": "2026-10-01",
+      "time": "13:00–13:30 Asia/Tokyo"
+    },
+    {
+      "id": "KPT-20261008-001",
+      "date": "2026-10-08",
+      "time": "13:00–13:30 Asia/Tokyo"
+    },
+    {
+      "id": "KPT-20261015-001",
+      "date": "2026-10-15",
+      "time": "13:00–13:30 Asia/Tokyo"
+    }
+  ],
+  "development_person_hours": 210,
+  "kpt_person_hours_separate": 10.5,
+  "members": {
+    "member1": 70,
+    "member2": 70,
+    "zahin-dev": 70
+  },
+  "tasks": [
+    {
+      "id": "TASK-20260901-001",
+      "title": "課題・対象利用者・チーム規約",
+      "owner": "全員",
+      "date": "2026-09-01",
+      "session": "DEV-20260901-001",
+      "dependencies": [],
+      "acceptance": "異言語の友人との雑談を対象とし、活動と史実を区別する",
+      "evidence_file": "docs/project/charter.md",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260901-002",
+      "title": "MVP範囲と受入条件",
+      "owner": "全員",
+      "date": "2026-09-01",
+      "session": "DEV-20260901-001",
+      "dependencies": [
+        "TASK-20260901-001"
+      ],
+      "acceptance": "日英・ルーム・原文保存を優先し、編集・自動削除を対象外にする",
+      "evidence_file": "docs/requirements.md",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260902-001",
+      "title": "技術比較と採用判断",
+      "owner": "全員",
+      "date": "2026-09-02",
+      "session": "DEV-20260902-001",
+      "dependencies": [
+        "TASK-20260901-002"
+      ],
+      "acceptance": "Java/FastAPI、素のJS/React、外部/端末内翻訳の比較理由を残す",
+      "evidence_file": "pom.xml",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260902-002",
+      "title": "API契約・エラー形式",
+      "owner": "member1",
+      "date": "2026-09-02",
+      "session": "DEV-20260902-001",
+      "dependencies": [
+        "TASK-20260902-001"
+      ],
+      "acceptance": "6経路、参加トークン、after/beforeを定義する",
+      "evidence_file": "src/main/java/jp/translatechat/ChatController.java",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260902-003",
+      "title": "DB基本設計",
+      "owner": "member1",
+      "date": "2026-09-02",
+      "session": "DEV-20260902-001",
+      "dependencies": [
+        "TASK-20260902-002"
+      ],
+      "acceptance": "部屋・参加者・発言の3表と外部キーを定義する",
+      "evidence_file": "src/main/resources/schema.sql",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260908-001",
+      "title": "環境準備と秘密情報の除外",
+      "owner": "zahin-dev",
+      "date": "2026-09-08",
+      "session": "DEV-20260908-001",
+      "dependencies": [
+        "TASK-20260902-001"
+      ],
+      "acceptance": "Windows準備方法と.tools/.local除外を説明する",
+      "evidence_file": "scripts/LocalEnvironment.ps1",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260908-002",
+      "title": "Spring Bootプロトタイプ",
+      "owner": "member1",
+      "date": "2026-09-08",
+      "session": "DEV-20260908-001",
+      "dependencies": [
+        "TASK-20260902-002",
+        "TASK-20260908-001"
+      ],
+      "acceptance": "静的ページを配信できる最小構成を用意する",
+      "evidence_file": "src/main/java/jp/translatechat/ChatApplication.java",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260909-001",
+      "title": "部屋の作成とID発行",
+      "owner": "member1",
+      "date": "2026-09-09",
+      "session": "DEV-20260909-001",
+      "dependencies": [
+        "TASK-20260902-003",
+        "TASK-20260908-002"
+      ],
+      "acceptance": "12文字の部屋コードを作成する",
+      "evidence_file": "src/main/java/jp/translatechat/ChatService.java",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260909-002",
+      "title": "参加者と退出の扱い",
+      "owner": "member1",
+      "date": "2026-09-09",
+      "session": "DEV-20260909-001",
+      "dependencies": [
+        "TASK-20260909-001"
+      ],
+      "acceptance": "部屋とトークンを照合し、退出後の資格を無効化する",
+      "evidence_file": "src/main/java/jp/translatechat/ChatService.java",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260909-003",
+      "title": "入室フォームとAPI接続",
+      "owner": "member2",
+      "date": "2026-09-09",
+      "session": "DEV-20260909-001",
+      "dependencies": [
+        "TASK-20260902-002",
+        "TASK-20260909-001"
+      ],
+      "acceptance": "作成と参加を選び、エラーを表示する",
+      "evidence_file": "src/main/resources/static/index.html",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260915-001",
+      "title": "原文メッセージ送信",
+      "owner": "member1",
+      "date": "2026-09-15",
+      "session": "DEV-20260915-001",
+      "dependencies": [
+        "TASK-20260909-002"
+      ],
+      "acceptance": "原文・送信言語・clientIdを受け取る",
+      "evidence_file": "src/main/java/jp/translatechat/ChatService.java",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260915-002",
+      "title": "新着取得とチャット表示",
+      "owner": "member2",
+      "date": "2026-09-15",
+      "session": "DEV-20260915-001",
+      "dependencies": [
+        "TASK-20260909-003",
+        "TASK-20260915-001"
+      ],
+      "acceptance": "2秒ごとに新着を読み、文字列として表示する",
+      "evidence_file": "src/main/resources/static/app.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260916-001",
+      "title": "PostgreSQL保存の統合",
+      "owner": "member1",
+      "date": "2026-09-16",
+      "session": "DEV-20260916-001",
+      "dependencies": [
+        "TASK-20260902-003",
+        "TASK-20260915-001"
+      ],
+      "acceptance": "原文を永続保存し、再起動で失わない構成を用意する",
+      "evidence_file": "src/main/resources/schema.sql",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260916-002",
+      "title": "最近100件と過去履歴",
+      "owner": "member1",
+      "date": "2026-09-16",
+      "session": "DEV-20260916-001",
+      "dependencies": [
+        "TASK-20260916-001"
+      ],
+      "acceptance": "before未満の履歴とhasMoreHistoryを返す",
+      "evidence_file": "src/main/java/jp/translatechat/ChatService.java",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260916-003",
+      "title": "再入室・タブ再読込",
+      "owner": "member2",
+      "date": "2026-09-16",
+      "session": "DEV-20260916-001",
+      "dependencies": [
+        "TASK-20260915-002",
+        "TASK-20260916-002"
+      ],
+      "acceptance": "退出後は新規参加、再読込は保存した参加情報で再開する",
+      "evidence_file": "src/main/resources/static/app.js",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20260922-001",
+      "title": "端末内翻訳・言語判定の試作",
+      "owner": "member2",
+      "date": "2026-09-22",
+      "session": "DEV-20260922-001",
+      "dependencies": [
+        "TASK-20260915-002"
+      ],
+      "acceptance": "ja/enの翻訳器と文字種フォールバックを用意する",
+      "evidence_file": "src/main/resources/static/translator.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260922-002",
+      "title": "翻訳準備失敗と再試行",
+      "owner": "member2",
+      "date": "2026-09-22",
+      "session": "DEV-20260922-001",
+      "dependencies": [
+        "TASK-20260922-001"
+      ],
+      "acceptance": "失敗状態を遅延進捗イベントで上書きしない",
+      "evidence_file": "tests/translator.test.mjs",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260923-001",
+      "title": "翻訳とチャットの統合",
+      "owner": "member2",
+      "date": "2026-09-23",
+      "session": "DEV-20260923-001",
+      "dependencies": [
+        "TASK-20260916-003",
+        "TASK-20260922-002"
+      ],
+      "acceptance": "相手の発言を読む言語へ変換する",
+      "evidence_file": "src/main/resources/static/app.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260923-002",
+      "title": "原文表示と翻訳失敗時の継続",
+      "owner": "member2",
+      "date": "2026-09-23",
+      "session": "DEV-20260923-001",
+      "dependencies": [
+        "TASK-20260923-001"
+      ],
+      "acceptance": "翻訳に失敗しても原文が読める",
+      "evidence_file": "src/main/resources/static/app.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260929-001",
+      "title": "送信再試行の重複抑止",
+      "owner": "member1",
+      "date": "2026-09-29",
+      "session": "DEV-20260929-001",
+      "dependencies": [
+        "TASK-20260916-001"
+      ],
+      "acceptance": "同じclientIdは同一発言を返し、変更時409とする",
+      "evidence_file": "src/main/java/jp/translatechat/ChatService.java",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260929-002",
+      "title": "同時送信の保存順序",
+      "owner": "member1",
+      "date": "2026-09-29",
+      "session": "DEV-20260929-001",
+      "dependencies": [
+        "TASK-20260929-001"
+      ],
+      "acceptance": "部屋行を採番前にロックし未確定IDを追い越さない",
+      "evidence_file": "src/main/java/jp/translatechat/ChatService.java",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260930-001",
+      "title": "新着カーソルの分離と表示順",
+      "owner": "member2",
+      "date": "2026-09-30",
+      "session": "DEV-20260930-001",
+      "dependencies": [
+        "TASK-20260923-002",
+        "TASK-20260929-002"
+      ],
+      "acceptance": "送信応答と履歴取得で新着カーソルを進めない",
+      "evidence_file": "src/main/resources/static/message-feed.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20260930-002",
+      "title": "入力・Origin・リクエスト制限",
+      "owner": "zahin-dev",
+      "date": "2026-09-30",
+      "session": "DEV-20260930-001",
+      "dependencies": [
+        "TASK-20260909-002",
+        "TASK-20260929-001"
+      ],
+      "acceptance": "他Originを拒否し、文字数・本文サイズ・頻度を制限する",
+      "evidence_file": "src/main/java/jp/translatechat/SecurityHeaders.java",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261006-001",
+      "title": "入力保持・サイドバー操作",
+      "owner": "member2",
+      "date": "2026-10-06",
+      "session": "DEV-20261006-001",
+      "dependencies": [
+        "TASK-20260930-001",
+        "TASK-20260930-002"
+      ],
+      "acceptance": "送信失敗時の下書きを保持し、キーボードで幅を操作する",
+      "evidence_file": "src/main/resources/static/sidebar.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261006-002",
+      "title": "日英表示文言と狭い画面",
+      "owner": "member2",
+      "date": "2026-10-06",
+      "session": "DEV-20261006-001",
+      "dependencies": [
+        "TASK-20261006-001"
+      ],
+      "acceptance": "表示言語切替で入力が消えず、読む言語を選択できる",
+      "evidence_file": "src/main/resources/static/translations.js",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261007-001",
+      "title": "回帰テストと検証表",
+      "owner": "zahin-dev",
+      "date": "2026-10-07",
+      "session": "DEV-20261007-001",
+      "dependencies": [
+        "TASK-20260922-002",
+        "TASK-20260929-002",
+        "TASK-20260930-001",
+        "TASK-20260930-002"
+      ],
+      "acceptance": "期待値と実行証拠を別欄で管理する",
+      "evidence_file": "src/test/java/jp/translatechat/ChatIntegrationTest.java",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261007-002",
+      "title": "CIへの検証組込み",
+      "owner": "zahin-dev",
+      "date": "2026-10-07",
+      "session": "DEV-20261007-001",
+      "dependencies": [
+        "TASK-20261007-001"
+      ],
+      "acceptance": "JS、JUnit、コンテナ検証を定義する",
+      "evidence_file": ".github/workflows/ci.yml",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261013-001",
+      "title": "Docker起動と保存領域",
+      "owner": "zahin-dev",
+      "date": "2026-10-13",
+      "session": "DEV-20261013-001",
+      "dependencies": [
+        "TASK-20261006-002",
+        "TASK-20261007-002"
+      ],
+      "acceptance": "再作成時も名前付きボリュームを保持する",
+      "evidence_file": "compose.yaml",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261013-002",
+      "title": "Vercel・Neon設定",
+      "owner": "zahin-dev",
+      "date": "2026-10-13",
+      "session": "DEV-20261013-001",
+      "dependencies": [
+        "TASK-20261013-001"
+      ],
+      "acceptance": "PG*とCHAT_DB_*を扱い、TLSを検証する",
+      "evidence_file": "src/main/resources/application-cloud.properties",
+      "estimated_person_hours": 7.5
+    },
+    {
+      "id": "TASK-20261014-001",
+      "title": "総合検証と残リスク整理",
+      "owner": "全員",
+      "date": "2026-10-14",
+      "session": "DEV-20261014-001",
+      "dependencies": [
+        "TASK-20261007-001",
+        "TASK-20261013-001",
+        "TASK-20261013-002"
+      ],
+      "acceptance": "未実行の手動検証と無料枠・保存期限の課題を残す",
+      "evidence_file": "docs/testing/plan.md",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20261014-002",
+      "title": "MVPスナップショット照合",
+      "owner": "zahin-dev",
+      "date": "2026-10-14",
+      "session": "DEV-20261014-001",
+      "dependencies": [
+        "TASK-20261014-001"
+      ],
+      "acceptance": "10/18は追加開発日とせず、全ソースのハッシュを照合する",
+      "evidence_file": "docs/verification/source-manifest.json",
+      "estimated_person_hours": 5.0
+    },
+    {
+      "id": "TASK-20261014-003",
+      "title": "MVP以後の改善バックログ",
+      "owner": "全員",
+      "date": "2026-10-14",
+      "session": "DEV-20261014-001",
+      "dependencies": [
+        "TASK-20261014-001"
+      ],
+      "acceptance": "自動削除・招待失効・品質評価は未実装として保留する",
+      "evidence_file": "docs/project/backlog.md",
+      "estimated_person_hours": 5.0
+    }
+  ]
+}
