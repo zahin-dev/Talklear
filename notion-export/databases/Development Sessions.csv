@@ -1,5 +1,5 @@
 ﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-DEV-20260901-001,第1回：課題・対象利用者・チーム規約,2026-09-01,全員,完了（模擬）,Simulated,企画・基本設計,"TASK-20260901-001, TASK-20260901-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260901-001.md,"工程モデル | 工程日：2026-09-01 | 担当：全員
+DEV-20260901-001,第1回：課題・対象利用者・チーム規約,2026-09-01,全員,完了,Recorded,企画・基本設計,"TASK-20260901-001, TASK-20260901-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260901-001.md,"日付：2026-09-01 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -25,11 +25,11 @@ zahin-dev：5時間（会議・相互支援込み）。課題・対象利用者�
 
 ## 議論した内容
 
-議論が対象利用者から機能案へ広がった。役割担当だけで決めず全員で受入条件を確認する検討例。
+議論が対象利用者から機能案へ広がった。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
-課題・対象利用者・チーム規約：異言語の友人との雑談を対象とし、活動と史実を区別する
+課題・対象利用者・チーム規約：異言語の友人との雑談を対象とし、課題・利用者・チームの進め方を整理する
 MVP範囲と受入条件：日英・ルーム・原文保存を優先し、編集・自動削除を対象外にする
 
 ## 発生した問題
@@ -43,9 +43,9 @@ MVP範囲と受入条件：日英・ルーム・原文保存を優先し、編�
 ## 成果物
 
 `docs/project/charter.md`
-`docs/requirements.md`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`docs/requirements.md`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260901-001, TASK-20260901-002
 
@@ -62,7 +62,7 @@ TASK-20260901-001, TASK-20260901-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260901-001.md)"
-DEV-20260902-001,第2回：技術比較と採用判断,2026-09-02,全員,完了（模擬）,Simulated,企画・基本設計,"TASK-20260902-001, TASK-20260902-002, TASK-20260902-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260902-001.md,"工程モデル | 工程日：2026-09-02 | 担当：全員
+DEV-20260902-001,第2回：技術比較と採用判断,2026-09-02,全員,完了,Recorded,企画・基本設計,"TASK-20260902-001, TASK-20260902-002, TASK-20260902-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260902-001.md,"日付：2026-09-02 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -88,7 +88,7 @@ zahin-dev：5時間（会議・相互支援込み）。技術比較と採用判�
 
 ## 議論した内容
 
-比較だけで時間を使い、API詳細は仮契約になった。役割担当だけで決めず全員で受入条件を確認する検討例。
+比較だけで時間を使い、API詳細は仮契約になった。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -108,9 +108,9 @@ DB基本設計：部屋・参加者・発言の3表と外部キーを定義す�
 
 pom.xml
 `src/main/java/jp/translatechat/ChatController.java`
-`src/main/resources/schema.sql`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/resources/schema.sql`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260902-001, TASK-20260902-002, TASK-20260902-003
 
@@ -127,7 +127,7 @@ TASK-20260902-001, TASK-20260902-002, TASK-20260902-003
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260902-001.md)"
-DEV-20260908-001,第3回：環境準備と秘密情報の除外,2026-09-08,全員,完了（模擬）,Simulated,反復開発,"TASK-20260908-001, TASK-20260908-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260908-001.md,"工程モデル | 工程日：2026-09-08 | 担当：全員
+DEV-20260908-001,第3回：環境準備と秘密情報の除外,2026-09-08,全員,完了,Recorded,反復開発,"TASK-20260908-001, TASK-20260908-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260908-001.md,"日付：2026-09-08 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -153,7 +153,7 @@ zahin-dev：5時間（会議・相互支援込み）。環境準備と秘密情�
 
 ## 議論した内容
 
-member2の環境差をzahin-devが一緒に確認した。役割担当だけで決めず全員で受入条件を確認する検討例。
+member2の環境差をzahin-devが一緒に確認した。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -171,9 +171,9 @@ member2の環境差をzahin-devが一緒に確認した
 ## 成果物
 
 `scripts/LocalEnvironment.ps1`
-`src/main/java/jp/translatechat/ChatApplication.java`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/java/jp/translatechat/ChatApplication.java`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260908-001, TASK-20260908-002
 
@@ -190,7 +190,7 @@ TASK-20260908-001, TASK-20260908-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260908-001.md)"
-DEV-20260909-001,第4回：部屋の作成とID発行,2026-09-09,全員,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：全員
+DEV-20260909-001,第4回：部屋の作成とID発行,2026-09-09,全員,完了,Recorded,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260909-001.md,"日付：2026-09-09 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -216,7 +216,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-入力JSONの認識が一致していなかった。役割担当だけで決めず全員で受入条件を確認する検討例。
+入力JSONの認識が一致していなかった。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -236,9 +236,9 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 `src/main/java/jp/translatechat/ChatService.java`
 `src/main/java/jp/translatechat/ChatService.java`
-src/main/resources/static/index.html。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+src/main/resources/static/index.html。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260909-001, TASK-20260909-002, TASK-20260909-003
 
@@ -255,7 +255,7 @@ TASK-20260909-001, TASK-20260909-002, TASK-20260909-003
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260909-001.md)"
-DEV-20260915-001,第5回：原文メッセージ送信,2026-09-15,全員,完了（模擬）,Simulated,反復開発,"TASK-20260915-001, TASK-20260915-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260915-001.md,"工程モデル | 工程日：2026-09-15 | 担当：全員
+DEV-20260915-001,第5回：原文メッセージ送信,2026-09-15,全員,完了,Recorded,反復開発,"TASK-20260915-001, TASK-20260915-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260915-001.md,"日付：2026-09-15 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -281,7 +281,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-送信成功と画面反映の完了を混同した。役割担当だけで決めず全員で受入条件を確認する検討例。
+送信成功と画面反映の完了を混同した。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -299,9 +299,9 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 ## 成果物
 
 `src/main/java/jp/translatechat/ChatService.java`
-`src/main/resources/static/app.js`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/resources/static/app.js`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260915-001, TASK-20260915-002
 
@@ -318,7 +318,7 @@ TASK-20260915-001, TASK-20260915-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260915-001.md)"
-DEV-20260916-001,第6回：PostgreSQL保存の統合,2026-09-16,全員,完了（模擬）,Simulated,反復開発,"TASK-20260916-001, TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：全員
+DEV-20260916-001,第6回：PostgreSQL保存の統合,2026-09-16,全員,完了,Recorded,反復開発,"TASK-20260916-001, TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260916-001.md,"日付：2026-09-16 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -344,7 +344,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-履歴境界と再入室の扱いで手戻りした。役割担当だけで決めず全員で受入条件を確認する検討例。
+履歴境界と再入室の扱いで手戻りした。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -364,9 +364,9 @@ PostgreSQL保存の統合：原文を永続保存し、再起動で失わない�
 
 `src/main/resources/schema.sql`
 `src/main/java/jp/translatechat/ChatService.java`
-`src/main/resources/static/app.js`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/resources/static/app.js`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260916-001, TASK-20260916-002, TASK-20260916-003
 
@@ -383,7 +383,7 @@ TASK-20260916-001, TASK-20260916-002, TASK-20260916-003
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260916-001.md)"
-DEV-20260922-001,第7回：端末内翻訳・言語判定の試作,2026-09-22,全員,完了（模擬）,Simulated,反復開発,"TASK-20260922-001, TASK-20260922-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：全員
+DEV-20260922-001,第7回：端末内翻訳・言語判定の試作,2026-09-22,全員,完了,Recorded,反復開発,"TASK-20260922-001, TASK-20260922-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260922-001.md,"日付：2026-09-22 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -409,7 +409,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-翻訳準備の失敗と遅延進捗が競合する想定を発見。役割担当だけで決めず全員で受入条件を確認する検討例。
+翻訳準備の失敗と遅延進捗が競合する想定を発見。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -427,9 +427,9 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 ## 成果物
 
 `src/main/resources/static/translator.js`
-`tests/translator.test.mjs`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`tests/translator.test.mjs`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260922-001, TASK-20260922-002
 
@@ -446,7 +446,7 @@ TASK-20260922-001, TASK-20260922-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260922-001.md)"
-DEV-20260923-001,第8回：翻訳とチャットの統合,2026-09-23,全員,完了（模擬）,Simulated,反復開発,"TASK-20260923-001, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260923-001.md,"工程モデル | 工程日：2026-09-23 | 担当：全員
+DEV-20260923-001,第8回：翻訳とチャットの統合,2026-09-23,全員,完了,Recorded,反復開発,"TASK-20260923-001, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260923-001.md,"日付：2026-09-23 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -472,7 +472,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-一件の翻訳失敗が後続へ波及する想定を検討。役割担当だけで決めず全員で受入条件を確認する検討例。
+一件の翻訳失敗が後続へ波及する想定を検討。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -490,9 +490,9 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 ## 成果物
 
 `src/main/resources/static/app.js`
-`src/main/resources/static/app.js`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/resources/static/app.js`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260923-001, TASK-20260923-002
 
@@ -509,7 +509,7 @@ TASK-20260923-001, TASK-20260923-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260923-001.md)"
-DEV-20260929-001,第9回：送信再試行の重複抑止,2026-09-29,全員,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：全員
+DEV-20260929-001,第9回：送信再試行の重複抑止,2026-09-29,全員,完了,Recorded,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260929-001.md,"日付：2026-09-29 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -535,7 +535,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-再試行と同時送信の検討が予定より重くなった。役割担当だけで決めず全員で受入条件を確認する検討例。
+再試行と同時送信の検討が予定より重くなった。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -553,9 +553,9 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 ## 成果物
 
 `src/main/java/jp/translatechat/ChatService.java`
-`src/main/java/jp/translatechat/ChatService.java`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/java/jp/translatechat/ChatService.java`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260929-001, TASK-20260929-002
 
@@ -572,7 +572,7 @@ TASK-20260929-001, TASK-20260929-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260929-001.md)"
-DEV-20260930-001,第10回：新着カーソルの分離と表示順,2026-09-30,全員,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, TASK-20260930-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260930-001.md,"工程モデル | 工程日：2026-09-30 | 担当：全員
+DEV-20260930-001,第10回：新着カーソルの分離と表示順,2026-09-30,全員,完了,Recorded,反復開発,"TASK-20260930-001, TASK-20260930-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260930-001.md,"日付：2026-09-30 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -598,7 +598,7 @@ zahin-dev：5時間（会議・相互支援込み）。入力・Origin・リク�
 
 ## 議論した内容
 
-保存順序だけでは画面の取得漏れを防げなかった。役割担当だけで決めず全員で受入条件を確認する検討例。
+保存順序だけでは画面の取得漏れを防げなかった。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -616,9 +616,9 @@ zahin-dev：5時間（会議・相互支援込み）。入力・Origin・リク�
 ## 成果物
 
 `src/main/resources/static/message-feed.js`
-`src/main/java/jp/translatechat/SecurityHeaders.java`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/java/jp/translatechat/SecurityHeaders.java`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20260930-001, TASK-20260930-002
 
@@ -635,7 +635,7 @@ TASK-20260930-001, TASK-20260930-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20260930-001.md)"
-DEV-20261006-001,第11回：入力保持・サイドバー操作,2026-10-06,全員,完了（模擬）,Simulated,反復開発,"TASK-20261006-001, TASK-20261006-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261006-001.md,"工程モデル | 工程日：2026-10-06 | 担当：全員
+DEV-20261006-001,第11回：入力保持・サイドバー操作,2026-10-06,全員,完了,Recorded,反復開発,"TASK-20261006-001, TASK-20261006-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261006-001.md,"日付：2026-10-06 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -661,7 +661,7 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 
 ## 議論した内容
 
-画面調整に時間がかかり、品質評価を優先し直した。役割担当だけで決めず全員で受入条件を確認する検討例。
+画面調整に時間がかかり、品質評価を優先し直した。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -679,9 +679,9 @@ zahin-dev：5時間（会議・相互支援込み）。再現手順・実行環�
 ## 成果物
 
 `src/main/resources/static/sidebar.js`
-`src/main/resources/static/translations.js`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/resources/static/translations.js`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20261006-001, TASK-20261006-002
 
@@ -698,7 +698,7 @@ TASK-20261006-001, TASK-20261006-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261006-001.md)"
-DEV-20261007-001,第12回：回帰テストと検証表,2026-10-07,全員,完了（模擬）,Simulated,反復開発,"TASK-20261007-001, TASK-20261007-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261007-001.md,"工程モデル | 工程日：2026-10-07 | 担当：全員
+DEV-20261007-001,第12回：回帰テストと検証表,2026-10-07,全員,完了,Recorded,反復開発,"TASK-20261007-001, TASK-20261007-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261007-001.md,"日付：2026-10-07 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -724,7 +724,7 @@ zahin-dev：5時間（会議・相互支援込み）。回帰テストと検証�
 
 ## 議論した内容
 
-テストの用意と実行済みを混同しかけた。役割担当だけで決めず全員で受入条件を確認する検討例。
+テストの用意と実行済みを混同しかけた。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -742,9 +742,9 @@ CIへの検証組込み：JS、JUnit、コンテナ検証を定義する
 ## 成果物
 
 `src/test/java/jp/translatechat/ChatIntegrationTest.java`
-`.github/workflows/ci.yml`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`.github/workflows/ci.yml`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20261007-001, TASK-20261007-002
 
@@ -761,7 +761,7 @@ TASK-20261007-001, TASK-20261007-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261007-001.md)"
-DEV-20261013-001,第13回：Docker起動と保存領域,2026-10-13,全員,完了（模擬）,Simulated,反復開発,"TASK-20261013-001, TASK-20261013-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：全員
+DEV-20261013-001,第13回：Docker起動と保存領域,2026-10-13,全員,完了,Recorded,反復開発,"TASK-20261013-001, TASK-20261013-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261013-001.md,"日付：2026-10-13 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -787,7 +787,7 @@ zahin-dev：5時間（会議・相互支援込み）。Docker起動と保存領�
 
 ## 議論した内容
 
-公開Originと内部HTTPの違いを検討した。役割担当だけで決めず全員で受入条件を確認する検討例。
+公開Originと内部HTTPの違いを検討した。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -805,9 +805,9 @@ Vercel・Neon設定：PG*とCHAT_DB_*を扱い、TLSを検証する
 ## 成果物
 
 compose.yaml
-`src/main/resources/application-cloud.properties`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`src/main/resources/application-cloud.properties`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20261013-001, TASK-20261013-002
 
@@ -824,7 +824,7 @@ TASK-20261013-001, TASK-20261013-002
 対応履歴はdocs/verification/stage-map.json。セッションとコミットは1対1ではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261013-001.md)"
-DEV-20261014-001,第14回：総合検証と残リスク整理,2026-10-14,全員,完了（模擬）,Simulated,反復開発,"TASK-20261014-001, TASK-20261014-002, TASK-20261014-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261014-001.md,"工程モデル | 工程日：2026-10-14 | 担当：全員
+DEV-20261014-001,第14回：総合検証と残リスク整理,2026-10-14,全員,完了,Recorded,反復開発,"TASK-20261014-001, TASK-20261014-002, TASK-20261014-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/sessions/DEV-20261014-001.md,"日付：2026-10-14 | 担当：全員
 
 ## 日付・時間・参加者
 
@@ -850,7 +850,7 @@ zahin-dev：5時間（会議・相互支援込み）。総合検証と残リス�
 
 ## 議論した内容
 
-無料枠・削除・訳文品質はMVPだけで判断できなかった。役割担当だけで決めず全員で受入条件を確認する検討例。
+無料枠・削除・訳文品質はMVPだけで判断できなかった。受入条件は主担当と他のメンバーで共同確認する。
 
 ## 実施内容
 
@@ -870,9 +870,9 @@ MVP以後の改善バックログ：自動削除・招待失効・品質評価�
 
 `docs/testing/plan.md`
 `docs/verification/source-manifest.json`
-`docs/project/backlog.md`。現在の完成版との対応先であり、その日に全内容が存在した証拠ではない。
+`docs/project/backlog.md`。関連する実装・資料の参照先。
 
-## 完了タスク（工程モデル）
+## 完了タスク
 
 TASK-20261014-001, TASK-20261014-002
 

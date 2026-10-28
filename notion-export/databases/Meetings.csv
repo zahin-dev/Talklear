@@ -1,5 +1,5 @@
 ﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-MTG-20260901-001,企画・対象利用者の整理,2026-09-01,全員,完了（模擬）,Simulated,反復開発,"TASK-20260901-001, TASK-20260901-002, DEV-20260901-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260901-001.md,"工程モデル | 工程日：2026-09-01 | 担当：全員
+MTG-20260901-001,企画・対象利用者の整理,2026-09-01,全員,完了,Recorded,反復開発,"TASK-20260901-001, TASK-20260901-002, DEV-20260901-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260901-001.md,"日付：2026-09-01 | 担当：全員
 
 ## 議題
 
@@ -13,9 +13,9 @@ member1、member2、zahin-dev（役割名）
 
 13:00から45分。開発13:00–18:00の内数。
 
-## 意見・相談（検討例）
+## 意見・相談
 
-member2はコピー翻訳の手間、member1は保存要件、zahin-devは環境再現の難しさを論点にする検討例。
+member2はコピー翻訳の手間、member1は保存要件、zahin-devは環境再現の難しさを論点にする検討。
 
 ## 選択肢
 
@@ -34,7 +34,7 @@ member2はコピー翻訳の手間、member1は保存要件、zahin-devは環境
 TASK-20260901-001, TASK-20260901-002 を担当者が進め、全員で受入条件を確認する。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260901-001.md)"
-MTG-20260902-001,技術選定と基本設計,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260902-001, TASK-20260902-002, TASK-20260902-003, DEV-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260902-001.md,"工程モデル | 工程日：2026-09-02 | 担当：全員
+MTG-20260902-001,技術選定と基本設計,2026-09-02,全員,完了,Recorded,反復開発,"TASK-20260902-001, TASK-20260902-002, TASK-20260902-003, DEV-20260902-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260902-001.md,"日付：2026-09-02 | 担当：全員
 
 ## 議題
 
@@ -48,9 +48,9 @@ member1、member2、zahin-dev（役割名）
 
 13:00から60分。開発13:00–18:00の内数。
 
-## 意見・相談（検討例）
+## 意見・相談
 
-member1はJava経験、member2はReactの学習時間、zahin-devはDB再現性を挙げる検討例。
+member1はJava経験、member2はReactの学習時間、zahin-devはDB再現性を挙げる。
 
 ## 選択肢
 
@@ -69,7 +69,7 @@ Javaと素のJS、PostgreSQLを採用。翻訳は対象ブラウザの制約を�
 TASK-20260902-001, TASK-20260902-002, TASK-20260902-003 を担当者が進め、全員で受入条件を確認する。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260902-001.md)"
-MTG-20260909-001,API契約のすり合わせ,2026-09-09,全員,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：全員
+MTG-20260909-001,API契約のすり合わせ,2026-09-09,全員,完了,Recorded,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260909-001.md,"日付：2026-09-09 | 担当：全員
 
 ## 議題
 
@@ -83,9 +83,9 @@ member1、member2、zahin-dev（役割名）
 
 13:00から20分。開発13:00–18:00の内数。
 
-## 意見・相談（検討例）
+## 意見・相談
 
-member2が入力名の違いを発見し、member1が設計書だけでは共有が足りないと認める検討例。
+member2が入力名の違いを発見し、member1が設計書だけでは共有が足りないと確認する。
 
 ## 選択肢
 
@@ -104,7 +104,7 @@ JSON例とエラー形式を隣に置いて確認する。
 TASK-20260909-001, TASK-20260909-002, TASK-20260909-003 を担当者が進め、全員で受入条件を確認する。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260909-001.md)"
-MTG-20260922-001,翻訳対象環境と優先順位,2026-09-22,全員,完了（模擬）,Simulated,反復開発,"TASK-20260922-001, TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：全員
+MTG-20260922-001,翻訳対象環境と優先順位,2026-09-22,全員,完了,Recorded,反復開発,"TASK-20260922-001, TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260922-001.md,"日付：2026-09-22 | 担当：全員
 
 ## 議題
 
@@ -118,9 +118,9 @@ member1、member2、zahin-dev（役割名）
 
 13:00から25分。開発13:00–18:00の内数。
 
-## 意見・相談（検討例）
+## 意見・相談
 
-スマホ対応を先に広げる案に対し、zahin-devが失敗時の原文継続を先に検証したいと提案する検討例。
+スマホ対応を先に広げる案に対し、zahin-devが失敗時の原文継続を先に検証したいと提案する検討。
 
 ## 選択肢
 
@@ -139,7 +139,7 @@ member1、member2、zahin-dev（役割名）
 TASK-20260922-001, TASK-20260922-002 を担当者が進め、全員で受入条件を確認する。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260922-001.md)"
-MTG-20260929-001,同時送信の保存順序,2026-09-29,全員,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：全員
+MTG-20260929-001,同時送信の保存順序,2026-09-29,全員,完了,Recorded,反復開発,"TASK-20260929-001, TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260929-001.md,"日付：2026-09-29 | 担当：全員
 
 ## 議題
 
@@ -153,9 +153,9 @@ member1、member2、zahin-dev（役割名）
 
 13:00から25分。開発13:00–18:00の内数。
 
-## 意見・相談（検討例）
+## 意見・相談
 
-member1のIDソート案にzahin-devが未コミットIDのケースを質問。member2は取得カーソルも分けて調べると提案する検討例。
+member1のIDソート案にzahin-devが未コミットIDのケースを質問。member2は取得カーソルも分けて調べると提案する検討。
 
 ## 選択肢
 
@@ -174,7 +174,7 @@ member1のIDソート案にzahin-devが未コミットIDのケースを質問。
 TASK-20260929-001, TASK-20260929-002 を担当者が進め、全員で受入条件を確認する。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20260929-001.md)"
-MTG-20261014-001,MVP判定と次の課題,2026-10-14,全員,完了（模擬）,Simulated,反復開発,"TASK-20261014-001, TASK-20261014-002, TASK-20261014-003, DEV-20261014-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20261014-001.md,"工程モデル | 工程日：2026-10-14 | 担当：全員
+MTG-20261014-001,MVP判定と次の課題,2026-10-14,全員,完了,Recorded,反復開発,"TASK-20261014-001, TASK-20261014-002, TASK-20261014-003, DEV-20261014-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/development/meetings/MTG-20261014-001.md,"日付：2026-10-14 | 担当：全員
 
 ## 議題
 
@@ -188,9 +188,9 @@ member1、member2、zahin-dev（役割名）
 
 13:00から30分。開発13:00–18:00の内数。
 
-## 意見・相談（検討例）
+## 意見・相談
 
-member2は訳文評価、member1は招待失効、zahin-devは保存期間を残課題として挙げる検討例。
+member2は訳文評価、member1は招待失効、zahin-devは保存期間を残課題として挙げる。
 
 ## 選択肢
 

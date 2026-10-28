@@ -1,9 +1,9 @@
 ﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-ADR-20260902-001,Javaと素のJavaScriptを採用,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260902-001, TASK-20260908-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-001.md,"工程モデル | 工程日：2026-09-02 | 担当：全員
+ADR-20260902-001,Javaと素のJavaScriptを採用,2026-09-02,全員,完了,Recorded,反復開発,"TASK-20260902-001, TASK-20260908-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-001.md,"日付：2026-09-02 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -39,14 +39,14 @@ TASK-20260902-001, TASK-20260908-002
 
 ## 現行実装との対応
 
-pom.xml。採用理由・議論は検討モデル。
+pom.xml。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-001.md)"
-ADR-20260902-002,原文をPostgreSQLへ保存,2026-09-02,全員,完了（模擬）,Simulated,反復開発,"TASK-20260902-003, TASK-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-002.md,"工程モデル | 工程日：2026-09-02 | 担当：全員
+ADR-20260902-002,原文をPostgreSQLへ保存,2026-09-02,全員,完了,Recorded,反復開発,"TASK-20260902-003, TASK-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-002.md,"日付：2026-09-02 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -82,14 +82,14 @@ TASK-20260902-003, TASK-20260916-001
 
 ## 現行実装との対応
 
-`src/main/resources/schema.sql`。採用理由・議論は検討モデル。
+`src/main/resources/schema.sql`。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260902-002.md)"
-ADR-20260909-001,招待コードと参加トークン,2026-09-09,全員,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, TASK-20260909-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：全員
+ADR-20260909-001,招待コードと参加トークン,2026-09-09,全員,完了,Recorded,反復開発,"TASK-20260909-001, TASK-20260909-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260909-001.md,"日付：2026-09-09 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -125,14 +125,14 @@ TASK-20260909-001, TASK-20260909-002
 
 ## 現行実装との対応
 
-`src/main/java/jp/translatechat/ChatService.java`。採用理由・議論は検討モデル。
+`src/main/java/jp/translatechat/ChatService.java`。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260909-001.md)"
-ADR-20260915-001,2秒ポーリングと原文交換,2026-09-15,全員,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, TASK-20260916-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260915-001.md,"工程モデル | 工程日：2026-09-15 | 担当：全員
+ADR-20260915-001,2秒ポーリングと原文交換,2026-09-15,全員,完了,Recorded,反復開発,"TASK-20260915-002, TASK-20260916-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260915-001.md,"日付：2026-09-15 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -168,14 +168,14 @@ TASK-20260915-002, TASK-20260916-002
 
 ## 現行実装との対応
 
-`src/main/java/jp/translatechat/ChatController.java`。採用理由・議論は検討モデル。
+`src/main/java/jp/translatechat/ChatController.java`。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260915-001.md)"
-ADR-20260922-001,日英の端末内翻訳と原文継続,2026-09-22,全員,完了（模擬）,Simulated,反復開発,"TASK-20260922-001, TASK-20260922-002, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：全員
+ADR-20260922-001,日英の端末内翻訳と原文継続,2026-09-22,全員,完了,Recorded,反復開発,"TASK-20260922-001, TASK-20260922-002, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260922-001.md,"日付：2026-09-22 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -211,14 +211,14 @@ TASK-20260922-001, TASK-20260922-002, TASK-20260923-002
 
 ## 現行実装との対応
 
-`src/main/resources/static/translator.js`。採用理由・議論は検討モデル。
+`src/main/resources/static/translator.js`。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260922-001.md)"
-ADR-20260929-001,再試行の識別と保存順序,2026-09-29,全員,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：全員
+ADR-20260929-001,再試行の識別と保存順序,2026-09-29,全員,完了,Recorded,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260929-001.md,"日付：2026-09-29 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -254,14 +254,14 @@ TASK-20260929-001, TASK-20260929-002
 
 ## 現行実装との対応
 
-`src/main/java/jp/translatechat/ChatService.java`。採用理由・議論は検討モデル。
+`src/main/java/jp/translatechat/ChatService.java`。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20260929-001.md)"
-ADR-20261013-001,コンテナ共用とクラウド設定,2026-10-13,全員,完了（模擬）,Simulated,反復開発,"TASK-20261013-001, TASK-20261013-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：全員
+ADR-20261013-001,コンテナ共用とクラウド設定,2026-10-13,全員,完了,Recorded,反復開発,"TASK-20261013-001, TASK-20261013-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20261013-001.md,"日付：2026-10-13 | 担当：全員
 
 ## Context
 
-3人全員で設計案を比較した検討例。現在の採用構成との対応を確認する。
+3名で比較する設計案と、採用構成との対応を整理する。
 
 ## Problem
 
@@ -297,6 +297,6 @@ TASK-20261013-001, TASK-20261013-002
 
 ## 現行実装との対応
 
-`src/main/resources/application-cloud.properties`。採用理由・議論は検討モデル。
+`src/main/resources/application-cloud.properties`。採用理由と比較内容は上記を参照。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/design/decisions/ADR-20261013-001.md)"

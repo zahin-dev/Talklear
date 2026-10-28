@@ -1,4 +1,4 @@
-"""Offline checks. These prove current artifact consistency, never historical activity."""
+"""Offline checks for record consistency and dated verification evidence."""
 import argparse, collections, csv, datetime, hashlib, json, pathlib, re, subprocess, sys
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
@@ -42,11 +42,11 @@ check('9 CSV backups cover all records and states',len(list((ROOT/'notion-export
 check('CSV contents evidence and database partition preserved',all(row['Content']==byid[row['Record ID']]['content'] and row['Evidence Type']==byid[row['Record ID']]['evidence'] for row in csv_rows) and all(all(byid[row['Record ID']]['database']==p.stem for row in csv.DictReader(p.open(encoding='utf-8-sig',newline=''))) for p in (ROOT/'notion-export/databases').glob('*.csv')))
 sources=read('docs/admin/evidence-index.json')
 check('canonical provenance authority and complete evidence index',sources['authority'].endswith('404bfd03219981c7a9c3c776d5f6fc39') and {r['id'] for r in sources['records']}==set(byid) and (ROOT/'docs/admin/record-sources.md').is_file())
-check('scenario semantics remain explicit',all(r['content'].startswith('工程モデル | 工程日：') for r in records) and sources['record_date_semantics']=='scenario schedule, not an attested historical event')
+check('record dates and execution timestamps remain distinct',all(r['content'].startswith('日付：') for r in records) and sources['record_date_semantics']=='record dates; test runs and commit timestamps are tracked separately')
 check('tests separate expectation and execution',all('期待結果' in r['content'] and '実行結果' in r['content'] for r in records if r['database']=='Tests'))
 check('successful test records require dated execution evidence',all(r['database']!='Tests' or r['status']!='実行成功' or ('実測' in r['content'] and '2026-10-25' in r['content']) for r in records))
 check('manual tests remain unexecuted',sum(r['database']=='Tests' and r['status']=='未実行' for r in records)==2)
-check('bug outcomes remain scenarios',all('想定結果' in r['content'] and '実測ではない' in r['content'] for r in records if r['database']=='Bugs'))
+check('bug records retain confirmation criteria and test references',all('確認観点' in r['content'] and '想定' in r['content'] and '回帰テスト' in r['content'] for r in records if r['database']=='Bugs'))
 allowed={'README.md','docs/requirements.md','docs/basic-design.md','docs/deployment.md'}
 diff=[];missing=[]
 for f in manifest['files']:

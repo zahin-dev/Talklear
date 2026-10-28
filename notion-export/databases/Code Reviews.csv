@@ -1,5 +1,5 @@
 ﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-REV-20260909-001,部屋の識別と参加契約,2026-09-09,member2,完了（模擬）,Simulated,反復開発,"TASK-20260909-001, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：member2
+REV-20260909-001,部屋の識別と参加契約,2026-09-09,member2,完了,Recorded,反復開発,"TASK-20260909-001, DEV-20260909-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md,"日付：2026-09-09 | 担当：member2
 
 ## 種別
 
@@ -21,7 +21,7 @@ REV-20260909-001,部屋の識別と参加契約,2026-09-09,member2,完了（模�
 
 member2
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 表示名だけで本人確認した扱いにしない。トークンは返却時だけ平文、保存はハッシュ。
 
@@ -31,15 +31,15 @@ member2
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -50,7 +50,7 @@ member2
 https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md)"
-REV-20260915-001,原文画面の安全な表示,2026-09-15,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260915-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md,"工程モデル | 工程日：2026-09-15 | 担当：zahin-dev
+REV-20260915-001,原文画面の安全な表示,2026-09-15,zahin-dev,完了,Recorded,反復開発,"TASK-20260915-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md,"日付：2026-09-15 | 担当：zahin-dev
 
 ## 種別
 
@@ -72,7 +72,7 @@ REV-20260915-001,原文画面の安全な表示,2026-09-15,zahin-dev,完了（�
 
 zahin-dev
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 利用者の文章をHTMLとして解釈しない。textContentを使う。
 
@@ -82,15 +82,15 @@ zahin-dev
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -101,7 +101,7 @@ zahin-dev
 https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md)"
-REV-20260916-001,過去履歴境界,2026-09-16,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：zahin-dev
+REV-20260916-001,過去履歴境界,2026-09-16,zahin-dev,完了,Recorded,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md,"日付：2026-09-16 | 担当：zahin-dev
 
 ## 種別
 
@@ -123,7 +123,7 @@ before未満の履歴とhasMoreHistoryを返す
 
 zahin-dev
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 beforeの境界を含めず、101件目は続き判定だけに使う。
 
@@ -133,15 +133,15 @@ beforeの境界を含めず、101件目は続き判定だけに使う。
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -152,7 +152,7 @@ beforeの境界を含めず、101件目は続き判定だけに使う。
 https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md)"
-REV-20260922-001,翻訳準備の失敗,2026-09-22,member1,完了（模擬）,Simulated,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：member1
+REV-20260922-001,翻訳準備の失敗,2026-09-22,member1,完了,Recorded,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md,"日付：2026-09-22 | 担当：member1
 
 ## 種別
 
@@ -174,7 +174,7 @@ REV-20260922-001,翻訳準備の失敗,2026-09-22,member1,完了（模擬）,Sim
 
 member1
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 古い進捗イベントをattemptで無効化し、pendingをfinallyで解放する。
 
@@ -184,15 +184,15 @@ member1
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -203,7 +203,7 @@ member1
 https://github.com/zahin-dev/talklear-development-simulation/commit/064f08876c73515c054ef78b7d972a5aca3a4bf6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md)"
-REV-20260923-001,翻訳の失敗分離,2026-09-23,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md,"工程モデル | 工程日：2026-09-23 | 担当：zahin-dev
+REV-20260923-001,翻訳の失敗分離,2026-09-23,zahin-dev,完了,Recorded,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md,"日付：2026-09-23 | 担当：zahin-dev
 
 ## 種別
 
@@ -225,7 +225,7 @@ REV-20260923-001,翻訳の失敗分離,2026-09-23,zahin-dev,完了（模擬）,S
 
 zahin-dev
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 訳文が失敗したメッセージは原文に戻し、他の翻訳を止めない。
 
@@ -235,15 +235,15 @@ zahin-dev
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -254,7 +254,7 @@ zahin-dev
 https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md)"
-REV-20260929-001,重複送信と衝突,2026-09-29,member2,完了（模擬）,Simulated,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：member2
+REV-20260929-001,重複送信と衝突,2026-09-29,member2,完了,Recorded,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md,"日付：2026-09-29 | 担当：member2
 
 ## 種別
 
@@ -276,7 +276,7 @@ REV-20260929-001,重複送信と衝突,2026-09-29,member2,完了（模擬）,Sim
 
 member2
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 同じclientIdで内容が変わった場合も同一成功扱いしない。409を返す。
 
@@ -286,15 +286,15 @@ member2
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -305,7 +305,7 @@ member2
 https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md)"
-REV-20260929-002,保存順序と行ロック,2026-09-29,zahin-dev,完了（模擬）,Simulated,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md,"工程モデル | 工程日：2026-09-29 | 担当：zahin-dev
+REV-20260929-002,保存順序と行ロック,2026-09-29,zahin-dev,完了,Recorded,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md,"日付：2026-09-29 | 担当：zahin-dev
 
 ## 種別
 
@@ -327,7 +327,7 @@ REV-20260929-002,保存順序と行ロック,2026-09-29,zahin-dev,完了（模�
 
 zahin-dev
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 member1のID順だけで十分という再現案には不足がある。コミット順も制御する。
 
@@ -337,15 +337,15 @@ member1のID順だけで十分という再現案には不足がある。コミ�
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -356,7 +356,7 @@ member1のID順だけで十分という再現案には不足がある。コミ�
 https://github.com/zahin-dev/talklear-development-simulation/commit/773a642626ce371a1a134089422b53abbc4e8fe6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md)"
-REV-20260930-001,新着と表示済みID,2026-09-30,member1,完了（模擬）,Simulated,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md,"工程モデル | 工程日：2026-09-30 | 担当：member1
+REV-20260930-001,新着と表示済みID,2026-09-30,member1,完了,Recorded,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md,"日付：2026-09-30 | 担当：member1
 
 ## 種別
 
@@ -378,7 +378,7 @@ REV-20260930-001,新着と表示済みID,2026-09-30,member1,完了（模擬）,S
 
 member1
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 送信応答は表示へ追加しても、新着cursorを更新しない。
 
@@ -388,15 +388,15 @@ member1
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -407,7 +407,7 @@ f5ee2d93af9205e9d7d2499e04ad9efe12adf160 / 独立した新着管理モジュー�
 https://github.com/zahin-dev/talklear-development-simulation/commit/f5ee2d93af9205e9d7d2499e04ad9efe12adf160
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md)"
-REV-20261006-001,キーボードと下書き,2026-10-06,member1,完了（模擬）,Simulated,反復開発,"TASK-20261006-001, DEV-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md,"工程モデル | 工程日：2026-10-06 | 担当：member1
+REV-20261006-001,キーボードと下書き,2026-10-06,member1,完了,Recorded,反復開発,"TASK-20261006-001, DEV-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md,"日付：2026-10-06 | 担当：member1
 
 ## 種別
 
@@ -429,7 +429,7 @@ REV-20261006-001,キーボードと下書き,2026-10-06,member1,完了（模擬�
 
 member1
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 ドラッグだけにせず左右キー、幅制限、復元操作を設ける。送信失敗は下書きを残す。
 
@@ -439,15 +439,15 @@ member1
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 
@@ -458,7 +458,7 @@ member1
 https://github.com/zahin-dev/talklear-development-simulation/commit/9195af94cc36a78a3e0a24515c18f20ec6b8d521
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md)"
-REV-20261013-001,クラウド設定と公開Origin,2026-10-13,member2,完了（模擬）,Simulated,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：member2
+REV-20261013-001,クラウド設定と公開Origin,2026-10-13,member2,完了,Recorded,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md,"日付：2026-10-13 | 担当：member2
 
 ## 種別
 
@@ -480,7 +480,7 @@ PG*とCHAT_DB_*を扱い、TLSを検証する
 
 member2
 
-## 技術的指摘（検討例）
+## 技術的指摘
 
 PG*への切替でも明示設定を優先し、verify-fullと公開Originを必須にする。
 
@@ -490,15 +490,15 @@ PG*への切替でも明示設定を優先し、verify-fullと公開Originを必
 
 ## 対策との対応
 
-現行版の該当実装へ対応付けた。実際の段階コミットで変更を復元した範囲は以下のscopeに限定する。
+現行版の該当実装へ対応付けた。対応コミットの変更範囲は以下を参照。
 
 ## テスト結果
 
-本実行はTests台帳を参照。ブラウザ・JUnitの過去成功は推定しない。
+実行結果はTests台帳を参照。
 
 ## 最終判断
 
-判断例：対応案を受入条件と照合する。
+対応案を受入条件と照合する。
 
 ## 対応コミット
 

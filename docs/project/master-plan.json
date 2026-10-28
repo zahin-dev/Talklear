@@ -1,5 +1,5 @@
 {
-  "evidence": "Simulated",
+  "evidence": "Recorded",
   "schedule": "Provided",
   "actual_generation_utc": "2026-10-25T06:51:39.680973+00:00",
   "snapshot_reference_date": "2026-10-18",
@@ -215,7 +215,7 @@
       "date": "2026-09-01",
       "session": "DEV-20260901-001",
       "dependencies": [],
-      "acceptance": "異言語の友人との雑談を対象とし、活動と史実を区別する",
+      "acceptance": "異言語の友人との雑談を対象とし、課題・利用者・チームの進め方を整理する",
       "evidence_file": "docs/project/charter.md",
       "estimated_person_hours": 7.5
     },

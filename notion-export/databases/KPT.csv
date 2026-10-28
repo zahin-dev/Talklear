@@ -1,5 +1,5 @@
 ﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-KPT-20260903-001,Week 1 KPT,2026-09-03,member1,完了（模擬）,Simulated,反復開発,TASK-20260909-003,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260903-001.md,"工程モデル | 工程日：2026-09-03 | 担当：member1
+KPT-20260903-001,Week 1 KPT,2026-09-03,member1,完了,Recorded,反復開発,TASK-20260909-003,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260903-001.md,"日付：2026-09-03 | 担当：member1
 
 ## 時間・参加者
 
@@ -42,7 +42,7 @@ API境界を確認できるようにする。
 関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260903-001.md)"
-KPT-20260910-001,Week 2 KPT,2026-09-10,zahin-dev,完了（模擬）,Simulated,反復開発,TASK-20260916-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260910-001.md,"工程モデル | 工程日：2026-09-10 | 担当：zahin-dev
+KPT-20260910-001,Week 2 KPT,2026-09-10,zahin-dev,完了,Recorded,反復開発,TASK-20260916-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260910-001.md,"日付：2026-09-10 | 担当：zahin-dev
 
 ## 時間・参加者
 
@@ -74,7 +74,7 @@ TASK-20260916-002
 
 ## 前週Tryの実施結果
 
-前週Try：入室タスクでdisplayNameの不一致を具体例で発見した（模擬）。
+前週Try：入室タスクでdisplayNameの不一致を具体例で発見した。
 
 ## 改善の効果
 
@@ -85,7 +85,7 @@ TASK-20260916-002
 関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260910-001.md)"
-KPT-20260917-001,Week 3 KPT,2026-09-17,member2,完了（模擬）,Simulated,反復開発,TASK-20260922-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260917-001.md,"工程モデル | 工程日：2026-09-17 | 担当：member2
+KPT-20260917-001,Week 3 KPT,2026-09-17,member2,完了,Recorded,反復開発,TASK-20260922-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260917-001.md,"日付：2026-09-17 | 担当：member2
 
 ## 時間・参加者
 
@@ -117,7 +117,7 @@ TASK-20260922-002
 
 ## 前週Tryの実施結果
 
-前週Try：110件の履歴ケースを先に置き、beforeの扱いを相談した（模擬）。
+前週Try：110件の履歴ケースを先に置き、beforeの扱いを相談した。
 
 ## 改善の効果
 
@@ -128,7 +128,7 @@ TASK-20260922-002
 関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260917-001.md)"
-KPT-20260924-001,Week 4 KPT,2026-09-24,zahin-dev,完了（模擬）,Simulated,反復開発,TASK-20260929-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260924-001.md,"工程モデル | 工程日：2026-09-24 | 担当：zahin-dev
+KPT-20260924-001,Week 4 KPT,2026-09-24,zahin-dev,完了,Recorded,反復開発,TASK-20260929-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260924-001.md,"日付：2026-09-24 | 担当：zahin-dev
 
 ## 時間・参加者
 
@@ -160,7 +160,7 @@ TASK-20260929-002
 
 ## 前週Tryの実施結果
 
-前週Try：モデル準備失敗と遅延progressのモック例を作った（模擬）。
+前週Try：モデル準備失敗と遅延progressのモック例を作った。
 
 ## 改善の効果
 
@@ -171,7 +171,7 @@ TASK-20260929-002
 関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20260924-001.md)"
-KPT-20261001-001,Week 5 KPT,2026-10-01,member2,完了（模擬）,Simulated,反復開発,TASK-20261006-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261001-001.md,"工程モデル | 工程日：2026-10-01 | 担当：member2
+KPT-20261001-001,Week 5 KPT,2026-10-01,member2,完了,Recorded,反復開発,TASK-20261006-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261001-001.md,"日付：2026-10-01 | 担当：member2
 
 ## 時間・参加者
 
@@ -203,7 +203,7 @@ TASK-20261006-001
 
 ## 前週Tryの実施結果
 
-前週Try：zahin-devが未確定の低IDを質問し、member1も前提を見直した（模擬）。
+前週Try：zahin-devが未確定の低IDを質問し、member1も前提を見直した。
 
 ## 改善の効果
 
@@ -214,7 +214,7 @@ TASK-20261006-001
 関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261001-001.md)"
-KPT-20261008-001,Week 6 KPT,2026-10-08,zahin-dev,完了（模擬）,Simulated,反復開発,TASK-20261013-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261008-001.md,"工程モデル | 工程日：2026-10-08 | 担当：zahin-dev
+KPT-20261008-001,Week 6 KPT,2026-10-08,zahin-dev,完了,Recorded,反復開発,TASK-20261013-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261008-001.md,"日付：2026-10-08 | 担当：zahin-dev
 
 ## 時間・参加者
 
@@ -246,7 +246,7 @@ TASK-20261013-001
 
 ## 前週Tryの実施結果
 
-前週Try：幅操作と入力保持を全員で確認する手順を用意した（模擬）。
+前週Try：幅操作と入力保持を全員で確認する手順を用意した。
 
 ## 改善の効果
 
@@ -257,7 +257,7 @@ UIの判断基準は揃ったが、実行証拠の管理は改善が必要。
 関連タスクの受入条件・レビューへ接続する。最終週のTryは次期保留であり、実施済みではない。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261008-001.md)"
-KPT-20261015-001,Week 7 KPT,2026-10-15,全員,保留,Simulated,反復開発,TASK-20261014-003,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261015-001.md,"工程モデル | 工程日：2026-10-15 | 担当：全員
+KPT-20261015-001,Week 7 KPT,2026-10-15,全員,保留,Recorded,反復開発,TASK-20261014-003,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/retrospective/KPT-20261015-001.md,"日付：2026-10-15 | 担当：全員
 
 ## 時間・参加者
 
@@ -289,7 +289,7 @@ TASK-20261014-003
 
 ## 前週Tryの実施結果
 
-前週Try：Docker/クラウドの期待値と実行欄を分けた（模擬）。実際の本実行はTestsを参照。
+前週Try：Docker/クラウドの期待値と実行欄を分けた。実際の本実行はTestsを参照。
 
 ## 改善の効果
 

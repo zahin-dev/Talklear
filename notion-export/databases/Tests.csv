@@ -1,5 +1,5 @@
 ﻿Record ID,Title,工程日,Owner,Status,Evidence Type,Phase,Related IDs,GitHub Reference,Content
-TEST-20260909-001,ルーム・参加・部屋分離,2026-09-09,zahin-dev,実行成功,Simulated,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260909-001.md,"工程モデル | 工程日：2026-09-09 | 担当：zahin-dev
+TEST-20260909-001,ルーム・参加・部屋分離,2026-09-09,zahin-dev,実行成功,Recorded,反復開発,"TASK-20260909-001, TASK-20260909-002, TASK-20260909-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260909-001.md,"日付：2026-09-09 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -7,7 +7,7 @@ HTTP + PostgreSQL
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -26,7 +26,7 @@ ChatIntegrationTest: groupConversationKeepsOriginalsAndPresence / anotherRoomAnd
 ChatIntegrationTest: groupConversationKeepsOriginalsAndPresence / anotherRoomAndMissingCredentialsCannotReadOrWrite / leaveRevokesTokenAndRejoinReadsSavedHistory
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260909-001.md)"
-TEST-20260916-001,履歴ページングと再入室,2026-09-16,zahin-dev,実行成功,Simulated,反復開発,"TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260916-001.md,"工程モデル | 工程日：2026-09-16 | 担当：zahin-dev
+TEST-20260916-001,履歴ページングと再入室,2026-09-16,zahin-dev,実行成功,Recorded,反復開発,"TASK-20260916-002, TASK-20260916-003",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260916-001.md,"日付：2026-09-16 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -34,7 +34,7 @@ HTTP + PostgreSQL
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -53,7 +53,7 @@ ChatIntegrationTest: pagingLoadsOlderHistoryWithoutRepeatingTheCursor / leaveRev
 ChatIntegrationTest: pagingLoadsOlderHistoryWithoutRepeatingTheCursor / leaveRevokesTokenAndRejoinReadsSavedHistory
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260916-001.md)"
-TEST-20260922-001,翻訳モジュールの回帰,2026-09-22,zahin-dev,実行成功,Simulated,反復開発,"TASK-20260922-002, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260922-001.md,"工程モデル | 工程日：2026-09-22 | 担当：zahin-dev
+TEST-20260922-001,翻訳モジュールの回帰,2026-09-22,zahin-dev,実行成功,Recorded,反復開発,"TASK-20260922-002, TASK-20260923-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260922-001.md,"日付：2026-09-22 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -61,7 +61,7 @@ Node.js（Chrome APIモック）
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -84,7 +84,7 @@ Node.js（Chrome APIモック）
 [GitHub Actions](https://github.com/zahin-dev/talklear-development-simulation/actions/runs/40171548771)でもNode6件成功。実行日は2026-10-25。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260922-001.md)"
-TEST-20260929-001,再試行・同時送信,2026-09-29,zahin-dev,実行成功,Simulated,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260929-001.md,"工程モデル | 工程日：2026-09-29 | 担当：zahin-dev
+TEST-20260929-001,再試行・同時送信,2026-09-29,zahin-dev,実行成功,Recorded,反復開発,"TASK-20260929-001, TASK-20260929-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260929-001.md,"日付：2026-09-29 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -92,7 +92,7 @@ HTTP + PostgreSQL
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -111,7 +111,7 @@ ChatIntegrationTest: retryDoesNotDuplicateMessageAndChangedPayloadIsRejected / c
 ChatIntegrationTest: retryDoesNotDuplicateMessageAndChangedPayloadIsRejected / concurrentSendsCannotCommitAYoungerMessageBeforeAnOlderOne
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260929-001.md)"
-TEST-20260930-001,新着カーソルの回帰,2026-09-30,zahin-dev,実行成功,Simulated,反復開発,TASK-20260930-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-001.md,"工程モデル | 工程日：2026-09-30 | 担当：zahin-dev
+TEST-20260930-001,新着カーソルの回帰,2026-09-30,zahin-dev,実行成功,Recorded,反復開発,TASK-20260930-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-001.md,"日付：2026-09-30 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -119,7 +119,7 @@ Node.js
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -142,7 +142,7 @@ Node.js
 [GitHub Actions](https://github.com/zahin-dev/talklear-development-simulation/actions/runs/40171548771)でもNode6件成功。実行日は2026-10-25。
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-001.md)"
-TEST-20260930-002,入力・Origin・頻度制限,2026-09-30,zahin-dev,実行成功,Simulated,反復開発,TASK-20260930-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-002.md,"工程モデル | 工程日：2026-09-30 | 担当：zahin-dev
+TEST-20260930-002,入力・Origin・頻度制限,2026-09-30,zahin-dev,実行成功,Recorded,反復開発,TASK-20260930-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-002.md,"日付：2026-09-30 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -150,7 +150,7 @@ JUnit + HTTP + PostgreSQL
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -169,7 +169,7 @@ ChatIntegrationTest / SecurityHeadersTest / RequestLimitsTest
 ChatIntegrationTest / SecurityHeadersTest / RequestLimitsTest
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20260930-002.md)"
-TEST-20261006-001,日英UI・入力保持・キーボード,2026-10-06,zahin-dev,未実行,Simulated,反復開発,"TASK-20261006-001, TASK-20261006-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261006-001.md,"工程モデル | 工程日：2026-10-06 | 担当：zahin-dev
+TEST-20261006-001,日英UI・入力保持・キーボード,2026-10-06,zahin-dev,未実行,Recorded,反復開発,"TASK-20261006-001, TASK-20261006-002",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261006-001.md,"日付：2026-10-06 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -177,7 +177,7 @@ TEST-20261006-001,日英UI・入力保持・キーボード,2026-10-06,zahin-dev
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -196,7 +196,7 @@ TEST-20261006-001,日英UI・入力保持・キーボード,2026-10-06,zahin-dev
 `src/main/resources/static/app.js` / sidebar.js / style.css
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261006-001.md)"
-TEST-20261013-001,クラウド設定の解決,2026-10-13,zahin-dev,実行成功,Simulated,反復開発,TASK-20261013-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-001.md,"工程モデル | 工程日：2026-10-13 | 担当：zahin-dev
+TEST-20261013-001,クラウド設定の解決,2026-10-13,zahin-dev,実行成功,Recorded,反復開発,TASK-20261013-002,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-001.md,"日付：2026-10-13 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -204,7 +204,7 @@ JUnit（設定ファイル解決）
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -223,7 +223,7 @@ PG*でTLS検証、明示CHAT_DB_*優先、Originの妥当性
 CloudConfigurationTest / SecurityHeadersTest
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-001.md)"
-TEST-20261013-002,コンテナと履歴永続性,2026-10-13,zahin-dev,実行成功,Simulated,反復開発,TASK-20261013-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-002.md,"工程モデル | 工程日：2026-10-13 | 担当：zahin-dev
+TEST-20261013-002,コンテナと履歴永続性,2026-10-13,zahin-dev,実行成功,Recorded,反復開発,TASK-20261013-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-002.md,"日付：2026-10-13 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -231,7 +231,7 @@ Docker統合
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
@@ -250,7 +250,7 @@ Docker統合
 `tests/docker-smoke.test.mjs`
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261013-002.md)"
-TEST-20261014-001,Chrome日英翻訳・原文・公開URL,2026-10-14,zahin-dev,未実行,Simulated,反復開発,TASK-20261014-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261014-001.md,"工程モデル | 工程日：2026-10-14 | 担当：zahin-dev
+TEST-20261014-001,Chrome日英翻訳・原文・公開URL,2026-10-14,zahin-dev,未実行,Recorded,反復開発,TASK-20261014-001,https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/testing/TEST-20261014-001.md,"日付：2026-10-14 | 担当：zahin-dev
 
 ## テスト種別
 
@@ -258,7 +258,7 @@ TEST-20261014-001,Chrome日英翻訳・原文・公開URL,2026-10-14,zahin-dev,�
 
 ## 背景・目的
 
-工程モデルの受入条件として設計する。以下の実行結果だけが現在の実測である。
+受入条件に基づくテスト。手順・期待結果・実行結果を以下に記録する。
 
 ## 前提・手順
 
