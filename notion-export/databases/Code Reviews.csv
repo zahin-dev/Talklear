@@ -43,11 +43,11 @@ member2
 
 ## 対応コミット
 
-2fcd592ee5fa684f674d2b8e9b97eb5a933096b8 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
+9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/2fcd592ee5fa684f674d2b8e9b97eb5a933096b8
+https://github.com/zahin-dev/talklear-development-simulation/commit/9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260909-001.md)"
 REV-20260915-001,原文画面の安全な表示,2026-09-15,zahin-dev,完了,Recorded,反復開発,"TASK-20260915-002, DEV-20260915-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md,"日付：2026-09-15 | 担当：zahin-dev
@@ -94,11 +94,11 @@ zahin-dev
 
 ## 対応コミット
 
-92a42cf1c45f52122eefc8bc90d9f6996f2bce98 / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。
+96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/92a42cf1c45f52122eefc8bc90d9f6996f2bce98
+https://github.com/zahin-dev/talklear-development-simulation/commit/96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260915-001.md)"
 REV-20260916-001,過去履歴境界,2026-09-16,zahin-dev,完了,Recorded,反復開発,"TASK-20260916-002, DEV-20260916-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md,"日付：2026-09-16 | 担当：zahin-dev
@@ -145,11 +145,11 @@ beforeの境界を含めず、101件目は続き判定だけに使う。
 
 ## 対応コミット
 
-2fcd592ee5fa684f674d2b8e9b97eb5a933096b8 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
+9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/2fcd592ee5fa684f674d2b8e9b97eb5a933096b8
+https://github.com/zahin-dev/talklear-development-simulation/commit/9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260916-001.md)"
 REV-20260922-001,翻訳準備の失敗,2026-09-22,member1,完了,Recorded,反復開発,"TASK-20260922-002, DEV-20260922-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md,"日付：2026-09-22 | 担当：member1
@@ -196,11 +196,11 @@ member1
 
 ## 対応コミット
 
-84d2c9b0705f2c909b696268f84d7ad05d18289c / 翻訳モジュールとモックテスト3件。画面未接続。実Chrome訳文品質は未検証。
+538dfb8479569f8501e623310d7a1660aab0ec85 / 翻訳モジュールとモックテスト3件。画面未接続。実Chrome訳文品質は未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/84d2c9b0705f2c909b696268f84d7ad05d18289c
+https://github.com/zahin-dev/talklear-development-simulation/commit/538dfb8479569f8501e623310d7a1660aab0ec85
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260922-001.md)"
 REV-20260923-001,翻訳の失敗分離,2026-09-23,zahin-dev,完了,Recorded,反復開発,"TASK-20260923-002, DEV-20260923-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md,"日付：2026-09-23 | 担当：zahin-dev
@@ -247,11 +247,11 @@ zahin-dev
 
 ## 対応コミット
 
-92a42cf1c45f52122eefc8bc90d9f6996f2bce98 / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。
+96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/92a42cf1c45f52122eefc8bc90d9f6996f2bce98
+https://github.com/zahin-dev/talklear-development-simulation/commit/96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260923-001.md)"
 REV-20260929-001,重複送信と衝突,2026-09-29,member2,完了,Recorded,反復開発,"TASK-20260929-001, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md,"日付：2026-09-29 | 担当：member2
@@ -298,11 +298,11 @@ member2
 
 ## 対応コミット
 
-2fcd592ee5fa684f674d2b8e9b97eb5a933096b8 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
+9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/2fcd592ee5fa684f674d2b8e9b97eb5a933096b8
+https://github.com/zahin-dev/talklear-development-simulation/commit/9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-001.md)"
 REV-20260929-002,保存順序と行ロック,2026-09-29,zahin-dev,完了,Recorded,反復開発,"TASK-20260929-002, DEV-20260929-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md,"日付：2026-09-29 | 担当：zahin-dev
@@ -349,11 +349,11 @@ member1のID順だけで十分という再現案には不足がある。コミ�
 
 ## 対応コミット
 
-2fcd592ee5fa684f674d2b8e9b97eb5a933096b8 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
+9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6 / DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/2fcd592ee5fa684f674d2b8e9b97eb5a933096b8
+https://github.com/zahin-dev/talklear-development-simulation/commit/9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260929-002.md)"
 REV-20260930-001,新着と表示済みID,2026-09-30,member1,完了,Recorded,反復開発,"TASK-20260930-001, DEV-20260930-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md,"日付：2026-09-30 | 担当：member1
@@ -400,11 +400,11 @@ member1
 
 ## 対応コミット
 
-cc91771002a2a825d330d51dfb6979247d6dcf28 / 独立した新着管理モジュールと3件の回帰テスト。既に統合したサーバーロックとは別のクライアント制御。
+c7e1876a0622a1931a75226cdef79b2878983728 / 独立した新着管理モジュールと3件の回帰テスト。既に統合したサーバーロックとは別のクライアント制御。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/cc91771002a2a825d330d51dfb6979247d6dcf28
+https://github.com/zahin-dev/talklear-development-simulation/commit/c7e1876a0622a1931a75226cdef79b2878983728
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20260930-001.md)"
 REV-20261006-001,キーボードと下書き,2026-10-06,member1,完了,Recorded,反復開発,"TASK-20261006-001, DEV-20261006-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md,"日付：2026-10-06 | 担当：member1
@@ -451,11 +451,11 @@ member1
 
 ## 対応コミット
 
-92a42cf1c45f52122eefc8bc90d9f6996f2bce98 / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。
+96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a / 完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/92a42cf1c45f52122eefc8bc90d9f6996f2bce98
+https://github.com/zahin-dev/talklear-development-simulation/commit/96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261006-001.md)"
 REV-20261013-001,クラウド設定と公開Origin,2026-10-13,member2,完了,Recorded,反復開発,"TASK-20261013-002, DEV-20261013-001",https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md,"日付：2026-10-13 | 担当：member2
@@ -502,10 +502,10 @@ PG*への切替でも明示設定を優先し、verify-fullと公開Originを必
 
 ## 対応コミット
 
-f958d75dda754db8071c784b2e0943c59da7f892 / 設定とCI定義を完成版へ復元。アプリの新規クラウド公開は対象外。元と同じComposeプロジェクト名なので既存環境と同時起動しない。
+ca9eb2d29d3bee851dfacbb935ef97ca08934441 / 設定とCI定義を完成版へ復元。アプリの新規クラウド公開は対象外。元と同じComposeプロジェクト名なので既存環境と同時起動しない。
 
 ## 差分参照
 
-https://github.com/zahin-dev/talklear-development-simulation/commit/f958d75dda754db8071c784b2e0943c59da7f892
+https://github.com/zahin-dev/talklear-development-simulation/commit/ca9eb2d29d3bee851dfacbb935ef97ca08934441
 
 [GitHub技術資料](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/reviews/REV-20261013-001.md)"

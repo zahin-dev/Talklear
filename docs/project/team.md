@@ -1,4 +1,4 @@
-# メンバーと工数（指定条件 / 計画値）
+# 開発体制と工数計画
 
 Talklearはmember1、member2、zahin-devの3名によるチーム開発です。表の開発経験はTalklear参加前の経歴です。
 

@@ -1,0 +1,52 @@
+{
+  "updated_on": "2026-10-28",
+  "purpose": "Commit message wording and current reference maintenance",
+  "message_updates": [
+    {
+      "before": "34d611a138e58aeb356062f14f72b94cbec5d74e",
+      "after": "93e63188ca29b79a7a62f1e1c0e0899f4d9dea74",
+      "message": "docs(plan): define project scope and master plan [TASK-20260901-001]"
+    },
+    {
+      "before": "dda5ff1942cccfcab43d3ddd843bb04562badc12",
+      "after": "167306cf1cbd9fac92878dc7415999ba0c901c86",
+      "message": "docs(records): link tasks sessions reviews and KPT [TASK-20261014-002]"
+    }
+  ],
+  "commit_map": {
+    "34d611a138e58aeb356062f14f72b94cbec5d74e": "93e63188ca29b79a7a62f1e1c0e0899f4d9dea74",
+    "dda84b5525c59b3cb8b6c2a178789f9e7e5dc1cc": "eac00d3b472c1cae43ac9060d157ce5e7109738b",
+    "1e51bd6379924a9f1f18a1c8abb9646d33ad0713": "976a78edc7f729826e23e1a09acfa720edd0a87d",
+    "5addc27415cb56d3e9acd86c1bdcf3b562d0527e": "15ecdbab7b3afa961cf01e4d6ad74300788b979b",
+    "2fcd592ee5fa684f674d2b8e9b97eb5a933096b8": "9eb5d3794370c16db6d5f956c042c5b4e7bf7ee6",
+    "84d2c9b0705f2c909b696268f84d7ad05d18289c": "538dfb8479569f8501e623310d7a1660aab0ec85",
+    "cc91771002a2a825d330d51dfb6979247d6dcf28": "c7e1876a0622a1931a75226cdef79b2878983728",
+    "92a42cf1c45f52122eefc8bc90d9f6996f2bce98": "96a3ee40c942fec0fb4ddc0bc7d9cd5bafd5199a",
+    "8d65ff0f585394646aa797484ec6192543371426": "81072337be85d4f0ff0abfabd945659f37c8a9e7",
+    "f958d75dda754db8071c784b2e0943c59da7f892": "ca9eb2d29d3bee851dfacbb935ef97ca08934441",
+    "dda5ff1942cccfcab43d3ddd843bb04562badc12": "167306cf1cbd9fac92878dc7415999ba0c901c86",
+    "76c41a7151db6281841900634a34effa1dc9fc0a": "e6c080ec5579c015c9ab52be01e00b606bc56bc1",
+    "3d194be4ca8ec8284913aa86401dca2c48fe0f92": "d025f4847d85160ef13b3d9dd671759f4b2df2ea",
+    "cd32254e5766d9bbede528fcf5ba8e84cf4bafd4": "577750bba7746d7c276f8363480750f587393327",
+    "dff0ebceb3dd0701d0ba3106123fd8f44262e252": "ceb51066183f897c51bca6828cb16c4571f06b99",
+    "205d8673f8ebe4a9ea882ba8938269959b9fdaff": "31ff96dc90acd688345fe0837c3a9455eec0c6fd",
+    "2164ef5058d77fc12e04a047ed9b4b9baee9bef9": "0e79ac4e5bbea82120044e4a0c2f01fd9ac90f8b",
+    "37c4024865c298a8a13513654c03198214de0d3f": "ec40cb8bd5955eabf594ce25c77e8203df03f499",
+    "24c3b512ef7a05f6322e08d833b6dd41bd9388d8": "bfb651df185a0871e3ca0dc144175d7cc81a79f7",
+    "acc80fcc0187ac7447e8a3762ec4187ffc9f89ea": "34efbf032daae69040d725b1e394be20548929f4",
+    "49e61d41a87b5647775da945e2e1e965404944a2": "81cf21edb94b09e4a2e334e7f31267637f417b3f",
+    "da99102adb3ce3b3326ec407f70dc16d57e8f176": "2873172f5c61ef7b1638b0184d064ecfc687e9a5",
+    "941869cf8edde75baa9384e6972505d13d810ad2": "0c35ca488d307623b2723da9c17e5f7472be55dd",
+    "6ba625b64a007d50e4f93ab7d769e6ed519a1ed4": "106c43347fa49193918ba78dd5b6bc6a59fe8e92",
+    "4cc8cdf6ce8887832dd6e4c71275f1f0534ab14b": "b7fd6bd3c251bce815e8487a26c4a197950a226e",
+    "e787fb8377c0be46e6adc188f090c39635677fcd": "e36f63a6c438172e217c4a30d13c9c037113d055",
+    "69928af77dfd3542ae691bf0982d67a3367b9442": "efe56c46767f516a30a35e1e85c5ffa227a8f82a",
+    "48a27d64cbe6c81d5b5312abefcbf2324b7f2468": "caeada38fbafb7e46c4a3f2d1b64b36b84e1d6d0"
+  },
+  "preserved": [
+    "author and committer identities",
+    "author and committer timestamps",
+    "historical file trees"
+  ],
+  "previous_author_correction": "commit-author-map.json"
+}
