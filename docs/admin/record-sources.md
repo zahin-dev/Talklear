@@ -20,7 +20,7 @@ Evidence Typeは資料の区分、Statusは作業の状態を管理する。日�
 
 取得版のコードをもとに、企画・環境・メモリ内試作・DB・翻訳・画面・テスト・実行設定の段階別Git履歴を整理した。DB安全策と完成UIの細かな途中差分は一括統合として記載する。各段階の変更範囲は対応コミットを参照する。
 
-元の13コミットは保持する。作者Talklear Simulation Builder / simulation@talklear.invalid、当時の説明、SHA、実行日時はそのまま残る。member1、member2、zahin-devの担当作業は開発セッションに記載し、Git作者・承認者はコミットやレビューのメタデータで管理する。AI支援の提案は検討資料として管理する。
+初期13コミットの作者・コミッターはzahin-dev / 293001590+zahin-dev@users.noreply.github.comに統一する。日時・コミットメッセージ・各時点のファイル内容は保持し、変更前後のコミットIDは対応表で管理する。member1、member2、zahin-devの担当作業は開発セッションに記載し、Git作者・承認者はコミットやレビューのメタデータで管理する。AI支援の提案は検討資料として管理する。
 
 ## 日付と参照の読み方
 
@@ -39,3 +39,5 @@ IDのYYYYMMDDは工程日。実際のファイル生成・Gitコミット・検�
 [出典区分台帳](https://github.com/zahin-dev/talklear-development-simulation/blob/main/docs/admin/evidence-index.json)
 
 [現行の監査結果](https://github.com/zahin-dev/talklear-development-simulation/blob/main/reports/private-workspace-audit.md)
+
+[コミットID対応表](https://github.com/zahin-dev/Talklear/blob/main/docs/admin/commit-author-map.json)

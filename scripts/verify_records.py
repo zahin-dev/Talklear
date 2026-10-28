@@ -68,7 +68,7 @@ for r in records:
 # Inspect only this independent repository's history, never the original repository.
 log=subprocess.run(['git','log','--format=%an|%ae|%cn|%ce|%aI|%cI'],cwd=ROOT,capture_output=True,text=True)
 history=read('docs/admin/history-baseline.json')
-check('original 13 commit identities preserved',len(history['commits'])==13 and subprocess.check_output(['git','rev-list',history['head']],cwd=ROOT,text=True).splitlines()==history['commits'] and subprocess.run(['git','merge-base','--is-ancestor',history['head'],'HEAD'],cwd=ROOT).returncode==0)
+check('initial 13 commits tracked after author correction',len(history['commits'])==13 and subprocess.check_output(['git','rev-list',history['head']],cwd=ROOT,text=True).splitlines()==history['commits'] and subprocess.run(['git','merge-base','--is-ancestor',history['head'],'HEAD'],cwd=ROOT).returncode==0)
 check('no backdated commits',all(parts[4][:10]>='2026-10-25' and parts[5][:10]>='2026-10-25' for line in log.stdout.splitlines() if len(parts:=line.split('|'))==6))
 check('one independent root commit',len(subprocess.check_output(['git','rev-list','--max-parents=0','HEAD'],cwd=ROOT,text=True).splitlines())==1)
 # Files staged/committed for publication are checked; ignored runtime data is never included.

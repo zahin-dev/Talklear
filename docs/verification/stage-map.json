@@ -1,66 +1,66 @@
 [
   {
-    "commit": "57f1f61baefd67f58f61ad8d7a2c759578302fdd",
+    "commit": "34d611a138e58aeb356062f14f72b94cbec5d74e",
     "message": "docs(plan): define simulation boundaries and master plan [TASK-20260901-001]",
     "scope": "企画と設計のみ。実行可能アプリなし。",
     "actual_committed_at": "2026-10-25T15:52:50+09:00"
   },
   {
-    "commit": "89d4367115beef0d6766b17e62ad7cfa3a56a76d",
+    "commit": "dda84b5525c59b3cb8b6c2a178789f9e7e5dc1cc",
     "message": "build(app): scaffold Java 21 Spring Boot prototype [TASK-20260908-002]",
     "scope": "最小静的ページ。DB・チャット・翻訳なし。Java未導入のため起動未検証。",
     "actual_committed_at": "2026-10-25T15:52:50+09:00"
   },
   {
-    "commit": "17a69639b47e9a117cc993a1c4f37c960b457252",
+    "commit": "1e51bd6379924a9f1f18a1c8abb9646d33ad0713",
     "message": "feat(rooms): prototype volatile room creation and joining [TASK-20260909-001]",
     "scope": "localhost専用・認証なしの試作。部屋作成・参加のみ。最終版のトークンやコード文字集合とは未互換。",
     "actual_committed_at": "2026-10-25T15:52:51+09:00"
   },
   {
-    "commit": "deb4f27c097ec6cd8be9fe40153bf8a92cf8beee",
+    "commit": "5addc27415cb56d3e9acd86c1bdcf3b562d0527e",
     "message": "feat(chat): prototype original-text messaging and polling [TASK-20260915-001]",
     "scope": "メモリ内原文送受信の試作。JS構文チェック成功。HTTP動作未検証。退出・保存・翻訳・ページングなし。",
     "actual_committed_at": "2026-10-25T15:52:51+09:00"
   },
   {
-    "commit": "773a642626ce371a1a134089422b53abbc4e8fe6",
+    "commit": "2fcd592ee5fa684f674d2b8e9b97eb5a933096b8",
     "message": "feat(storage): integrate PostgreSQL membership and history API [TASK-20260916-001]",
     "scope": "DB版APIへ置換。依存するトークン・入力検証・重複防止・順序ロックは完成版から一括統合。導入差分は一括統合の範囲で管理。画面との契約が変わるため旧試作UIを外す。",
     "actual_committed_at": "2026-10-25T15:52:52+09:00"
   },
   {
-    "commit": "064f08876c73515c054ef78b7d972a5aca3a4bf6",
+    "commit": "84d2c9b0705f2c909b696268f84d7ad05d18289c",
     "message": "feat(translation): add isolated on-device translator with retry tests [TASK-20260922-001]",
     "scope": "翻訳モジュールとモックテスト3件。画面未接続。実Chrome訳文品質は未検証。",
     "actual_committed_at": "2026-10-25T15:52:53+09:00"
   },
   {
-    "commit": "f5ee2d93af9205e9d7d2499e04ad9efe12adf160",
+    "commit": "cc91771002a2a825d330d51dfb6979247d6dcf28",
     "message": "fix(chat): separate polling cursor from send responses [TASK-20260930-001]",
     "scope": "独立した新着管理モジュールと3件の回帰テスト。既に統合したサーバーロックとは別のクライアント制御。",
     "actual_committed_at": "2026-10-25T15:52:53+09:00"
   },
   {
-    "commit": "9195af94cc36a78a3e0a24515c18f20ec6b8d521",
+    "commit": "92a42cf1c45f52122eefc8bc90d9f6996f2bce98",
     "message": "feat(ui): integrate translated chat and accessible controls [TASK-20261006-001]",
     "scope": "完成版UI統合。原文・翻訳・日英表示・幅操作を含む。CSSやUIの調整差分は統合コミットの範囲で参照。全JS構文検証成功、ブラウザ操作未検証。",
     "actual_committed_at": "2026-10-25T15:52:55+09:00"
   },
   {
-    "commit": "d90fe98f14495273c2dc5d1bb7b06b1cf0c8d3e1",
+    "commit": "8d65ff0f585394646aa797484ec6192543371426",
     "message": "test(app): add HTTP database and configuration regression suites [TASK-20261007-001]",
     "scope": "JUnit17件を追加。JavaとDB不足によりこの段階のJUnitは未実行。既存ローカル準備スクリプトを同時導入。",
     "actual_committed_at": "2026-10-25T15:52:55+09:00"
   },
   {
-    "commit": "3ad616284e73a308f9d0d453fa4a8fa9616ed963",
+    "commit": "f958d75dda754db8071c784b2e0943c59da7f892",
     "message": "build(deploy): restore Docker cloud settings and CI [TASK-20261013-001] [TASK-20261013-002]",
     "scope": "設定とCI定義を完成版へ復元。アプリの新規クラウド公開は対象外。元と同じComposeプロジェクト名なので既存環境と同時起動しない。",
     "actual_committed_at": "2026-10-25T15:52:56+09:00"
   },
   {
-    "commit": "7a577e7528d10f269891f9666c23f0541e47e6ae",
+    "commit": "76c41a7151db6281841900634a34effa1dc9fc0a",
     "message": "fix(snapshot): preserve archived PowerShell bytes [TASK-20261014-002]",
     "scope": "取得ZIPのPowerShell9ファイルのCRLFをGit内でも保全。処理変更なし。最終CI40172458340で24テストとビルド成功。",
     "actual_committed_at": "2026-10-25T16:21:18+09:00"
